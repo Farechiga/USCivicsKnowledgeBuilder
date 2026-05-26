@@ -90,6 +90,18 @@
   .fun p{font-size:18px;line-height:1.5;margin-top:9px}
   .src{font-size:11px;color:var(--slate);margin-top:10px;letter-spacing:.02em}
 
+  /* clickable sections (Quiz mode audio) */
+  .clickable{cursor:pointer}
+  .clickable:active{opacity:.65}
+  .play-ico{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:20px;height:20px;background:rgba(159,7,9,.18);color:var(--red);
+    border-radius:50%;font-size:9px;padding-left:1px;
+    margin-left:8px;vertical-align:middle;flex-shrink:0;
+  }
+  .a.clickable .play-ico{margin-left:auto}
+  .a.clickable{padding-right:0}
+
   /* vocabulary chips */
   .vocab{display:flex;flex-wrap:wrap;gap:8px;margin-top:11px}
   .chip{background:var(--ink-2);border:1px solid var(--hair);border-radius:999px;
@@ -233,10 +245,17 @@ const Q = [
 let mode='drive', idx=0, revealed=false, openTerm=null, currentClip=null;
 const stage=document.getElementById('stage'), controls=document.getElementById('controls');
 const qid = n => 'q' + String(n).padStart(3,'0');
+const attrEsc = s => String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 /* Single reusable Audio element: iOS Safari only treats an element as
    "unlocked" after a user gesture, so we reuse one across all clips. */
 const audioEl = new Audio();
 audioEl.preload = 'auto';
+/* Delegated click handler: any element with data-clip plays that file
+   (with the element's data-fallback text as TTS fallback). */
+stage.addEventListener('click', e=>{
+  const el = e.target.closest('[data-clip]');
+  if(el) playClip(el.dataset.clip, el.dataset.fallback||'');
+});
 
 function setMode(m){ stopAudio(); mode=m; revealed=false; openTerm=null;
   document.querySelectorAll('.modes button').forEach(b=>b.classList.remove('on'));
@@ -290,12 +309,20 @@ function render(){
 
 /* -------- QUIZ (mommy–daughter): examiner sees answers -------- */
 function renderQuiz(d){
+  const q=qid(d.id);
+  const ico='<span class="play-ico" aria-hidden="true">▶</span>';
+  const ansRows=d.ans.map((a,i)=>
+    `<div class="a clickable" data-clip="${q}_answer_${i+1}" data-fallback="${attrEsc(a)}"><span class="tick">✓</span><span>${a}</span>${ico}</div>`
+  ).join('');
   stage.innerHTML = `
     <div class="qno">Question ${d.id} &nbsp;·&nbsp; for the quiz-master 👧</div>
-    <div class="question">${d.q}</div>
-    ${d.lead?`<div class="leadin">${d.lead}</div>`:''}
-    <div class="section"><span class="label"><span class="bar"></span>Accepted answers — did Mom say one?</span>${answerPanel(d)}</div>
-    ${revealed?whyBlock(d)+funBlock(d):''}
+    <div class="question clickable" data-clip="${q}_question" data-fallback="${attrEsc(d.q)}">${d.q}${ico}</div>
+    ${d.lead?`<div class="leadin clickable" data-clip="${q}_lead_in" data-fallback="${attrEsc(d.lead)}">${d.lead}${ico}</div>`:''}
+    <div class="section"><span class="label"><span class="bar"></span>Accepted answers — did Mom say one?</span><div class="answers">${ansRows}</div></div>
+    ${revealed?
+      `<div class="section clickable" data-clip="${q}_why" data-fallback="${attrEsc(d.why)}"><span class="label"><span class="bar"></span>Why this matters${ico}</span><p>${d.why}</p></div>
+       <div class="fun clickable" data-clip="${q}_fun" data-fallback="${attrEsc(d.fun)}"><span class="label"><span class="star">★</span> Fun fact${ico}</span><p>${d.fun}</p><div class="src">Source: ${d.src}</div></div>`
+      :''}
   `;
   controls.innerHTML = revealed
     ? `<button class="btn btn-primary" onclick="next()">Next question ▶</button>`
