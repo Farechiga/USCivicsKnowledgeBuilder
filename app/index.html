@@ -135,6 +135,7 @@
   .drive{display:flex;flex-direction:column;align-items:center;text-align:center;padding-top:14px}
   .drive .step{font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--red);min-height:16px}
   .drive .big{font-family:var(--display);font-weight:600;font-size:27px;line-height:1.28;margin-top:16px}
+  .drive .drivelead{font-family:var(--body);font-style:italic;font-weight:500;font-size:17px;color:var(--slate);margin-bottom:16px;line-height:1.4}
   .drive .drivelist{list-style:none;text-align:left;display:inline-block;margin-top:6px}
   .drive .drivelist li{font-family:var(--display);font-weight:600;font-size:25px;line-height:1.32;padding:7px 0 7px 28px;position:relative}
   .drive .drivelist li:before{content:"";position:absolute;left:0;top:16px;width:11px;height:11px;border-radius:50%;background:var(--red)}
@@ -369,11 +370,16 @@ let driveSteps=[], driveAt=0, playing=false;
 function buildSteps(d){
   const many=d.ans.length>1;
   const q=qid(d.id);
-  const answerHTML = many
+  const leadHTML = d.lead ? `<div class="drivelead">${d.lead}</div>` : '';
+  const ansListHTML = many
     ? '<ul class="drivelist">'+d.ans.map(x=>'<li>'+x+'</li>').join('')+'</ul>'
     : d.ans[0];
+  const answerHTML = leadHTML + ansListHTML;
   const answerSay = many ? ("You can say any one of these. "+d.ans.join(". ")) : ("The answer is. "+d.ans[0]);
-  const answerFiles = d.ans.map((a,i)=>({file:`${q}_answer_${i+1}`, text:a}));
+  const baseAnswerFiles = d.ans.map((a,i)=>({file:`${q}_answer_${i+1}`, text:a}));
+  const answerFiles = d.lead
+    ? [{file:`${q}_lead_in`, text:d.lead}, ...baseAnswerFiles]
+    : baseAnswerFiles;
   const vocab=(d.terms||[]).filter(t=>TERMS[t]&&TERMS[t].origin).map(t=>{
     const e=TERMS[t];
     return {tag:"Word to know",
@@ -386,14 +392,17 @@ function buildSteps(d){
         {file:`term_${t}_word`,   text:e.term, slow:true}
       ]};
   });
-  return [
+  const steps = [
     {tag:"Question", text:d.q, say:d.q, file:`${q}_question`},
     {tag:"Your turn", text:"Say it out loud…", say:"", pause:3500},
-    {tag:"Answer", text:answerHTML, say:answerSay, files:answerFiles},
-    ...vocab,
-    {tag:"Why this matters", text:d.why, say:"Why this matters. "+d.why, file:`${q}_why`},
-    {tag:"Fun fact", text:d.fun, say:"Fun fact. "+d.fun, file:`${q}_fun`}
+    {tag:"Answer", text:answerHTML, say:answerSay, files:answerFiles}
   ];
+  if(d.dis) steps.push({tag:"Good to know", text:d.dis, say:"Good to know. "+d.dis, file:`${q}_disambiguation`});
+  steps.push(...vocab);
+  steps.push({tag:"Why this matters", text:d.why, say:"Why this matters. "+d.why, file:`${q}_why`});
+  steps.push({tag:"Fun fact", text:d.fun, say:"Fun fact. "+d.fun, file:`${q}_fun`});
+  if(d.mnem) steps.push({tag:"Remember it", text:d.mnem.link, say:"Remember it. "+d.mnem.link, file:`${q}_mnemonic`});
+  return steps;
 }
 function renderDrive(d){
   driveSteps=buildSteps(d); driveAt=0;
