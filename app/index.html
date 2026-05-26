@@ -155,9 +155,9 @@
       <span class="sub" id="modeName">Drive</span>
     </div>
     <div class="modes">
-      <button id="m-drive" class="on" onclick="setMode('drive')"><span class="ico">🚗</span>Drive</button>
-      <button id="m-quiz" onclick="setMode('quiz')"><span class="ico">👩‍👧</span>Quiz</button>
-      <button id="m-study" onclick="setMode('study')"><span class="ico">📖</span>Study</button>
+      <button id="m-drive" class="on" onclick="setMode('drive')">Drive</button>
+      <button id="m-quiz" onclick="setMode('quiz')">Quiz</button>
+      <button id="m-study" onclick="setMode('study')">Study</button>
     </div>
     <div class="progress" id="pips"></div>
   </div>
@@ -423,7 +423,7 @@ function stopAudio(){
 function playClip(fileBase, fallbackText, opts, onEnd){
   const slow = opts && opts.slow;
   let done=false; const finish=()=>{ if(!done){done=true; onEnd&&onEnd();} };
-  const a=new Audio('audio/'+fileBase+'.mp3');
+  const a=new Audio('../audio/'+fileBase+'.mp3');
   a.onended=finish;
   a.onerror=()=>say(fallbackText, slow, finish);
   a.play().catch(()=>say(fallbackText, slow, finish));
