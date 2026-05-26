@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 5,
+  "section": "American Government",
+  "subsection": "A: Principles of American Government",
+  "is_starred": false,
+  "question_text": "How are changes made to the U.S. Constitution?",
+  "lead_in": "Either answer works:",
+  "disambiguation": null,
+  "answer_type": "one_of",
+  "n_required": 1,
+  "official_answers": [
+    { "text": "Amendments", "key_elements": ["amendments"] },
+    { "text": "The amendment process", "key_elements": ["amendment process"] }
+  ],
+  "dynamic": null,
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The Founders knew they wouldn't get everything right. So they built in a way to fix the Constitution \u2014 by adding amendments \u2014 but made it hard, so it changes only when almost the whole country agrees.",
+    "source_url": null
+  },
+  "fun_fact": {
+    "text": "People have tried to change the Constitution more than 11,000 times. Only 27 of those changes ever made it in. It's that hard on purpose \u2014 so the rules change only when nearly everyone agrees.",
+    "source_url": "https://www.archives.gov/publications/ebooks/amending-america.html",
+    "source_verified": true
+  },
+  "mnemonic": null,
+  "micro_story": null,
+  "concept_ids": ["amendments", "constitution"],
+  "term_ids": ["amendment"],
+  "thread_ids": ["the_constitution", "founding_principles"],
+  "media": { "image_url": null, "image_alt": null, "audio": { "question": "q005.mp3", "answers": ["q005_a1.mp3", "q005_a2.mp3"], "why": "q005_why.mp3", "fact": "q005_fact.mp3" } }
+}

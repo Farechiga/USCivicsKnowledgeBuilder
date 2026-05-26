@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/civics/terms.schema.json",
+  "title": "Terms Glossary",
+  "description": "Shared vocabulary glossary. Each question references entries by id via term_ids. Defined once here (DRY), never duplicated inside questions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "terms"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0.0" },
+    "terms": {
+      "type": "object",
+      "description": "Map of term_id -> entry.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["term", "pronunciation", "kid_definition", "hard_to_pronounce", "audio_url"],
+        "properties": {
+          "term": { "type": "string", "minLength": 1 },
+          "aliases": { "type": "array", "items": { "type": "string" }, "description": "Other names for the same thing; also helps the answer-classifier interpret the learner." },
+          "pronunciation": { "type": "string", "minLength": 1, "description": "Plain phonetic respelling a kid can read aloud, e.g. 'uh-MEND-ment' (CAPS = stressed syllable)." },
+          "kid_definition": { "type": "string", "minLength": 1, "maxLength": 200, "description": "Crisp kid-voice definition. Hard cap keeps it tight." },
+          "origin": { "type": "string", "maxLength": 240, "description": "Optional etymology or memory hook, taught BEFORE 'why this matters' (e.g., 'Amend means to change \u2014 like mending a hole in a dress'). In Drive mode it is narrated, then the word is spoken slowly twice." },
+          "hard_to_pronounce": { "type": "boolean", "description": "If true, the app can surface a 'practice this word' prompt with the slow audio." },
+          "audio_url": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

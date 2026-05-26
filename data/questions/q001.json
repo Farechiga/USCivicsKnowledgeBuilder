@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "id": 1,
+  "section": "American Government",
+  "subsection": "A: Principles of American Government",
+  "is_starred": false,
+  "question_text": "What is the form of government of the United States?",
+  "lead_in": "You could describe it any of these ways (you only need one):",
+  "disambiguation": "We most often hear it called a \u201crepresentative democracy\u201d \u2014 the same idea as a \u201crepublic\u201d: we elect people to make the laws for us. That's different from a \u201cdirect democracy,\u201d where people vote on every law themselves.",
+  "answer_type": "one_of",
+  "n_required": 1,
+  "official_answers": [
+    { "text": "Republic", "key_elements": ["republic"] },
+    { "text": "Constitution-based federal republic", "key_elements": ["republic"] },
+    { "text": "Representative democracy", "key_elements": ["representative democracy"] }
+  ],
+  "dynamic": null,
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "In a republic, the power belongs to the people \u2014 not a king. We lend it to leaders we elect, and take it back at the next election. In 1787, when kings ruled almost everywhere, trusting regular people to run things was a bold bet.",
+    "source_url": null
+  },
+  "fun_fact": {
+    "text": "After the Constitutional Convention, someone asked Benjamin Franklin: did we make a republic or a monarchy? \u201cA republic,\u201d he said, \u201cif you can keep it.\u201d His point: this government was brand-new, and keeping it would take work from every generation.",
+    "source_url": "https://blogs.loc.gov/manuscripts/2022/01/a-republic-if-you-can-keep-it-elizabeth-willing-powel-benjamin-franklin-and-the-james-mchenry-journal/",
+    "source_verified": true
+  },
+  "mnemonic": null,
+  "micro_story": null,
+  "concept_ids": ["republic"],
+  "term_ids": ["republic", "representative_democracy"],
+  "thread_ids": ["founding_principles"],
+  "media": { "image_url": null, "image_alt": null, "audio": { "question": "q001.mp3", "answers": ["q001_a1.mp3", "q001_a2.mp3", "q001_a3.mp3"], "why": "q001_why.mp3", "fact": "q001_fact.mp3" } }
+}

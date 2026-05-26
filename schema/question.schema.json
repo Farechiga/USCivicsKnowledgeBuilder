@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/civics/question.schema.json",
+  "title": "USCIS 2025 Civics Question Entry",
+  "description": "One question in the knowledge base. Source of truth = USCIS M-1778 (09/25). One file per question under data/questions/<section>/qNNN.json; compiled into a single knowledge-base.json at build time.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "id", "section", "subsection", "is_starred",
+    "question_text", "answer_type", "official_answers",
+    "why_it_matters", "fun_fact", "concept_ids", "term_ids", "thread_ids", "media"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0.0" },
+    "id": { "type": "integer", "minimum": 1, "maximum": 128 },
+    "section": {
+      "type": "string",
+      "enum": ["American Government", "American History", "Symbols and Holidays"]
+    },
+    "subsection": { "type": "string", "minLength": 1 },
+    "is_starred": { "type": "boolean", "description": "true = part of the 65/20 asterisk subset" },
+    "question_text": { "type": "string", "minLength": 1 },
+
+    "lead_in": {
+      "type": ["string", "null"],
+      "description": "Conversational handoff shown before multiple acceptable answers. Include whenever there is more than one official answer."
+    },
+    "disambiguation": {
+      "type": ["string", "null"],
+      "description": "Plain-language prose untangling synonyms/overlaps or distinguishing look-alike terms. Include whenever such confusion is possible."
+    },
+
+    "answer_type": {
+      "type": "string",
+      "enum": ["one_of", "choose_n", "answers_vary", "dynamic_lookup"]
+    },
+    "n_required": { "type": "integer", "minimum": 1, "default": 1 },
+
+    "official_answers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "key_elements"],
+        "properties": {
+          "text": { "type": "string", "minLength": 1, "description": "USCIS verbatim accepted answer" },
+          "key_elements": {
+            "type": "array",
+            "description": "LEAN: only concepts truly essential to be counted correct. Never stricter than a real officer.",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "dynamic": {
+      "description": "Populated only when answer_type = dynamic_lookup. Never hard-code a person's name in static data.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["lookup", "source_url", "current_value", "last_verified"],
+          "properties": {
+            "lookup": {
+              "type": "string",
+              "enum": ["uscis_testupdates", "state_governor", "state_senator", "us_representative", "state_capital"]
+            },
+            "current_value": { "type": ["string", "null"] },
+            "last_verified": { "type": ["string", "null"], "format": "date" },
+            "source_url": { "type": "string", "format": "uri" }
+          }
+        }
+      ]
+    },
+
+    "why_it_matters": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["register", "text"],
+      "properties": {
+        "register": { "type": "string", "enum": ["celebratory", "reflective", "somber"] },
+        "text": { "type": "string", "minLength": 1, "description": "ONE voice for all ages: crisp and clear like explaining to a sharp child, but never dumbed down. Must land the 'so what' \u2014 why this is significant \u2014 not just describe." },
+        "source_url": { "type": ["string", "null"], "format": "uri" }
+      }
+    },
+
+    "fun_fact": {
+      "type": "object",
+      "description": "REQUIRED on every question. Must be SURPRISING and memorable (drama, irony, zany detail, 'wait really?') AND land its own 'so what' \u2014 why the surprise matters. One voice for all ages. Not a textbook restatement. Tier-1 sourced.",
+      "additionalProperties": false,
+      "required": ["text", "source_url", "source_verified"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "source_url": {
+          "type": "string",
+          "description": "Tier-1 whitelist only. Validated by CI against the domain allowlist.",
+          "pattern": "^https://([a-z0-9-]+\\.)*(archives\\.gov|constitution\\.congress\\.gov|congress\\.gov|loc\\.gov|history\\.house\\.gov|senate\\.gov|constitutioncenter\\.org|icivics\\.org|billofrightsinstitute\\.org|si\\.edu)(/|$)"
+        },
+        "source_verified": { "type": "boolean", "description": "Set true only after a human confirms the deep link resolves and supports the claim." }
+      }
+    },
+
+    "mnemonic": {
+      "description": "Optional memory device. May be whimsical/coincidental. ALWAYS labeled as a memory device in the UI, never as a fact.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["hook", "link_sentence", "is_memory_device"],
+          "properties": {
+            "hook": { "type": "string", "minLength": 1 },
+            "link_sentence": { "type": "string", "minLength": 1 },
+            "source_url": { "type": ["string", "null"], "format": "uri", "description": "Source for the hook itself (broader than the fact whitelist is OK)." },
+            "is_memory_device": { "type": "boolean", "const": true }
+          }
+        }
+      ]
+    },
+
+    "micro_story": {
+      "description": "Optional 2-3 sentence narrative, mainly for people/events.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["text", "source_url"],
+          "properties": {
+            "text": { "type": "string", "minLength": 1 },
+            "source_url": { "type": "string", "format": "uri" }
+          }
+        }
+      ]
+    },
+
+    "concept_ids": { "type": "array", "items": { "type": "string" }, "description": "Links to concepts.json for the recurring big ideas." },
+    "term_ids": { "type": "array", "items": { "type": "string" }, "description": "Links to terms.json (definitions + aliases)." },
+    "thread_ids": { "type": "array", "items": { "type": "string" }, "description": "Links to threads.json clusters." },
+
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["audio"],
+      "properties": {
+        "image_url": { "type": ["string", "null"] },
+        "image_alt": { "type": ["string", "null"] },
+        "audio": {
+          "type": "object",
+          "description": "Pre-generated audio asset filenames (generated once, cached in repo).",
+          "additionalProperties": false,
+          "properties": {
+            "question": { "type": ["string", "null"] },
+            "answers": { "type": "array", "items": { "type": "string" } },
+            "why": { "type": ["string", "null"] },
+            "fact": { "type": ["string", "null"] }
+          }
+        }
+      }
+    }
+  }
+}

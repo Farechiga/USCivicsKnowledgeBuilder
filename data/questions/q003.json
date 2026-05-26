@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "id": 3,
+  "section": "American Government",
+  "subsection": "A: Principles of American Government",
+  "is_starred": false,
+  "question_text": "Name one thing the U.S. Constitution does.",
+  "lead_in": "You only need to name one \u2014 the Constitution does all of these:",
+  "disambiguation": null,
+  "answer_type": "one_of",
+  "n_required": 1,
+  "official_answers": [
+    { "text": "Forms the government", "key_elements": ["forms the government"] },
+    { "text": "Defines powers of government", "key_elements": ["defines powers"] },
+    { "text": "Defines the parts of government", "key_elements": ["defines the parts"] },
+    { "text": "Protects the rights of the people", "key_elements": ["protects rights"] }
+  ],
+  "dynamic": null,
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "In 1787, most countries ran on a king's word or unwritten custom. The Constitution did something new \u2014 it wrote the rules down. It builds the government (a Congress to make laws, a President to enforce them, courts to judge) and limits it too, by protecting people's rights.",
+    "source_url": null
+  },
+  "fun_fact": {
+    "text": "Of every written national constitution on Earth, the U.S. Constitution is both the oldest still in use and one of the shortest \u2014 only about 4,500 words. The whole rulebook for the government is shorter than many a school essay.",
+    "source_url": "https://constitutioncenter.org/education/classroom-resource-library/classroom/constitution-fast-facts",
+    "source_verified": true
+  },
+  "mnemonic": null,
+  "micro_story": null,
+  "concept_ids": ["constitution"],
+  "term_ids": ["constitution"],
+  "thread_ids": ["the_constitution", "founding_principles"],
+  "media": { "image_url": null, "image_alt": null, "audio": { "question": "q003.mp3", "answers": ["q003_a1.mp3", "q003_a2.mp3", "q003_a3.mp3", "q003_a4.mp3"], "why": "q003_why.mp3", "fact": "q003_fact.mp3" } }
+}

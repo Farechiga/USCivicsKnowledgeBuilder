@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "id": 6,
+  "section": "American Government",
+  "subsection": "A: Principles of American Government",
+  "is_starred": false,
+  "question_text": "What does the Bill of Rights protect?",
+  "lead_in": "Either answer works:",
+  "disambiguation": "Notice: it protects the rights of everyone living in the United States \u2014 not only citizens.",
+  "answer_type": "one_of",
+  "n_required": 1,
+  "official_answers": [
+    { "text": "(The basic) rights of Americans", "key_elements": ["rights of Americans"] },
+    { "text": "(The basic) rights of people living in the United States", "key_elements": ["rights of people in the United States"] }
+  ],
+  "dynamic": null,
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Bill of Rights flips the usual question. Instead of listing what people may do, it lists what the government may NOT do to them \u2014 like silence your speech or your religion. These are freedoms no leader can take away.",
+    "source_url": null
+  },
+  "fun_fact": {
+    "text": "Our famous First Amendment \u2014 free speech and religion \u2014 was almost the Third! Twelve changes were proposed; the first two didn't pass back then, so number three jumped to the top. Even our rights were chosen one by one.",
+    "source_url": "https://www.archives.gov/press/press-releases/2011/nr11-21",
+    "source_verified": true
+  },
+  "mnemonic": {
+    "hook": "The Bill of Rights is the first TEN amendments \u2014 and you have ten fingers.",
+    "link_sentence": "Count the Bill of Rights on your hands: ten amendments, ten fingers.",
+    "source_url": null,
+    "is_memory_device": true
+  },
+  "micro_story": null,
+  "concept_ids": ["bill_of_rights", "constitution"],
+  "term_ids": ["bill_of_rights", "amendment"],
+  "thread_ids": ["the_constitution", "founding_principles", "rights"],
+  "media": { "image_url": null, "image_alt": null, "audio": { "question": "q006.mp3", "answers": ["q006_a1.mp3", "q006_a2.mp3"], "why": "q006_why.mp3", "fact": "q006_fact.mp3" } }
+}

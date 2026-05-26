@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "id": 4,
+  "section": "American Government",
+  "subsection": "A: Principles of American Government",
+  "is_starred": false,
+  "question_text": "The U.S. Constitution starts with the words \u201cWe the People.\u201d What does \u201cWe the People\u201d mean?",
+  "lead_in": "You only need one \u2014 these all point at the same big idea:",
+  "disambiguation": "All of these mean the same thing in different words: the people are in charge of the government, not the other way around.",
+  "answer_type": "one_of",
+  "n_required": 1,
+  "official_answers": [
+    { "text": "Self-government", "key_elements": ["self-government"] },
+    { "text": "Popular sovereignty", "key_elements": ["popular sovereignty"] },
+    { "text": "Consent of the governed", "key_elements": ["consent of the governed"] },
+    { "text": "People should govern themselves", "key_elements": ["people govern themselves"] },
+    { "text": "(Example of) social contract", "key_elements": ["social contract"] }
+  ],
+  "dynamic": null,
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "These words flipped history. For ages, kings held the power and the people obeyed. \u201cWe the People\u201d says the opposite: the government's power comes from regular people \u2014 and belongs to them.",
+    "source_url": null
+  },
+  "fun_fact": {
+    "text": "An early draft of the Constitution started by naming all thirteen states, one by one. A delegate changed it to just three words: \u201cWe the People.\u201d That small change meant the country belonged to its people \u2014 not to thirteen separate states.",
+    "source_url": "https://constitutioncenter.org/blog/forgotten-founders-gouverneur-morris",
+    "source_verified": true
+  },
+  "mnemonic": null,
+  "micro_story": null,
+  "concept_ids": ["popular_sovereignty", "constitution"],
+  "term_ids": ["popular_sovereignty", "consent_of_the_governed", "social_contract", "self_government"],
+  "thread_ids": ["the_constitution", "founding_principles"],
+  "media": { "image_url": null, "image_alt": null, "audio": { "question": "q004.mp3", "answers": ["q004_a1.mp3", "q004_a2.mp3", "q004_a3.mp3", "q004_a4.mp3", "q004_a5.mp3"], "why": "q004_why.mp3", "fact": "q004_fact.mp3" } }
+}

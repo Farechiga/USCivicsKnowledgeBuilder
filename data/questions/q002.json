@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "id": 2,
+  "section": "American Government",
+  "subsection": "A: Principles of American Government",
+  "is_starred": true,
+  "question_text": "What is the supreme law of the land?",
+  "lead_in": null,
+  "disambiguation": "Don't mix these up: the \u201csupreme law of the land\u201d is the Constitution itself \u2014 not the \u201cSupreme Court.\u201d One is the rulebook; the other is the referee.",
+  "answer_type": "one_of",
+  "n_required": 1,
+  "official_answers": [
+    { "text": "(U.S.) Constitution", "key_elements": ["constitution"] }
+  ],
+  "dynamic": null,
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Even the President has to obey the Constitution. That's the big idea: no one in America is above the law \u2014 not even the most powerful person. The law itself is the boss.",
+    "source_url": null
+  },
+  "fun_fact": {
+    "text": "Long ago, Maryland tried to tax a national bank to death. The Supreme Court said no \u2014 one state can't destroy what the whole country builds. That's how we learned: when state and national law collide, national law wins.",
+    "source_url": "https://constitutioncenter.org/blog/mcculloch-v-maryland-expanding-the-power-of-congress",
+    "source_verified": true
+  },
+  "mnemonic": null,
+  "micro_story": null,
+  "concept_ids": ["constitution"],
+  "term_ids": ["constitution"],
+  "thread_ids": ["the_constitution", "founding_principles"],
+  "media": { "image_url": null, "image_alt": null, "audio": { "question": "q002.mp3", "answers": ["q002_a1.mp3"], "why": "q002_why.mp3", "fact": "q002_fact.mp3" } }
+}

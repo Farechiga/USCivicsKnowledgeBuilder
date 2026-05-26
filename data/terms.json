@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "terms": {
+    "republic": {
+      "term": "Republic",
+      "aliases": [],
+      "pronunciation": "ree-PUB-lik",
+      "kid_definition": "A country where people pick leaders to make decisions for them \u2014 instead of a king deciding everything.",
+      "origin": "From the Latin \u201cres publica\u201d \u2014 \u201cthe public affair.\u201d A republic is a government that belongs to the public, not to a king.",
+      "hard_to_pronounce": false,
+      "audio_url": "term_republic.mp3"
+    },
+    "representative_democracy": {
+      "term": "Representative democracy",
+      "aliases": ["republic"],
+      "pronunciation": "rep-rih-ZEN-tuh-tiv dih-MOK-ruh-see",
+      "kid_definition": "A government where we vote for people to represent us and make the laws on our behalf.",
+      "hard_to_pronounce": true,
+      "audio_url": "term_representative_democracy.mp3"
+    },
+    "popular_sovereignty": {
+      "term": "Popular sovereignty",
+      "aliases": ["sovereignty"],
+      "pronunciation": "POP-yuh-ler SOV-rin-tee",
+      "kid_definition": "Sovereignty means the power to rule. Popular sovereignty means that power belongs to the people.",
+      "origin": "A \u201csovereign\u201d is a supreme ruler, like a king. Sovereignty is the power to rule \u2014 so \u201cpopular sovereignty\u201d hands that power to the people.",
+      "hard_to_pronounce": true,
+      "audio_url": "term_popular_sovereignty.mp3"
+    },
+    "consent_of_the_governed": {
+      "term": "Consent of the governed",
+      "aliases": [],
+      "pronunciation": "kun-SENT of the GUV-ernd",
+      "kid_definition": "The government only has power because the people agree to give it. \u201cConsent\u201d means to say yes.",
+      "hard_to_pronounce": true,
+      "audio_url": "term_consent_of_the_governed.mp3"
+    },
+    "social_contract": {
+      "term": "Social contract",
+      "aliases": [],
+      "pronunciation": "SOH-shul KON-trakt",
+      "kid_definition": "An unwritten deal: people agree to follow a government's laws, and in return the government protects them.",
+      "origin": "Think of a contract \u2014 an agreement. The \u201csocial contract\u201d is the unwritten agreement between people and their government.",
+      "hard_to_pronounce": false,
+      "audio_url": "term_social_contract.mp3"
+    },
+    "self_government": {
+      "term": "Self-government",
+      "aliases": ["self-rule"],
+      "pronunciation": "self GUV-ern-ment",
+      "kid_definition": "When people rule themselves, instead of being ruled by a king or anyone else.",
+      "hard_to_pronounce": false,
+      "audio_url": "term_self_government.mp3"
+    },
+    "amendment": {
+      "term": "Amendment",
+      "aliases": [],
+      "pronunciation": "uh-MEND-ment",
+      "kid_definition": "An amendment is an official change or addition to the Constitution.",
+      "origin": "Amend means to change \u2014 like mending a hole in a dress. (\u201cMend\u201d even comes from \u201camend.\u201d)",
+      "hard_to_pronounce": true,
+      "audio_url": "term_amendment.mp3"
+    },
+    "bill_of_rights": {
+      "term": "Bill of Rights",
+      "aliases": [],
+      "pronunciation": "bil uhv RYTES",
+      "kid_definition": "The first ten amendments to the Constitution. It lists freedoms the government can't take away.",
+      "hard_to_pronounce": false,
+      "audio_url": "term_bill_of_rights.mp3"
+    },
+    "constitution": {
+      "term": "Constitution",
+      "aliases": [],
+      "pronunciation": "kon-stih-TOO-shun",
+      "kid_definition": "The rulebook for the whole country. It sets up the government and protects people's rights.",
+      "hard_to_pronounce": true,
+      "audio_url": "term_constitution.mp3"
+    }
+  }
+}
