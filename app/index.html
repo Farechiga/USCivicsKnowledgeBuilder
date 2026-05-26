@@ -233,6 +233,10 @@ const Q = [
 let mode='drive', idx=0, revealed=false, openTerm=null, currentClip=null;
 const stage=document.getElementById('stage'), controls=document.getElementById('controls');
 const qid = n => 'q' + String(n).padStart(3,'0');
+/* Single reusable Audio element: iOS Safari only treats an element as
+   "unlocked" after a user gesture, so we reuse one across all clips. */
+const audioEl = new Audio();
+audioEl.preload = 'auto';
 
 function setMode(m){ stopAudio(); mode=m; revealed=false; openTerm=null;
   document.querySelectorAll('.modes button').forEach(b=>b.classList.remove('on'));
@@ -419,13 +423,16 @@ function stopAudio(){
   const w=document.querySelector('.wave'); if(w)w.classList.remove('live');
 }
 
-/* Recorded-clip helper: tries mp3, falls back to TTS per fragment */
+/* Recorded-clip helper: tries mp3, falls back to TTS per fragment.
+   Reuses the single audioEl so iOS keeps it unlocked across clips. */
 function playClip(fileBase, fallbackText, opts, onEnd){
   const slow = opts && opts.slow;
   let done=false; const finish=()=>{ if(!done){done=true; onEnd&&onEnd();} };
-  const a=new Audio('../audio/'+fileBase+'.mp3');
+  const a=audioEl;
+  try{ a.pause(); }catch(e){}
   a.onended=finish;
   a.onerror=()=>say(fallbackText, slow, finish);
+  a.src='../audio/'+fileBase+'.mp3';
   a.play().catch(()=>say(fallbackText, slow, finish));
   currentClip=a;
   return a;
