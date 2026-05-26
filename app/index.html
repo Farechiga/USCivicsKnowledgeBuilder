@@ -153,7 +153,11 @@
   .circle{width:78px;height:78px;border-radius:50%;border:0;background:var(--paper);color:var(--ink);
           font-size:30px;cursor:pointer;display:grid;place-items:center}
   .drivebar{display:flex;align-items:center;justify-content:center;gap:26px}
-  .drivebar .mini{background:transparent;border:0;color:var(--slate);font-size:24px;cursor:pointer}
+  .drivebar .mini{background:transparent;border:0;color:var(--paper);cursor:pointer;
+                  padding:6px;display:flex;align-items:center;justify-content:center;
+                  transition:opacity .15s}
+  .drivebar .mini:active{opacity:.5}
+  .drivebar .mini svg{display:block;width:28px;height:28px}
 
   .srs{font-size:11.5px;color:var(--slate);text-align:center;padding-top:4px}
   .hide{display:none}
@@ -251,12 +255,28 @@ const attrEsc = s => String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').repl
    "unlocked" after a user gesture, so we reuse one across all clips. */
 const audioEl = new Audio();
 audioEl.preload = 'auto';
-/* Delegated click handler: any element with data-clip plays that file
-   (with the element's data-fallback text as TTS fallback). */
+/* Delegated click handler: data-clip-seq plays a JSON sequence of clips
+   (mirrors Drive's multi-file step); data-clip plays a single file.
+   Both use the element's data-fallback text as TTS fallback. */
 stage.addEventListener('click', e=>{
+  const seqEl = e.target.closest('[data-clip-seq]');
+  if(seqEl){
+    try{ playSequence(JSON.parse(seqEl.dataset.clipSeq)); }catch(err){}
+    return;
+  }
   const el = e.target.closest('[data-clip]');
   if(el) playClip(el.dataset.clip, el.dataset.fallback||'');
 });
+function playSequence(items){
+  if(!items||!items.length) return;
+  let i=0;
+  const playNext=()=>{
+    if(i>=items.length) return;
+    const c=items[i++];
+    playClip(c.file, c.text, {slow:!!c.slow}, playNext);
+  };
+  playNext();
+}
 
 function setMode(m){ stopAudio(); mode=m; revealed=false; openTerm=null;
   document.querySelectorAll('.modes button').forEach(b=>b.classList.remove('on'));
@@ -312,14 +332,15 @@ function render(){
 function renderQuiz(d){
   const q=qid(d.id);
   const ico='<span class="play-ico" aria-hidden="true">▶</span>';
-  const ansRows=d.ans.map((a,i)=>
-    `<div class="a clickable" data-clip="${q}_answer_${i+1}" data-fallback="${attrEsc(a)}"><span class="tick">✓</span><span>${a}</span>${ico}</div>`
+  const ansRows=d.ans.map(a=>
+    `<div class="a"><span class="tick">✓</span><span>${a}</span></div>`
   ).join('');
+  const ansSeq=attrEsc(JSON.stringify(d.ans.map((a,i)=>({file:`${q}_answer_${i+1}`, text:a}))));
   stage.innerHTML = `
     <div class="qno">Question ${d.id} &nbsp;·&nbsp; for the quiz-master 👧</div>
     <div class="question clickable" data-clip="${q}_question" data-fallback="${attrEsc(d.q)}">${d.q}${ico}</div>
     ${d.lead?`<div class="leadin clickable" data-clip="${q}_lead_in" data-fallback="${attrEsc(d.lead)}">${d.lead}${ico}</div>`:''}
-    <div class="section"><span class="label"><span class="bar"></span>Accepted answers — did Mom say one?</span><div class="answers">${ansRows}</div></div>
+    <div class="section clickable" data-clip-seq="${ansSeq}"><span class="label"><span class="bar"></span>Accepted answers — did Mom say one?${ico}</span><div class="answers">${ansRows}</div></div>
     <div class="section clickable" data-clip="${q}_why" data-fallback="${attrEsc(d.why)}"><span class="label"><span class="bar"></span>Why this matters${ico}</span><p>${d.why}</p></div>
     <div class="fun clickable" data-clip="${q}_fun" data-fallback="${attrEsc(d.fun)}"><span class="label"><span class="star">★</span> Fun fact${ico}</span><p>${d.fun}</p><div class="src">Source: ${d.src}</div></div>
   `;
@@ -401,9 +422,9 @@ function renderDrive(d){
   paintDrive();
   controls.innerHTML = `
     <div class="drivebar">
-      <button class="mini" onclick="prev()">⏮</button>
+      <button class="mini" onclick="prev()" aria-label="Previous"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h2v14H6z M20 5v14L9 12z"/></svg></button>
       <button class="circle" id="play" onclick="togglePlay()">▶</button>
-      <button class="mini" onclick="next()">⏭</button>
+      <button class="mini" onclick="next()" aria-label="Next"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 5h2v14h-2z M4 5v14L15 12z"/></svg></button>
     </div>
     <div class="srs">Hands-free: tap once to play. It reads the question, waits, then reveals.</div>`;
 }
