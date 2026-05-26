@@ -320,18 +320,10 @@ function renderQuiz(d){
     <div class="question clickable" data-clip="${q}_question" data-fallback="${attrEsc(d.q)}">${d.q}${ico}</div>
     ${d.lead?`<div class="leadin clickable" data-clip="${q}_lead_in" data-fallback="${attrEsc(d.lead)}">${d.lead}${ico}</div>`:''}
     <div class="section"><span class="label"><span class="bar"></span>Accepted answers — did Mom say one?</span><div class="answers">${ansRows}</div></div>
-    ${revealed?
-      `<div class="section clickable" data-clip="${q}_why" data-fallback="${attrEsc(d.why)}"><span class="label"><span class="bar"></span>Why this matters${ico}</span><p>${d.why}</p></div>
-       <div class="fun clickable" data-clip="${q}_fun" data-fallback="${attrEsc(d.fun)}"><span class="label"><span class="star">★</span> Fun fact${ico}</span><p>${d.fun}</p><div class="src">Source: ${d.src}</div></div>`
-      :''}
+    <div class="section clickable" data-clip="${q}_why" data-fallback="${attrEsc(d.why)}"><span class="label"><span class="bar"></span>Why this matters${ico}</span><p>${d.why}</p></div>
+    <div class="fun clickable" data-clip="${q}_fun" data-fallback="${attrEsc(d.fun)}"><span class="label"><span class="star">★</span> Fun fact${ico}</span><p>${d.fun}</p><div class="src">Source: ${d.src}</div></div>
   `;
-  controls.innerHTML = revealed
-    ? `<button class="btn btn-primary" onclick="next()">Next question ▶</button>`
-    : `<div class="row">
-         <button class="btn btn-ghost" onclick="reveal()">Got it ✓</button>
-         <button class="btn btn-red" onclick="reveal()">Missed ✗</button>
-       </div>
-       <div class="srs">Tap to score Mom — then you'll both see why it matters.</div>`;
+  controls.innerHTML = `<button class="btn btn-primary" onclick="next()">Next question ▶</button>`;
 }
 function reveal(){ revealed=true; render(); }
 
