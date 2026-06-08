@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 22,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "How long is a term for a U.S. senator?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Six (6) years",
+      "key_elements": ["six", "6"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Six-year terms let senators think long-term — passing laws that take years to pay off, casting unpopular but right votes without immediately facing voters. Compare that to House members (2 years), who must constantly campaign. Different terms, different temperaments — by design."
+  },
+  "fun_fact": {
+    "text": "On May 15, 1789, the first U.S. Senate literally drew lots from a box to decide how long they served. Some senators drew Class 1 (2 years), others Class 2 (4 years), others Class 3 (6 years). That random drawing set up the staggered elections still used today.",
+    "source_url": "https://www.senate.gov/artandhistory/history/anecdote/days/019week_0515.html",
+    "source_verified": true
+  },
+  "concept_ids": ["staggered_terms", "senate_structure", "bicameralism"],
+  "term_ids": ["senate", "term", "senator"],
+  "thread_ids": ["congress_structure", "senate_terms"],
+  "media": { "audio": {} }
+}

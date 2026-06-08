@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "id": 30,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": true,
+  "question_text": "What is the name of the Speaker of the House of Representatives now?",
+  "answer_type": "dynamic_lookup",
+  "official_answers": [
+    {
+      "text": "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives.",
+      "key_elements": []
+    }
+  ],
+  "dynamic": {
+    "lookup": "uscis_testupdates",
+    "current_value": "Mike Johnson",
+    "last_verified": "2026-06-07",
+    "source_url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/check-for-test-updates"
+  },
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Speaker is the leader of the House of Representatives — chosen by the House itself. The Speaker decides which bills come up for a vote, runs floor debate, and is second in line to the presidency after the Vice President. It's one of the most powerful jobs in American government."
+  },
+  "fun_fact": {
+    "text": "The Constitution doesn't actually require the Speaker to be a member of the House. In theory, any U.S. citizen could be elected Speaker — though every one of the 56 Speakers since 1789 has been a sitting Representative. The Speaker is also second in line to the presidency, right after the Vice President.",
+    "source_url": "https://history.house.gov/People/Office/Speakers-Intro/",
+    "source_verified": true
+  },
+  "concept_ids": ["legislative_leadership", "presidential_succession"],
+  "term_ids": ["speaker", "house_of_representatives"],
+  "thread_ids": ["congress_structure", "presidential_succession"],
+  "media": { "audio": {} }
+}

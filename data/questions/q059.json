@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "id": 59,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "lead_in": "Any one of these works (you only need one):",
+  "question_text": "Name one power that is only for the states.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Provide schooling and education", "key_elements": ["schooling", "education"] },
+    { "text": "Provide protection (police)", "key_elements": ["police"] },
+    { "text": "Provide safety (fire departments)", "key_elements": ["fire"] },
+    { "text": "Give a driver's license", "key_elements": ["driver", "license"] },
+    { "text": "Approve zoning and land use", "key_elements": ["zoning", "land use"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Some powers stay with the states because local needs are different. A city in Wyoming faces different problems than New York City. The framers thought decisions about schools, police, and zoning should be made close to home — by people who actually live there — not by far-away officials in Washington."
+  },
+  "fun_fact": {
+    "text": "Schools, police, and fire departments are state and local jobs — not federal. That's why a 2nd grader in Minnesota might read different books, learn different math methods, and take different tests than a 2nd grader in Florida. The U.S. has 50 separate state education systems and thousands of local school districts deciding what to teach.",
+    "source_url": "https://constitutioncenter.org/the-constitution/the-principles-of-the-constitution/federalism",
+    "source_verified": true
+  },
+  "concept_ids": ["federalism", "reserved_powers", "state_government"],
+  "term_ids": ["state_government", "tenth_amendment"],
+  "thread_ids": ["federalism"],
+  "media": { "audio": {} }
+}

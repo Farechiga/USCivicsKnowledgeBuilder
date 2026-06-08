@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "id": 85,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Benjamin Franklin is famous for many things. Name one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Founded the first free public libraries", "key_elements": ["founded", "first", "free public libraries"] },
+    { "text": "First Postmaster General of the United States", "key_elements": ["first", "postmaster general"] },
+    { "text": "Helped write the Declaration of Independence", "key_elements": ["declaration of independence", "helped write"] },
+    { "text": "Inventor", "key_elements": ["inventor"] },
+    { "text": "U.S. diplomat", "key_elements": ["diplomat"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Benjamin Franklin did the work of about five different careers — printer, scientist, inventor, diplomat, and statesman — all in one lifetime. He invented bifocal glasses, the lightning rod, and the Franklin stove. He convinced France to enter the Revolution on America's side. He was 81 at the Constitutional Convention, the oldest delegate."
+  },
+  "fun_fact": {
+    "text": "Benjamin Franklin signed all four documents that built the United States: the Declaration of Independence (1776), the Treaty of Alliance with France (1778), the Treaty of Paris ending the Revolution (1783), and the Constitution (1787). He's the only Founding Father to put his name on every one of them.",
+    "source_url": "https://www.loc.gov/exhibits/franklin/franklin-overview.html",
+    "source_verified": true
+  },
+  "concept_ids": ["founding_fathers", "benjamin_franklin", "diplomacy"],
+  "term_ids": ["benjamin_franklin", "declaration_of_independence", "constitution", "treaty_of_paris"],
+  "thread_ids": ["founding_era", "founding_fathers"],
+  "media": { "audio": {} }
+}

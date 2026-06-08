@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "id": 67,
+  "section": "American Government",
+  "subsection": "Rights and Responsibilities",
+  "is_starred": false,
+  "lead_in": "Name any two of these promises:",
+  "question_text": "Name two promises that new citizens make in the Oath of Allegiance.",
+  "answer_type": "choose_n",
+  "n_required": 2,
+  "official_answers": [
+    { "text": "Give up loyalty to other countries", "key_elements": ["give up", "renounce", "other countries", "foreign"] },
+    { "text": "Defend the (U.S.) Constitution", "key_elements": ["defend", "constitution"] },
+    { "text": "Obey the laws of the United States", "key_elements": ["obey", "laws"] },
+    { "text": "Serve in the military (if needed)", "key_elements": ["serve", "military"] },
+    { "text": "Serve (help, do important work for) the nation (if needed)", "key_elements": ["serve", "nation", "work"] },
+    { "text": "Be loyal to the United States", "key_elements": ["loyal", "united states"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Oath is the final step of becoming a citizen — a public promise to defend the Constitution, obey U.S. laws, and put loyalty to the United States above any other country. It's not just paperwork. It's the moment a person stops being a guest in this country and starts being a member of it. From that moment on, this nation is theirs."
+  },
+  "fun_fact": {
+    "text": "New citizens take their Oath of Allegiance at a public ceremony — at a courthouse, or sometimes inside the National Archives in front of the actual Constitution and Bill of Rights. A version of this oath has been said by new Americans since 1790. That's over 235 years of welcoming new citizens to the United States.",
+    "source_url": "https://prologue.blogs.archives.gov/2018/12/12/my-fellow-americans-bill-of-rights-day-at-the-national-archives/",
+    "source_verified": true
+  },
+  "concept_ids": ["naturalization", "citizenship", "civic_duty"],
+  "term_ids": ["oath_of_allegiance", "naturalization", "citizen", "constitution"],
+  "thread_ids": ["citizenship", "founding_documents"],
+  "media": { "audio": {} }
+}

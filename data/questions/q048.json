@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "id": 48,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "What are two Cabinet-level positions?",
+  "lead_in": "Name any two of these:",
+  "answer_type": "choose_n",
+  "n_required": 2,
+  "official_answers": [
+    { "text": "The Attorney General", "key_elements": ["attorney general"] },
+    { "text": "Secretary of Commerce", "key_elements": ["commerce"] },
+    { "text": "Secretary of Education", "key_elements": ["education"] },
+    { "text": "Secretary of Energy", "key_elements": ["energy"] },
+    { "text": "Secretary of State", "key_elements": ["state"] },
+    { "text": "Secretary of War (Defense)", "key_elements": ["war", "defense"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Cabinet-level positions are the senior leaders who run the federal government's biggest departments and agencies — from defense and diplomacy to schools and intelligence. Knowing some of them shows you understand how the executive branch actually operates day-to-day, beyond just the President."
+  },
+  "fun_fact": {
+    "text": "Most Cabinet heads are called 'Secretary' — but one isn't. Why is the head of the Justice Department called 'Attorney General'? Because for 81 years there was no Department of Justice! The Attorney General was created in 1789, and Congress didn't create the Justice Department until 1870.",
+    "source_url": "https://blogs.loc.gov/law/2017/12/the-creation-of-the-department-of-justice/",
+    "source_verified": true
+  },
+  "concept_ids": ["executive_branch", "cabinet", "federal_departments"],
+  "term_ids": ["cabinet", "attorney_general", "secretary_of_state"],
+  "thread_ids": ["presidency", "federal_government"],
+  "media": { "audio": {} }
+}

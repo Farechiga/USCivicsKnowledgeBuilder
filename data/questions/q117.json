@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "id": 117,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Name one American Indian tribe in the United States.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Chippewa", "key_elements": ["chippewa"] },
+    { "text": "Lakota", "key_elements": ["lakota"] },
+    { "text": "Apache", "key_elements": ["apache"] },
+    { "text": "Cherokee", "key_elements": ["cherokee"] },
+    { "text": "Cheyenne", "key_elements": ["cheyenne"] },
+    { "text": "Hopi", "key_elements": ["hopi"] },
+    { "text": "Mohawk", "key_elements": ["mohawk"] },
+    { "text": "Navajo", "key_elements": ["navajo"] },
+    { "text": "Pueblo", "key_elements": ["pueblo"] },
+    { "text": "Sioux", "key_elements": ["sioux"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "Native Americans have lived on this land for over 15,000 years — long before Europeans arrived. Today there are 574 federally recognized tribes, each a sovereign nation within the United States with its own government. The 25 tribes on the USCIS list span from the Navajo and Pueblo in New Mexico, to the Chippewa and Lakota Minnesota."
+  },
+  "fun_fact": {
+    "text": "In WWII, the U.S. Marines recruited 400+ Navajo soldiers to transmit secret messages in their Navajo language — a code the Japanese NEVER broke. At Iwo Jima, six Code Talkers sent over 800 messages in 48 HOURS, all error-free. A Marine commander said: 'Were it not for the Navajos, the Marines would never have taken Iwo Jima.'",
+    "source_url": "https://guides.loc.gov/navajo-code-talkers",
+    "source_verified": true
+  },
+  "concept_ids": ["american_indians", "native_americans", "navajo_code_talkers", "sovereign_nations"],
+  "term_ids": ["american_indians", "navajo", "navajo_code_talkers", "iwo_jima", "tribal_sovereignty"],
+  "thread_ids": ["1900s", "native_americans", "world_war_ii"],
+  "media": { "audio": {} }
+}

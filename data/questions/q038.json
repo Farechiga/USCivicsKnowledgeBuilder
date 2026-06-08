@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "id": 38,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": true,
+  "question_text": "What is the name of the President of the United States now?",
+  "answer_type": "dynamic_lookup",
+  "official_answers": [
+    {
+      "text": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States.",
+      "key_elements": []
+    }
+  ],
+  "dynamic": {
+    "lookup": "uscis_testupdates",
+    "current_value": "Donald Trump",
+    "last_verified": "2026-06-07",
+    "source_url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/check-for-test-updates"
+  },
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The President is the head of the executive branch and Commander in Chief of the military. They sign or veto bills, appoint federal judges, and lead American foreign policy." 
+  },
+  "fun_fact": {
+    "text": "The presidential oath is only 35 words: starting with 'I do solemnly swear that I will faithfully execute the Office of President...'",
+    "source_url": "https://constitution.congress.gov/browse/essay/artII-S1-C8-1-1/ALDE_00013932/",
+    "source_verified": true
+  },
+  "concept_ids": ["executive_branch", "oath_of_office", "constitutional_text"],
+  "term_ids": ["president", "executive_branch"],
+  "thread_ids": ["presidency", "constitutional_text"],
+  "media": { "audio": {} }
+}

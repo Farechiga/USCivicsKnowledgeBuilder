@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "id": 55,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "lead_in": "Any one of these works (you only need one):",
+  "question_text": "How long do Supreme Court justices serve?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "(For) life",
+      "key_elements": ["life"]
+    },
+    {
+      "text": "Lifetime appointment",
+      "key_elements": ["lifetime"]
+    },
+    {
+      "text": "(Until) retirement",
+      "key_elements": ["retirement"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Supreme Court justices serve for life. They can leave only by resigning, retiring, or being impeached and removed. That makes their job unlike almost any other in government. They never have to run for re-election, never have to please voters or a president — they answer only to the Constitution."
+  },
+  "fun_fact": {
+    "text": "Supreme Court justices keep their jobs for life — they can only be removed by impeachment. In 235+ years, only one Justice has ever been impeached: Samuel Chase, in 1804. The Senate acquitted him the next year, and he kept his seat. No Supreme Court justice has ever been removed from office. That's how secure 'life tenure' really is.",
+    "source_url": "https://www.senate.gov/artandhistory/history/minute/Senate_Tries_Justice.htm",
+    "source_verified": true
+  },
+  "concept_ids": ["judicial_branch", "judicial_independence", "good_behavior_clause"],
+  "term_ids": ["supreme_court", "federal_judge", "judicial_branch"],
+  "thread_ids": ["judicial_branch", "checks_and_balances"],
+  "media": { "audio": {} }
+}

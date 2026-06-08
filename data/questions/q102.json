@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 102,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "When did all women get the right to vote?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "1920", "key_elements": ["1920"] },
+    { "text": "After World War I", "key_elements": ["after world war i", "after wwi"] },
+    { "text": "(With the) 19th Amendment", "key_elements": ["19th amendment", "nineteenth amendment"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The 19th Amendment (1920) gave American women the right to vote. It came 72 years after the Seneca Falls Convention started the movement. About 26 million women became eligible overnight. Black women in the South still faced poll taxes and intimidation — the right wasn't fully real until the Voting Rights Act of 1965."
+  },
+  "fun_fact": {
+    "text": "The 19th Amendment needed 36 states to ratify. Tennessee was state 36. The Tennessee House was deadlocked 48-48. Then 24-year-old Harry Burn opened a letter from his mother: 'Be a good boy and help Mrs. Catt put the rat in ratification.' Harry switched his vote to YES. American women won the right to vote because a mom wrote her son.",
+    "source_url": "https://prologue.blogs.archives.gov/2017/08/01/putting-the-rat-in-ratification-tennessees-role-in-the-19th-amendment",
+    "source_verified": true
+  },
+  "concept_ids": ["nineteenth_amendment", "womens_suffrage", "voting_rights"],
+  "term_ids": ["nineteenth_amendment", "harry_burn", "voting_rights", "womens_suffrage"],
+  "thread_ids": ["1900s", "voting_rights", "womens_rights"],
+  "media": { "audio": {} }
+}

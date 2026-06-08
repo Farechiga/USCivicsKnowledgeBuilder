@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "id": 99,
+  "section": "American History",
+  "subsection": "1800s",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Name one leader of the women's rights movement in the 1800s.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Susan B. Anthony", "key_elements": ["susan b. anthony", "susan anthony"] },
+    { "text": "Harriet Tubman", "key_elements": ["harriet tubman", "tubman"] },
+    { "text": "Elizabeth Cady Stanton", "key_elements": ["elizabeth cady stanton", "stanton"] },
+    { "text": "Sojourner Truth", "key_elements": ["sojourner truth"] },
+    { "text": "Lucretia Mott", "key_elements": ["lucretia mott", "mott"] },
+    { "text": "Lucy Stone", "key_elements": ["lucy stone"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "Women's rights leaders in the 1800s fought for the right to vote, own property, sign contracts, attend college, and be considered equal under the law. The movement began at the Seneca Falls Convention in 1848. It took 72 more years — and the work of generations of women — before the 19th Amendment finally gave women the right to vote in 1920."
+  },
+  "fun_fact": {
+    "text": "Susan B. Anthony VOTED in the 1872 Presidential election in Rochester, NY — and was ARRESTED for it. Convicted and fined $100, she refused to pay; the government never collected. She died in 1906 — 14 YEARS before the 19th Amendment gave women the right to vote. She fought her whole life for a right she'd never use.",
+    "source_url": "https://www.archives.gov/education/lessons/suffrage.html",
+    "source_verified": true
+  },
+  "concept_ids": ["womens_rights", "suffrage", "nineteenth_amendment", "seneca_falls"],
+  "term_ids": ["susan_b_anthony", "elizabeth_cady_stanton", "sojourner_truth", "harriet_tubman", "lucretia_mott", "lucy_stone", "nineteenth_amendment", "seneca_falls"],
+  "thread_ids": ["1800s", "voting_rights", "civil_rights", "womens_rights"],
+  "media": { "audio": {} }
+}

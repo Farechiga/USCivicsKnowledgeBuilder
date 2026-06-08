@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 40,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "If the president can no longer serve, who becomes president?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "The Vice President (of the United States)",
+      "key_elements": ["vice president"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "America has had eight presidents die in office and one resign — and every single time, the Vice President took over smoothly. The succession plan is what makes American democracy stable through crisis."
+  },
+  "fun_fact": {
+    "text": "In 1841, President William Henry Harrison died after just 32 days in office. Did the VP become the full president, or just 'acting president'? Nobody knew. Vice President John Tyler took the oath and insisted he was now the full president. The Constitution didn't formally confirm this until the 25th Amendment in 1967.",
+    "source_url": "https://reagan.blogs.archives.gov/2017/07/19/the-25th-amendment-the-situation-room-experience-and-united-states-history/",
+    "source_verified": true
+  },
+  "concept_ids": ["presidential_succession", "executive_branch", "constitutional_amendments"],
+  "term_ids": ["president", "vice_president"],
+  "thread_ids": ["presidency", "presidential_succession"],
+  "media": { "audio": {} }
+}

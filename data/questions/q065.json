@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 65,
+  "section": "American Government",
+  "subsection": "Rights and Responsibilities",
+  "is_starred": false,
+  "lead_in": "Pick any three of these (you need to name three):",
+  "question_text": "What are three rights of everyone living in the United States?",
+  "disambiguation": "The first five come from the First Amendment (religion, speech, press, assembly, petition). The right to bear arms comes from the Second Amendment. All of these apply to EVERYONE living in the U.S. — not just citizens.",
+  "answer_type": "choose_n",
+  "n_required": 3,
+  "official_answers": [
+    { "text": "Freedom of expression", "key_elements": ["expression"] },
+    { "text": "Freedom of speech", "key_elements": ["speech"] },
+    { "text": "Freedom of assembly", "key_elements": ["assembly"] },
+    { "text": "Freedom to petition the government", "key_elements": ["petition"] },
+    { "text": "Freedom of religion", "key_elements": ["religion"] },
+    { "text": "The right to bear arms", "key_elements": ["bear arms", "guns"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "These rights belong to everyone living in the United States — citizens AND non-citizens. The framers chose words like 'the people' and 'persons,' not 'citizens.' That means the moment a person steps onto U.S. soil, they're protected by the Bill of Rights."
+  },
+  "fun_fact": {
+    "text": "The First Amendment packs FIVE rights into one sentence: religion, speech, press, assembly, and petition. Most Americans can name only one or two when asked. And here's the key: these rights belong to EVERYONE living in the U.S. — not just citizens. The Bill of Rights talks about 'the people' and 'persons,' not just 'citizens.'",
+    "source_url": "https://constitution.congress.gov/constitution/amendment-1/",
+    "source_verified": true
+  },
+  "concept_ids": ["bill_of_rights", "individual_rights", "first_amendment"],
+  "term_ids": ["first_amendment", "second_amendment", "bill_of_rights", "freedom_of_speech", "freedom_of_religion"],
+  "thread_ids": ["bill_of_rights", "individual_rights"],
+  "media": { "audio": {} }
+}

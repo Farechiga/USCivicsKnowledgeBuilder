@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 78,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": true,
+  "question_text": "Who wrote the Declaration of Independence?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "(Thomas) Jefferson", "key_elements": ["jefferson", "thomas jefferson"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Thomas Jefferson, then 33 years old, wrote the Declaration of Independence in a few weeks in a rented Philadelphia room. His words — 'all men are created equal,' the right to 'life, liberty, and the pursuit of happiness' — became the founding promise of the United States. America has spent its whole history trying to live up to that promise."
+  },
+  "fun_fact": {
+    "text": "Thomas Jefferson wrote the Declaration at age 33. Fifty years later, on July 4, 1826 — the EXACT 50th anniversary of the Declaration — Jefferson and John Adams both died on the same day. Adams was the last to go; his final words: 'Thomas Jefferson survives.' But Jefferson had died hours earlier.",
+    "source_url": "https://www.loc.gov/exhibits/jefferson/jeffleg.html",
+    "source_verified": true
+  },
+  "concept_ids": ["declaration_of_independence", "founding_fathers", "founding_principles"],
+  "term_ids": ["thomas_jefferson", "declaration_of_independence", "john_adams"],
+  "thread_ids": ["founding_era", "declaration_of_independence"],
+  "media": { "audio": {} }
+}

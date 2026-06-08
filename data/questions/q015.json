@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "id": 15,
+  "section": "American Government",
+  "subsection": "Principles of American Government",
+  "is_starred": false,
+  "question_text": "There are three branches of government. Why?",
+  "lead_in": "You only need to give one reason:",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "So one part does not become too powerful",
+      "key_elements": ["too powerful", "one part"]
+    },
+    {
+      "text": "Checks and balances",
+      "key_elements": ["checks and balances"]
+    },
+    {
+      "text": "Separation of powers",
+      "key_elements": ["separation of powers"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Splitting power into three branches means no one branch can grab too much. Each can check the others — the president can veto laws, the courts can strike them down, Congress can override the president. That tug-of-war was designed on purpose. Slow and messy, but it prevents tyranny."
+  },
+  "fun_fact": {
+    "text": "James Madison explained why we need three separate branches in one perfect line in Federalist Paper No. 51 (1788): 'If men were angels, no government would be necessary.' His point: people aren't perfect, so power needs to check power. Split government in three, and no single piece can get too strong.",
+    "source_url": "https://constitutioncenter.org/education/classroom-resource-library/classroom/6.5-primary-source-james-madison-federalist-no-51-1788",
+    "source_verified": true
+  },
+  "concept_ids": ["separation_of_powers", "checks_and_balances", "limited_government"],
+  "term_ids": ["separation_of_powers", "checks_and_balances", "constitution"],
+  "thread_ids": ["three_branches", "limited_government"],
+  "media": { "audio": {} }
+}

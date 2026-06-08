@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "id": 100,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Name one war fought by the United States in the 1900s.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "World War I", "key_elements": ["world war i", "world war 1", "wwi"] },
+    { "text": "World War II", "key_elements": ["world war ii", "world war 2", "wwii"] },
+    { "text": "Korean War", "key_elements": ["korean war", "korea"] },
+    { "text": "Vietnam War", "key_elements": ["vietnam war", "vietnam"] },
+    { "text": "(Persian) Gulf War", "key_elements": ["gulf war", "persian gulf"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The 1900s were the most warring century in American history. The U.S. fought 5 major wars: WWI (1917-1918) and WWII (1941-1945) made America a world power. Korea (1950-1953) and Vietnam (1955-1975) were Cold War conflicts to stop communism. The Persian Gulf War (1990-1991) defended Kuwait from Iraq. Each shaped the country in lasting ways."
+  },
+  "fun_fact": {
+    "text": "World War I ended at the 11th hour of the 11th DAY of the 11th month — November 11, 1918, at 11:00 AM. Americans celebrated that date as Armistice Day for decades. After World War II and Korea, Congress renamed it Veterans Day in 1954 to honor everyone who's served. That's why Veterans Day is November 11.",
+    "source_url": "https://www.archives.gov/news/topics/wwi-100",
+    "source_verified": true
+  },
+  "concept_ids": ["1900s_wars", "veterans_day", "world_war_i", "world_war_ii", "cold_war"],
+  "term_ids": ["world_war_i", "world_war_ii", "korean_war", "vietnam_war", "gulf_war", "veterans_day", "armistice_day"],
+  "thread_ids": ["1900s", "american_wars"],
+  "media": { "audio": {} }
+}

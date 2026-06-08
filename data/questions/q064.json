@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 64,
+  "section": "American Government",
+  "subsection": "Rights and Responsibilities",
+  "is_starred": false,
+  "question_text": "Who can vote in federal elections, run for federal office, and serve on a jury in the United States?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Citizens", "key_elements": ["citizens"] },
+    { "text": "Citizens of the United States", "key_elements": ["citizens", "united states"] },
+    { "text": "U.S. citizens", "key_elements": ["u.s. citizens", "us citizens"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Some rights — like free speech and religion — belong to everyone in the United States. But three specific civic powers belong only to citizens: voting in federal elections, running for federal office, and serving on a jury. These are how citizens shape the government. They're the reason becoming a citizen matters."
+  },
+  "fun_fact": {
+    "text": "After a person becomes a U.S. citizen through naturalization, they have nearly all the same rights as someone born here: voting, jury duty, running for Congress, even being a Supreme Court Justice. The Constitution sets aside just one job for natural-born citizens — President of the United States.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artII-S1-C5-1/ALDE_00013692/",
+    "source_verified": true
+  },
+  "concept_ids": ["citizenship", "rights_responsibilities", "voting_rights"],
+  "term_ids": ["citizen", "naturalization", "natural_born_citizen", "jury"],
+  "thread_ids": ["citizenship", "voting_rights"],
+  "media": { "audio": {} }
+}

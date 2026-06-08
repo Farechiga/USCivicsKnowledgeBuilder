@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 47,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "What does the President's Cabinet do?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Advises the President (of the United States)",
+      "key_elements": ["advises", "president"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Cabinet brings experts together to advise the President on the country's biggest issues. Each member runs a major department, so they know their area in depth. When the President faces a hard choice — go to war, fix the economy, respond to a disaster — the Cabinet is where the conversation usually happens."
+  },
+  "fun_fact": {
+    "text": "The Cabinet isn't actually in the Constitution! The Convention debated adding a 'Council of State' to advise the President but rejected it. Article II only lets the President ask for 'Opinions in writing' from department heads. Washington found that too slow and started holding in-person meetings in 1791 — inventing the Cabinet we know today.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artII-S2-C1-2/ALDE_00013694/",
+    "source_verified": true
+  },
+  "concept_ids": ["executive_branch", "cabinet", "constitutional_silence"],
+  "term_ids": ["president", "executive_branch", "cabinet"],
+  "thread_ids": ["presidency", "founding_decisions"],
+  "media": { "audio": {} }
+}

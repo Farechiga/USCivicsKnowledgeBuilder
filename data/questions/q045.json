@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 45,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Who appoints federal judges?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "The President (of the United States)",
+      "key_elements": ["president"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The President picks federal judges — including Supreme Court Justices — but the Senate must confirm them. That partnership is one of the Constitution's clearest checks. And because federal judges serve for life, the President's choices can shape American law long after the President's own term ends."
+  },
+  "fun_fact": {
+    "text": "Federal judges aren't elected — they're picked by the President, confirmed by the Senate, and then serve for life (unless they resign or are impeached). So a president's judicial picks can outlast their own term by decades. Justice Clarence Thomas, appointed in 1991, has served 35 years and counting.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artIII-S1-10-2-1/ALDE_00000684/",
+    "source_verified": true
+  },
+  "concept_ids": ["judicial_branch", "checks_and_balances", "good_behavior_clause"],
+  "term_ids": ["president", "federal_judge", "supreme_court"],
+  "thread_ids": ["presidency", "judicial_branch"],
+  "media": { "audio": {} }
+}

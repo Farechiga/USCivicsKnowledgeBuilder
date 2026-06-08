@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 82,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "question_text": "What founding document was written in 1787?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "(U.S.) Constitution", "key_elements": ["constitution", "u.s. constitution"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Constitution was written in Philadelphia in the summer of 1787 and is still the supreme law of the land today — over 235 years later. It's the oldest written national constitution still in use anywhere in the world. Every American law, every court ruling, every action of the federal government has to fit within it."
+  },
+  "fun_fact": {
+    "text": "The Convention was called in 1787 just to fix the broken Articles of Confederation. Instead, the delegates secretly threw the Articles out and wrote a brand-new Constitution. They kept the windows closed in summer heat so no one outside could hear. They knew they were exceeding their authority — and did it anyway.",
+    "source_url": "https://www.archives.gov/publications/prologue/2002/fall/archivist.html",
+    "source_verified": true
+  },
+  "concept_ids": ["constitution", "constitutional_convention", "founding_era"],
+  "term_ids": ["constitution", "constitutional_convention", "articles_of_confederation", "philadelphia"],
+  "thread_ids": ["founding_era", "constitution"],
+  "media": { "audio": {} }
+}

@@ -41,7 +41,8 @@
   /* ---------- top bar ---------- */
   .top{padding:22px 22px 10px;display:flex;flex-direction:column;gap:16px;flex:0 0 auto}
   .brand{display:flex;align-items:center;gap:10px}
-  .brand .dot{width:11px;height:11px;border-radius:50%;background:var(--red)}
+  .brand .logo{width:38px;height:38px;object-fit:contain;flex:0 0 auto;
+               filter:drop-shadow(0 2px 5px rgba(0,0,0,.35))}
   .brand h1{font-family:var(--display);font-weight:600;font-size:20px;letter-spacing:.2px}
   .brand .sub{margin-left:auto;font-size:12px;color:var(--slate);font-weight:600;letter-spacing:.14em;text-transform:uppercase}
 
@@ -167,7 +168,7 @@
 <div class="phone">
   <div class="top">
     <div class="brand">
-      <span class="dot"></span>
+      <img class="logo" src="../assets/America250_logo.png" alt="America 250 mascot" width="38" height="38">
       <h1>Keep&nbsp;It</h1>
       <span class="sub" id="modeName">Drive</span>
     </div>

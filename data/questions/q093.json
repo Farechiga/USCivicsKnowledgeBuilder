@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "id": 93,
+  "section": "American History",
+  "subsection": "1800s",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "The Civil War had many important events. Name one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Emancipation Proclamation", "key_elements": ["emancipation proclamation"] },
+    { "text": "(Battle of) Gettysburg", "key_elements": ["gettysburg"] },
+    { "text": "Sherman's March", "key_elements": ["sherman", "march"] },
+    { "text": "(Surrender at) Appomattox", "key_elements": ["appomattox", "surrender"] },
+    { "text": "Lincoln was assassinated.", "key_elements": ["lincoln", "assassinated"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The Civil War lasted 4 years and changed everything about the country. Fort Sumter started it. Gettysburg and Vicksburg turned the tide. The Emancipation Proclamation made it a war against slavery. Sherman's March broke the Confederacy. Appomattox ended it. Lincoln's assassination cast a shadow over the peace. Each event mattered."
+  },
+  "fun_fact": {
+    "text": "When General Lee from the Sourthern Confederate Army surrendered to General Grant of the Northern Union Army at Appomattox in April 1865, Grant gave shockingly generous terms: Confederate officers could kept their sidearms, soldiers kept their horses to plant spring crops, and Lee left wearing his sword. After 4 years of brutal war, Grant chose grace over revenge — and helped a torn country begin to come back together.",
+    "source_url": "https://www.archives.gov/exhibits/american_originals/parole.html",
+    "source_verified": true
+  },
+  "concept_ids": ["civil_war", "appomattox", "ulysses_grant", "robert_e_lee", "reconciliation"],
+  "term_ids": ["civil_war", "appomattox", "ulysses_grant", "robert_e_lee", "confederacy", "union"],
+  "thread_ids": ["1800s", "civil_war"],
+  "media": { "audio": {} }
+}

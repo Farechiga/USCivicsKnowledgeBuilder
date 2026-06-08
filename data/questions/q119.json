@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 119,
+  "section": "Symbols and Holidays",
+  "subsection": "Symbols",
+  "is_starred": false,
+  "question_text": "What is the capital of the United States?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Washington, D.C.", "key_elements": ["washington", "d.c.", "dc"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The U.S. capital is Washington, D.C. stands for the District of Columbia. It's not in any state — it's a separate federal district, so no state controls the federal government. Designed in 1791 by French engineer Pierre L'Enfant with diagonal avenues named for states. Home to Congress, the White House, and the Supreme Court."
+  },
+  "fun_fact": {
+    "text": "Before settling in Washington, D.C. in 1800, the U.S. capital moved 8 times. Earlier capitals included Philadelphia, New York City, Princeton New Jersey, Annapolis, Trenton, Baltimore, and York Philadelphia. George Washington, the city's namesake, never lived there. He died in 1799, a year before the capital opened.",
+    "source_url": "https://www.senate.gov/reference/reference_item/Nine_Capitals_of_the_United_States.htm",
+    "source_verified": true
+  },
+  "concept_ids": ["capital", "washington_dc", "federal_district"],
+  "term_ids": ["washington_dc", "potomac_river", "lenfant", "federal_district"],
+  "thread_ids": ["symbols", "founding"],
+  "media": { "audio": {} }
+}

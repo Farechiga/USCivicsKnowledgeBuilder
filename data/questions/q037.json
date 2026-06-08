@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 37,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "The President of the United States can serve only two terms. Why?",
+  "lead_in": "Either of these works (you only need one):",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "(Because of) the 22nd Amendment",
+      "key_elements": ["22nd", "amendment"]
+    },
+    {
+      "text": "To keep the president from becoming too powerful",
+      "key_elements": ["too powerful"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Two terms is enough time for a president to govern, but not so long that they become a permanent ruler. The limit is a deliberate guardrail against the kind of one-person power the colonists rebelled against. It keeps the presidency — even with all its power — temporary, accountable, and democratic."
+  },
+  "fun_fact": {
+    "text": "George Washington could have ruled for life — but chose to step down after 8 years. His example held for 144 years. Then Franklin D. Roosevelt broke it, winning 4 terms during the Depression and WWII. After he died in office, Congress proposed the 22nd Amendment to lock in the two-term limit. Ratified 1951.",
+    "source_url": "https://www.archives.gov/exhibits/running-for-office/larger-image.php?image=44.1",
+    "source_verified": true
+  },
+  "concept_ids": ["constitutional_amendments", "term_limits", "executive_branch"],
+  "term_ids": ["president", "amendment", "term"],
+  "thread_ids": ["presidency", "checks_and_balances"],
+  "media": { "audio": {} }
+}

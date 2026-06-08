@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "id": 13,
+  "section": "American Government",
+  "subsection": "Principles of American Government",
+  "is_starred": false,
+  "question_text": "What is the rule of law?",
+  "lead_in": "You only need to give one. Any of these works:",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Everyone must follow the law.",
+      "key_elements": ["everyone", "follow"]
+    },
+    {
+      "text": "Leaders must obey the law.",
+      "key_elements": ["leaders", "obey"]
+    },
+    {
+      "text": "Government must obey the law.",
+      "key_elements": ["government", "obey"]
+    },
+    {
+      "text": "No one is above the law.",
+      "key_elements": ["no one", "above"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Rule of law means the laws apply to everyone — including the most powerful. The president must follow the same rules as a school teacher. A senator can be sued. Without this idea, leaders do whatever they want. With it, no one can use their power to hurt people unfairly."
+  },
+  "fun_fact": {
+    "text": "John Adams wrote one of the most famous phrases in American law — 'a government of laws, and not of men.' But he didn't write it for the U.S. Constitution. He wrote it for the Massachusetts state constitution, which he drafted years before the federal Constitution even existed. Leaders still quote his line today.",
+    "source_url": "https://billofrightsinstitute.org/activities/establishing-a-government-of-laws-not-men-handout-a-narrative/",
+    "source_verified": true
+  },
+  "concept_ids": ["rule_of_law", "limited_government"],
+  "term_ids": ["rule_of_law", "constitution"],
+  "thread_ids": ["enduring_principles", "limited_government"],
+  "media": { "audio": {} }
+}

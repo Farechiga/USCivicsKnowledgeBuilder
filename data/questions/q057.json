@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "id": 57,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Who is the Chief Justice of the United States now?",
+  "answer_type": "dynamic_lookup",
+  "official_answers": [
+    {
+      "text": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.",
+      "key_elements": []
+    }
+  ],
+  "dynamic": {
+    "lookup": "uscis_testupdates",
+    "current_value": "John Roberts",
+    "last_verified": "2026-06-07",
+    "source_url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/check-for-test-updates"
+  },
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Chief Justice leads the Supreme Court — the highest court in America. They preside when the Court hears cases, swear in the President at every inauguration, and lead the federal court system. It's a lifetime appointment, so a Chief Justice can shape American law for decades."
+  },
+  "fun_fact": {
+    "text": "In the entire U.S. Constitution, the Chief Justice is mentioned by name just one time. Article I says: 'When the President of the United States is tried, the Chief Justice shall preside.' That's it. The most important judge in America is barely described in the founding document — almost everything about the role developed over time.",
+    "source_url": "https://constitution.congress.gov/browse/article-1/section-3/clause-6/",
+    "source_verified": true
+  },
+  "concept_ids": ["judicial_branch", "supreme_court", "impeachment"],
+  "term_ids": ["chief_justice", "supreme_court", "judicial_branch"],
+  "thread_ids": ["judicial_branch", "checks_and_balances"],
+  "media": { "audio": {} }
+}

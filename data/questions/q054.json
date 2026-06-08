@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 54,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "How many Supreme Court justices are usually needed to decide a case?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Five (5)",
+      "key_elements": ["five", "5"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Five out of nine is a simple majority — the smallest number of justices who can make a ruling stick. That's why so many of the biggest Supreme Court decisions are 5-4 splits. A single vote can shape the law for generations. The Court's decisions aren't always unanimous, but the majority rules."
+  },
+  "fun_fact": {
+    "text": "Five of the nine justices need to agree to make a ruling stick. But what if they tie 4-4? That happens when a seat is vacant or a justice steps aside. In that case, the lower court's decision is upheld — but no nationwide precedent is set. After Justice Scalia's death in 2016, several major cases ended in 4-4 ties.",
+    "source_url": "https://www.congress.gov/crs-product/IF13166",
+    "source_verified": true
+  },
+  "concept_ids": ["supreme_court", "judicial_branch", "voting"],
+  "term_ids": ["supreme_court", "judicial_branch"],
+  "thread_ids": ["judicial_branch"],
+  "media": { "audio": {} }
+}

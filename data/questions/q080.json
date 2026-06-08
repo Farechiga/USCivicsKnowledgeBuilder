@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 80,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "The American Revolution had many important events. Name one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "(Battle of) Bunker Hill", "key_elements": ["bunker hill"] },
+    { "text": "Declaration of Independence", "key_elements": ["declaration of independence"] },
+    { "text": "Washington Crossing the Delaware (Battle of Trenton)", "key_elements": ["washington", "delaware", "trenton"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Revolution wasn't won in a single battle. It was years of small victories, brutal defeats, and near-disasters. Bunker Hill proved Americans could fight. The Declaration of Independence gave them a reason to fight. Saratoga and Valley Forge tested whether they could keep fighting. Yorktown finally won the war."
+  },
+  "fun_fact": {
+    "text": "On Christmas night 1776, Washington led 2,400 freezing soldiers across the icy Delaware River in a snowstorm. They marched 9 miles to surprise the Hessians (German mercenary fighters) soldiers at Trenton early the next morning. The Continental Army was nearly destroyed at that point. The victory saved the Revolution.",
+    "source_url": "https://www.loc.gov/collections/george-washington-papers/articles-and-essays/timeline/the-american-revolution/",
+    "source_verified": true
+  },
+  "concept_ids": ["american_revolution", "founding_era", "george_washington"],
+  "term_ids": ["george_washington", "continental_army", "trenton", "yorktown", "valley_forge"],
+  "thread_ids": ["american_revolution", "founding_era"],
+  "media": { "audio": {} }
+}

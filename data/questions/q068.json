@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 68,
+  "section": "American Government",
+  "subsection": "Rights and Responsibilities",
+  "is_starred": false,
+  "lead_in": "There are three ways. Any one is correct:",
+  "question_text": "How can people become United States citizens?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Be born in the United States, under the conditions set by the 14th Amendment", "key_elements": ["born", "united states", "14th amendment"] },
+    { "text": "Naturalize", "key_elements": ["naturalize", "naturalization"] },
+    { "text": "Derive citizenship (under conditions set by Congress)", "key_elements": ["derive", "parents"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "There are three paths to U.S. citizenship: being born here (under the 14th Amendment), going through naturalization (taking the Oath, like Q67), or deriving it from a parent who naturalizes. Most people become citizens just by being born; some choose it through years of paperwork and study. All three paths lead to the same status: full American citizen."
+  },
+  "fun_fact": {
+    "text": "The 14th Amendment (1868) is the source of birthright citizenship. It was added right after the Civil War to overturn the Supreme Court's Dred Scott decision (1857), which had ruled that Black people couldn't be U.S. citizens. The 14th made it constitutional law: anyone born in the U.S. is a citizen. Period.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artIV-S2-C1-5/ALDE_00013781/",
+    "source_verified": true
+  },
+  "concept_ids": ["citizenship", "fourteenth_amendment", "birthright_citizenship"],
+  "term_ids": ["citizen", "naturalization", "fourteenth_amendment", "derived_citizenship"],
+  "thread_ids": ["citizenship", "civil_war_amendments"],
+  "media": { "audio": {} }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 36,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": true,
+  "question_text": "The President of the United States is elected for how many years?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Four (4) years",
+      "key_elements": ["four", "years"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Four years gives a president enough time to actually accomplish something — but not so long that voters lose their power to change course. The Founders specifically designed it to balance effectiveness with accountability."
+  },
+  "fun_fact": {
+    "text": "The Founders argued for months over how long the president should serve. Proposals ranged from 3 to 15 years — and even 'during Good Behavior' (a polite way to say for life). One delegate sarcastically proposed 20 years, 'the medium life of princes.' In late August 1787, they finally settled on 4.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artII-S1-C1-9/ALDE_00013597/",
+    "source_verified": true
+  },
+  "concept_ids": ["executive_branch", "checks_and_balances", "founding_debates"],
+  "term_ids": ["president", "executive_branch", "term"],
+  "thread_ids": ["presidency", "founding_debates"],
+  "media": { "audio": {} }
+}

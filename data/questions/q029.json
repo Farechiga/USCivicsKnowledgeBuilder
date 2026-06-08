@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "id": 29,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Name your U.S. representative.",
+  "disambiguation": "Residents of U.S. territories with nonvoting Delegates or Resident Commissioners may name that Delegate or Commissioner. It's also acceptable to state that the territory has no voting representatives in Congress.",
+  "answer_type": "dynamic_lookup",
+  "official_answers": [
+    {
+      "text": "Answers will vary by congressional district.",
+      "key_elements": []
+    }
+  ],
+  "dynamic": {
+    "lookup": "us_representative",
+    "current_value": "Democrat, Kelly Morrison",
+    "last_verified": "2026-06-07",
+    "source_url": "https://www.house.gov/representatives/find-your-representative"
+  },
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Your representative is your closest voice in the federal government. They represent your specific district — usually a smaller area than your senators cover. You're more likely to meet them at a town hall or get their staff's help with a federal problem. Knowing who they are matters."
+  },
+  "fun_fact": {
+    "text": "In 1790, each House member represented about 30,000 people. Today, the average representative speaks for over 700,000 people — about 25 times more. The House is the same size (435), but the country has grown enormously. So your representative carries 25 times the weight of one in 1789.",
+    "source_url": "https://history.house.gov/Institution/Origins-Development/Proportional-Representation/",
+    "source_verified": true
+  },
+  "concept_ids": ["representation", "proportional_representation", "apportionment"],
+  "term_ids": ["representative", "house_of_representatives", "congressional_district"],
+  "thread_ids": ["congress_structure", "representation", "civic_participation"],
+  "media": { "audio": {} }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 12,
+  "section": "American Government",
+  "subsection": "Principles of American Government",
+  "is_starred": true,
+  "question_text": "What is the economic system of the United States?",
+  "lead_in": "Either answer works:",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Capitalism",
+      "key_elements": ["capitalism"]
+    },
+    {
+      "text": "Free market economy",
+      "key_elements": ["free market"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "In a free market economy, people decide what to make, buy, and sell — not the government. You can start a business, own property, and keep what you earn. That freedom is what let American companies — from corner stores to Apple — get invented by ordinary people."
+  },
+  "fun_fact": {
+    "text": "The U.S. Constitution never uses the words 'capitalism' or 'free market' — those terms came later. But Article I, Section 8 set the foundation: it gave inventors and writers exclusive rights to their own creations. That made the U.S. the first country to put inventor rights into its national constitution.",
+    "source_url": "https://www.archives.gov/founding-docs/constitution",
+    "source_verified": true
+  },
+  "concept_ids": ["free_market", "patent_clause", "limited_government"],
+  "term_ids": ["capitalism", "free_market", "constitution"],
+  "thread_ids": ["economic_foundations", "constitutional_powers"],
+  "media": { "audio": {} }
+}

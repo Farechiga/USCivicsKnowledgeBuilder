@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "id": 62,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "What is the capital of your state?",
+  "answer_type": "dynamic_lookup",
+  "official_answers": [
+    {
+      "text": "Saint Paul",
+      "key_elements": ["saint paul", "st paul", "st. paul"]
+    }
+  ],
+  "dynamic": {
+    "lookup": "state_capital",
+    "current_value": "Saint Paul",
+    "last_verified": "2026-06-07",
+    "source_url": "https://mn.gov/portal/"
+  },
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "A state's capital is where state laws are made and state government runs. Saint Paul has been Minnesota's capital since 1849 — even before Minnesota became a state in 1858. Knowing your state capital connects you to the place where decisions about Minnesota's schools, roads, taxes, and laws actually get made."
+  },
+  "fun_fact": {
+    "text": "The Minnesota State Capitol in Saint Paul was designed by Cass Gilbert, a young architect from St. Paul. He finished it in 1905. He did such a good job that 30 years later, he was hired to design an even bigger building: the U.S. Supreme Court building in Washington, D.C. Same architect, both buildings, marble and dome and all.",
+    "source_url": "https://www.si.edu/object/archives/sova-nmah-ac-0214",
+    "source_verified": true
+  },
+  "concept_ids": ["state_government", "federalism", "minnesota_history"],
+  "term_ids": ["state_capital", "state_government"],
+  "thread_ids": ["federalism", "minnesota"],
+  "media": { "audio": {} }
+}

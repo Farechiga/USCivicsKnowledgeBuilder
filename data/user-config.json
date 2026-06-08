@@ -1,0 +1,14 @@
+{
+  "user": { "state": "MN", "state_full": "Minnesota", "congressional_district": "MN-3" },
+  "current_officials": {
+    "us_senators": ["<senator 1>", "<senator 2>"],
+    "us_representative": "<rep for MN-3>",
+    "state_governor": "<MN governor>",
+    "state_capital": "Saint Paul",
+    "speaker_of_house": "<current Speaker>",
+    "vice_president": "<current VP>",
+    "president": "<current President>",
+    "chief_justice": "<current Chief Justice>"
+  },
+  "last_verified": "2026-06-07"
+}

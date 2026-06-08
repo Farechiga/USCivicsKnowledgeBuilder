@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 121,
+  "section": "Symbols and Holidays",
+  "subsection": "Symbols",
+  "is_starred": true,
+  "lead_in": "Either of these works:",
+  "question_text": "Why does the flag have 13 stripes?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "(Because there were) 13 original colonies", "key_elements": ["13 original colonies", "13 colonies"] },
+    { "text": "(Because the stripes) represent the original colonies", "key_elements": ["represent", "original colonies"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The flag's 13 stripes (7 red, 6 white) represent the original 13 colonies that declared independence from Britain in 1776 and became the first U.S. states from New York down to Georgia along the Atlantic coast. The stripes honor America's founding moment, when 13 separate colonies became one nation."
+  },
+  "fun_fact": {
+    "text": "The first U.S. flag (1777) had 13 stripes AND 13 stars. When Vermont and Kentucky joined, Congress added 2 more of each — the 1795 flag had 15 STRIPES and 15 stars. In 1818, Congress realized they couldn't keep adding stripes forever. They fixed it: 13 stripes PERMANENTLY (for the original colonies), one star per state — forever.",
+    "source_url": "https://www.loc.gov/classroom-materials/symbols-of-the-united-states/",
+    "source_verified": true
+  },
+  "concept_ids": ["american_flag", "original_colonies", "stars_and_stripes"],
+  "term_ids": ["american_flag", "stars_and_stripes", "original_colonies", "flag_day"],
+  "thread_ids": ["symbols", "founding"],
+  "media": { "audio": {} }
+}

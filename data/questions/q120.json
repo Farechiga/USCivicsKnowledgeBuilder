@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 120,
+  "section": "Symbols and Holidays",
+  "subsection": "Symbols",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Where is the Statue of Liberty?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "New York (Harbor)", "key_elements": ["new york", "harbor"] },
+    { "text": "Liberty Island", "key_elements": ["liberty island"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Statue of Liberty stands on Liberty Island in New York Harbor, visible from both New York and New Jersey. For over 130 years, she was the first sight millions of immigrants saw arriving by ship. Emma Lazarus's poem on her pedestal: 'Give me your tired, your poor, Your huddled masses yearning to breathe free.' A universal symbol of freedom."
+  },
+  "fun_fact": {
+    "text": "The Statue of Liberty was a gift from France, dedicated October 28, 1886. Sculptor Frédéric Bartholdi designed her. The iron framework was designed by Gustave Eiffel — yes, the same engineer who built the Eiffel Tower in Paris. She arrived in 350 pieces. Originally shiny copper-colored like a new penny, she turned green from oxidation.",
+    "source_url": "https://blogs.loc.gov/law/2020/06/statue-of-liberty-replica-pic-of-the-week/",
+    "source_verified": true
+  },
+  "concept_ids": ["statue_of_liberty", "immigration", "france_us_friendship"],
+  "term_ids": ["statue_of_liberty", "liberty_island", "bartholdi", "eiffel", "emma_lazarus"],
+  "thread_ids": ["symbols", "immigration"],
+  "media": { "audio": {} }
+}

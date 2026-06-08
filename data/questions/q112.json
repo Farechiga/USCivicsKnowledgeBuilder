@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 112,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "question_text": "What did the civil rights movement do?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Fought to end racial discrimination", "key_elements": ["end", "racial discrimination"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The civil rights movement (roughly 1954-1968) used nonviolent protest, lawsuits, and moral persuasion to dismantle America's system of racial segregation, which means social practices to keep black citizens separate. It won the Civil Rights Act of 1964 (banning segregation in public places) and the Voting Rights Act of 1965 (finally enforcing what the 15th Amendment promised in 1870)."
+  },
+  "fun_fact": {
+    "text": "On December 1, 1955, 42-year-old Rosa Parks refused to give up her seat on a Montgomery bus. She was arrested. The Black community organized a bus boycott — they walked and carpooled for 381 DAYS. The Supreme Court ended bus segregation. The boycott introduced the world to a 26-year-old minister: Martin Luther King Jr.",
+    "source_url": "https://www.archives.gov/education/lessons/rosa-parks",
+    "source_verified": true
+  },
+  "concept_ids": ["civil_rights_movement", "rosa_parks", "martin_luther_king", "racial_segregation"],
+  "term_ids": ["civil_rights_movement", "rosa_parks", "martin_luther_king", "racial_segregation", "civil_rights_act", "voting_rights_act"],
+  "thread_ids": ["1900s", "civil_rights"],
+  "media": { "audio": {} }
+}

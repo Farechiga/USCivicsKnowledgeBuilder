@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 28,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Why does each state have two senators?",
+  "lead_in": "Either answer works:",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Equal representation (for small states)",
+      "key_elements": ["equal representation"]
+    },
+    {
+      "text": "The Great Compromise (Connecticut Compromise)",
+      "key_elements": ["Great Compromise", "Connecticut Compromise"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "If senators were assigned by population, big states would dominate the Senate the same way they dominate the House. Small states feared that. The compromise — equal Senate representation — was the only way to keep small states in the Union. Without it, there might be no United States."
+  },
+  "fun_fact": {
+    "text": "James Madison — the 'Father of the Constitution' — actually opposed giving each state two senators. He wanted representation in both chambers based on population, so big states would have more votes. Madison lost the fight. The small states won. That compromise still shapes who has power in Washington today.",
+    "source_url": "https://constitutioncenter.org/the-constitution/white-papers/the-constitutional-convention-of-1787-a-revolution-in-government",
+    "source_verified": true
+  },
+  "concept_ids": ["great_compromise", "equal_representation", "founding_compromises"],
+  "term_ids": ["senate", "senator", "great_compromise"],
+  "thread_ids": ["congress_structure", "founding_compromises"],
+  "media": { "audio": {} }
+}

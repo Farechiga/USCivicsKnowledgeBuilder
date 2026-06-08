@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 116,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Name one U.S. military conflict after the September 11, 2001 attacks.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "(Global) War on Terror", "key_elements": ["war on terror"] },
+    { "text": "War in Afghanistan", "key_elements": ["afghanistan"] },
+    { "text": "War in Iraq", "key_elements": ["iraq"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "After 9/11, the U.S. launched the 'Global War on Terror.' The War in Afghanistan (2001-2021) targeted al-Qaeda and the Taliban government that sheltered them. It became one of America's longest wars along with Vietnam — lasting 20 years. The War in Iraq (2003-2011) overthrew Saddam Hussein but found no weapons of mass destruction. Over 7,000 U.S. troops died in the two wars combined."
+  },
+  "fun_fact": {
+    "text": "On May 1, 2011 — nearly 10 years after 9/11 — Navy SEAL Team Six raided a compound in Abbottabad, Pakistan. They killed Osama bin Laden, the al-Qaeda leader who planned the 9/11 attacks. Bin Laden had been hiding in a heavily fortified compound just half a mile from Pakistan's main military academy. President Obama announced it that night.",
+    "source_url": "https://obamawhitehouse.archives.gov/blog/2011/05/02/osama-bin-laden-dead/",
+    "source_verified": true
+  },
+  "concept_ids": ["war_on_terror", "afghanistan_war", "iraq_war", "osama_bin_laden"],
+  "term_ids": ["war_on_terror", "afghanistan_war", "iraq_war", "osama_bin_laden", "al_qaeda", "taliban"],
+  "thread_ids": ["2000s", "war_on_terror", "american_wars"],
+  "media": { "audio": {} }
+}

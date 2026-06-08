@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "id": 95,
+  "section": "American History",
+  "subsection": "1800s",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "What did the Emancipation Proclamation do?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Freed the slaves", "key_elements": ["freed the slaves"] },
+    { "text": "Freed slaves in the Confederacy", "key_elements": ["freed slaves", "confederacy"] },
+    { "text": "Freed slaves in the Confederate states", "key_elements": ["freed slaves", "confederate states"] },
+    { "text": "Freed slaves in most Southern states", "key_elements": ["freed slaves", "southern states"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "President Lincoln issued the Emancipation Proclamation on January 1, 1863. It declared that enslaved people in the Confederate states were free, and it transformed the Civil War from a war to save the Union into a war to also end slavery. It opened the door for Black men to fight in the Union Army. Final, full abolition came with the 13th Amendment in 1865."
+  },
+  "fun_fact": {
+    "text": "The Emancipation Proclamation didn't free every enslaved person — only those in the 10 Confederate states still in rebellion. Over 500,000 people stayed enslaved in border states like Kentucky and Maryland. News didn't reach 250,000 enslaved people in Texas until June 19, 1865 — that day became Juneteenth, now a federal holiday.",
+    "source_url": "https://museum.archives.gov/featured-document-display-emancipation-proclamation-and-juneteenth",
+    "source_verified": true
+  },
+  "concept_ids": ["emancipation_proclamation", "slavery", "civil_war", "juneteenth"],
+  "term_ids": ["emancipation_proclamation", "abraham_lincoln", "juneteenth", "slavery", "thirteenth_amendment"],
+  "thread_ids": ["1800s", "civil_war", "slavery"],
+  "media": { "audio": {} }
+}

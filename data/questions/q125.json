@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 125,
+  "section": "Symbols and Holidays",
+  "subsection": "Holidays",
+  "is_starred": false,
+  "lead_in": "Either of these works:",
+  "question_text": "What is Independence Day?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "A holiday to celebrate U.S. independence (from Britain)", "key_elements": ["celebrate", "independence"] },
+    { "text": "The country's birthday", "key_elements": ["country", "birthday"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "July 4 (Independence Day, 'the Fourth of July') celebrates the day the Continental Congress adopted the Declaration of Independence in 1776 — formally breaking from Britain. Americans celebrate with fireworks, parades, BBQs, and family gatherings. It became an official federal holiday in 1870. America's 250th birthday is coming up in 2026."
+  },
+  "fun_fact": {
+    "text": "On July 2, 1776, the Continental Congress voted yes for independence. John Adams wrote his wife Abigail: this day will be celebrated forever with 'Pomp and Parade... Bells, Bonfires and Illuminations.' He was right about everything except the date. Congress finalized the Declaration's wording on July 4 — and that's the day America remembered.",
+    "source_url": "https://www.archives.gov/exhibits/american_originals/declarat.html",
+    "source_verified": true
+  },
+  "concept_ids": ["independence_day", "declaration_of_independence", "july_fourth"],
+  "term_ids": ["independence_day", "declaration_of_independence", "john_adams", "abigail_adams", "continental_congress"],
+  "thread_ids": ["holidays", "founding"],
+  "media": { "audio": {} }
+}

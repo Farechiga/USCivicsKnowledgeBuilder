@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 11,
+  "section": "American Government",
+  "subsection": "Principles of American Government",
+  "is_starred": false,
+  "question_text": "The words \"Life, Liberty, and the pursuit of Happiness\" are in what founding document?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Declaration of Independence",
+      "key_elements": ["Declaration of Independence"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "These words say what American government is for: protecting your right to live, to be free, and to chase what makes you flourish — not just to obey rulers. Most governments at the time existed to serve the king. America said: the state exists to serve YOU."
+  },
+  "fun_fact": {
+    "text": "Jefferson borrowed these three famous ideas from English philosopher John Locke, who originally wrote: 'life, liberty, and property.' Jefferson swapped 'property' for 'pursuit of happiness' — a much bigger promise. Government's job wasn't just to protect what you own, but to help you flourish.",
+    "source_url": "https://constitutioncenter.org/the-constitution/the-declaration-of-independence",
+    "source_verified": false
+  },
+  "concept_ids": ["natural_rights", "pursuit_of_happiness"],
+  "term_ids": ["declaration_of_independence", "natural_rights"],
+  "thread_ids": ["founding_documents", "enduring_principles"],
+  "media": { "audio": {} }
+}

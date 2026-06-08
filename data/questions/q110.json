@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 110,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "question_text": "Why did the United States enter the Korean War?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "To stop the spread of communism", "key_elements": ["stop", "spread", "communism"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "After WWII, Korea was split into a communist North (backed by USSR and China) and an American-backed South. In 1950, North Korea invaded the South. The U.S. led a UN coalition to defend South Korea. About 36,000 Americans died over 3 years. The war ended where it began: with Korea divided at the 38th parallel."
+  },
+  "fun_fact": {
+    "text": "The Korean War (1950-53) ended with an armistice — not a peace treaty. North and South Korea are still technically at war today. The war split one Korean nation into two opposite worlds: South Korea became a thriving democracy and major economy with companies like Samsung, and the K-pop music industry. North Korea is one of the most isolated countries on Earth.",
+    "source_url": "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state",
+    "source_verified": true
+  },
+  "concept_ids": ["korean_war", "cold_war", "communism"],
+  "term_ids": ["korean_war", "communism", "north_korea", "south_korea", "armistice"],
+  "thread_ids": ["1900s", "cold_war", "american_wars"],
+  "media": { "audio": {} }
+}

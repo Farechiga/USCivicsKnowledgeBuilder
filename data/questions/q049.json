@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 49,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "lead_in": "Either of these works (you only need one):",
+  "question_text": "Why is the Electoral College important?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "It decides who is elected president.",
+      "key_elements": ["decides", "president"]
+    },
+    {
+      "text": "The electoral college provides a compromise between the popular election of the president and congressional selection.",
+      "key_elements": ["compromise", "popular", "congressional"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Electoral College is how America actually picks its president. Each state gets electors based on its size in Congress — total 538 nationwide. The system was a compromise: it kept Congress from choosing the president outright, but also avoided a pure national vote the framers feared. It's still how we elect presidents today."
+  },
+  "fun_fact": {
+    "text": "In 1800, the original Electoral College broke. Jefferson and Burr — running mates from the same party! — tied with 73 electoral votes each. The House deadlocked through 35 ballots over five days. On the 36th time voting, Hamilton broke the stalemate by backing Jefferson. The 12th Amendment (1804) fixed the system so a tie like that couldn't happen again.",
+    "source_url": "https://www.archives.gov/legislative/features/1800-election/1800-election.html",
+    "source_verified": true
+  },
+  "concept_ids": ["electoral_college", "constitutional_amendments", "presidential_election"],
+  "term_ids": ["electoral_college", "president", "amendment"],
+  "thread_ids": ["presidency", "founding_decisions"],
+  "media": { "audio": {} }
+}

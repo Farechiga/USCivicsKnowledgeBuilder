@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "id": 10,
+  "section": "American Government",
+  "subsection": "Principles of American Government",
+  "is_starred": false,
+  "question_text": "Name two important ideas from the Declaration of Independence and the U.S. Constitution.",
+  "lead_in": "Six big ideas appear in both documents — name any two:",
+  "answer_type": "choose_n",
+  "n_required": 2,
+  "official_answers": [
+    { "text": "Equality", "key_elements": ["equality"] },
+    { "text": "Liberty", "key_elements": ["liberty"] },
+    { "text": "Social contract", "key_elements": ["social contract"] },
+    { "text": "Natural rights", "key_elements": ["natural rights"] },
+    { "text": "Limited government", "key_elements": ["limited government"] },
+    { "text": "Self-government", "key_elements": ["self-government", "self government"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "These ideas weren't normal at the time. Most countries were ruled by kings who claimed God put them in charge. The American documents said the opposite: power comes from people, government is limited, and rights belong to everyone. That was the radical bet."
+  },
+  "fun_fact": {
+    "text": "When colonists said power comes from 'the consent of the governed,' they flipped centuries of European thinking upside down. Most kings claimed God put them in charge. Americans said: actually, you only get to lead if we let you. That single idea changed how the world thinks about government.",
+    "source_url": "https://constitutioncenter.org/the-constitution/the-declaration-of-independence",
+    "source_verified": false
+  },
+  "concept_ids": ["natural_rights", "consent_of_the_governed", "limited_government"],
+  "term_ids": ["consent_of_the_governed", "social_contract", "self_government", "natural_rights"],
+  "thread_ids": ["enduring_principles", "founding_documents"],
+  "media": { "audio": {} }
+}

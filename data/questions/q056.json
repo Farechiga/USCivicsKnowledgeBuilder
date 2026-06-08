@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 56,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "lead_in": "Either of these works (you only need one):",
+  "question_text": "Supreme Court justices serve for life. Why?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "To be independent (of politics)",
+      "key_elements": ["independent"]
+    },
+    {
+      "text": "To limit outside (political) influence",
+      "key_elements": ["limit", "influence"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Judicial independence is the whole point of life tenure. If justices could be fired for making unpopular rulings, they'd hesitate to defend the Constitution against angry presidents or powerful majorities. Serving for life means they can make tough calls based on the law — not on what's popular this year or which party is in power."
+  },
+  "fun_fact": {
+    "text": "In Federalist 78, Alexander Hamilton called the judiciary 'the least dangerous branch' — judges have 'neither force nor will, but merely judgment.' They control no army, no budget. So why protect them with lifetime jobs? Because their only real power is to interpret the law fairly. If they could be fired for unpopular rulings, that power would be worthless.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artIII-S2-C1-2/ALDE_00001243/",
+    "source_verified": true
+  },
+  "concept_ids": ["judicial_independence", "judicial_branch", "separation_of_powers"],
+  "term_ids": ["supreme_court", "judicial_branch", "federal_judge"],
+  "thread_ids": ["judicial_branch", "checks_and_balances", "founding_principles"],
+  "media": { "audio": {} }
+}

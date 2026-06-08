@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 7,
+  "section": "American Government",
+  "subsection": "Principles of American Government",
+  "is_starred": true,
+  "question_text": "How many amendments does the U.S. Constitution have?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Twenty-seven (27)",
+      "key_elements": ["27"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Constitution is hard to change on purpose. In over 230 years, Americans have agreed to update it just 27 times. Hard enough to protect the rules; possible enough to fix them when something really must change."
+  },
+  "fun_fact": {
+    "text": "In 1982, a UT Austin sophomore named Gregory Watson wrote a paper arguing a forgotten amendment from 1789 could still be ratified. His professor gave him a C. He spent the next ten years pushing states to vote on it — and that C-grade paper became the 27th Amendment.",
+    "source_url": "https://constitutioncenter.org/blog/today-in-1992-27th-amendment-takes-effect",
+    "source_verified": true
+  },
+  "concept_ids": ["amendment_process", "limited_government"],
+  "term_ids": ["amendment", "constitution", "ratification"],
+  "thread_ids": ["constitution_changes"],
+  "media": { "audio": {} }
+}

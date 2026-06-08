@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "id": 77,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Any one of these reasons works (you only need one):",
+  "question_text": "Name one reason why the Americans declared independence from Britain.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Taxation without representation", "key_elements": ["taxation", "representation"] },
+    { "text": "They did not have self-government", "key_elements": ["self-government"] },
+    { "text": "Boston Massacre", "key_elements": ["boston massacre"] },
+    { "text": "Boston Tea Party (Tea Act)", "key_elements": ["boston tea party", "tea act"] }
+
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Americans didn't break away over a single thing, it was years of frustration: taxes they couldn't vote on, soldiers in their houses, laws they had no say in. The deepest reason was a principle: a free people should govern themselves. When Britain refused to listen, the colonists decided to make their own country. That principle still anchors America."
+  },
+  "fun_fact": {
+    "text": "On the night of December 16, 1773, about 100 colonists disguised as Mohawk Indians snuck onto British ships in Boston Harbor and dumped 342 chests of tea overboard. The protest had a slogan: 'No taxation without representation.' Britain's furious response — the Intolerable Acts — pushed the colonies one step closer to revolution.",
+    "source_url": "https://blogs.loc.gov/law/2023/12/the-250th-anniversary-of-the-boston-tea-party/",
+    "source_verified": true
+  },
+  "concept_ids": ["american_revolution", "taxation_without_representation", "self_government"],
+  "term_ids": ["boston_tea_party", "stamp_act", "townshend_acts", "intolerable_acts", "boston_massacre"],
+  "thread_ids": ["american_revolution", "founding_era"],
+  "media": { "audio": {} }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 97,
+  "section": "American History",
+  "subsection": "1800s",
+  "is_starred": false,
+  "question_text": "What amendment says all persons born or naturalized in the United States, and subject to the jurisdiction thereof, are U.S. citizens?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "14th Amendment", "key_elements": ["14th amendment", "fourteenth amendment"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The 14th Amendment (1868) established birthright citizenship — anyone born here is a U.S. citizen. It also guarantees 'equal protection of the laws' to every person. This amendment has been used to end school segregation, protect interracial marriage, and expand civil rights for 150+ years. It's one of the most powerful sentences in American law."
+  },
+  "fun_fact": {
+    "text": "In 1857, the Supreme Court ruled in Dred Scott v. Sandford that Black people — enslaved OR free — could never be U.S. citizens. Many legal scholars call it the worst Supreme Court decision in American history. The 14th Amendment, ratified in 1868, said the opposite: anyone born in the U.S. is a citizen, regardless of race.",
+    "source_url": "https://www.archives.gov/milestone-documents/14th-amendment",
+    "source_verified": true
+  },
+  "concept_ids": ["fourteenth_amendment", "citizenship", "reconstruction", "civil_rights"],
+  "term_ids": ["fourteenth_amendment", "citizenship", "dred_scott", "reconstruction"],
+  "thread_ids": ["1800s", "constitution", "civil_rights"],
+  "media": { "audio": {} }
+}

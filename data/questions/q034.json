@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 34,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Who elects members of the House of Representatives?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Citizens from their (congressional) district",
+      "key_elements": ["citizens", "district"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Voters in your district — and only your district — choose your representative."
+  },
+  "fun_fact": {
+    "text": "John Quincy Adams remains the only President elected to the U.S. House of Representatives after his service as commander in chief",
+    "source_url": "https://history.house.gov/Blog/2025/January/1-30-Education-JQA/",
+    "source_verified": true
+  },
+  "concept_ids": ["direct_election", "house_distinctiveness"],
+  "term_ids": ["representative", "house_of_representatives", "congressional_district"],
+  "thread_ids": ["congress_structure", "representation", "civic_participation"],
+  "media": { "audio": {} }
+}

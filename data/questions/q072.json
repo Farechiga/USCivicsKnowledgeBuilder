@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 72,
+  "section": "American Government",
+  "subsection": "Rights and Responsibilities",
+  "is_starred": false,
+  "lead_in": "Any one of these reasons works:",
+  "question_text": "It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Required by law", "key_elements": ["required", "law"] },
+    { "text": "Civic duty", "key_elements": ["civic duty"] },
+    { "text": "Makes the draft fair, if needed", "key_elements": ["draft", "fair"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "Selective Service registration is a list of young men who could be called up if the U.S. ever needed a military draft. It's required by law for men 18-25, and the list makes sure that if a draft were ever needed, the burden would fall fairly across the population."
+  },
+  "fun_fact": {
+    "text": "The U.S. hasn't actually used the draft since 1973 — over 50 years ago. The military today is all-volunteer. But every young man still has to register with Selective Service at 18, just in case.",
+    "source_url": "https://www.archives.gov/research/guide-fed-records/groups/147.html",
+    "source_verified": true
+  },
+  "concept_ids": ["civic_duty", "military_service", "national_defense"],
+  "term_ids": ["selective_service", "draft", "civic_duty"],
+  "thread_ids": ["civic_duty", "military"],
+  "media": { "audio": {} }
+}

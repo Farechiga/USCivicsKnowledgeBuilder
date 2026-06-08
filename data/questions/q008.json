@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "id": 8,
+  "section": "American Government",
+  "subsection": "Principles of American Government",
+  "is_starred": false,
+  "question_text": "Why is the Declaration of Independence important?",
+  "lead_in": "You only need to give one reason. Any of these works:",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "It says America is free from British control.",
+      "key_elements": ["free", "British"]
+    },
+    {
+      "text": "It says all people are created equal.",
+      "key_elements": ["equal"]
+    },
+    {
+      "text": "It identifies inherent rights.",
+      "key_elements": ["inherent rights"]
+    },
+    {
+      "text": "It identifies individual freedoms.",
+      "key_elements": ["individual freedoms"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Declaration didn't just declare independence — it told the world why. 'All people are created equal' with rights no government can take away. Those words would be quoted back by every American fight for justice that came after: abolition, suffrage, civil rights."
+  },
+  "fun_fact": {
+    "text": "John Adams was sure Americans would celebrate Independence Day forever — 'with pomp and parade,' he wrote his wife. He was right about the party. He was wrong about the date. Adams meant July 2nd, the day Congress voted to break with Britain. We celebrate July 4th instead.",
+    "source_url": "https://www.archives.gov/founding-docs/declaration",
+    "source_verified": false
+  },
+  "concept_ids": ["natural_rights", "equality", "founding_documents"],
+  "term_ids": ["declaration_of_independence", "natural_rights"],
+  "thread_ids": ["founding_documents", "enduring_principles"],
+  "media": { "audio": {} }
+}

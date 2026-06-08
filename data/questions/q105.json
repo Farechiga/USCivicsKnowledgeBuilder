@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 105,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "question_text": "Who was president during the Great Depression and World War II?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "(Franklin) Roosevelt", "key_elements": ["roosevelt", "franklin roosevelt", "fdr"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "Franklin D. Roosevelt (FDR) became president in 1933 and served until his death in 1945 — leading the country through its two biggest crises: the Great Depression and WWII. His New Deal programs (Social Security, FDIC, public works) reshaped what Americans expected from their government. He died less than a month before Nazi Germany surrendered."
+  },
+  "fun_fact": {
+    "text": "Franklin Roosevelt is the only president ever elected to four terms (1932, 1936, 1940, 1944). After he died in office, Congress passed the 22nd Amendment in 1951 limiting future presidents to 2 terms — his record can never be broken. He led the country through the Depression and WWII while paralyzed by polio from the waist down.",
+    "source_url": "https://fdr.blogs.archives.gov/2011/04/19/from-the-museum-infantile-paralysis-wishing-well/",
+    "source_verified": true
+  },
+  "concept_ids": ["franklin_roosevelt", "new_deal", "great_depression", "world_war_ii"],
+  "term_ids": ["franklin_roosevelt", "new_deal", "great_depression", "world_war_ii", "twenty_second_amendment"],
+  "thread_ids": ["1900s", "presidents", "great_depression", "world_war_ii"],
+  "media": { "audio": {} }
+}

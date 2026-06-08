@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 92,
+  "section": "American History",
+  "subsection": "1800s",
+  "is_starred": false,
+  "question_text": "Name the U.S. war between the North and the South.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "The Civil War", "key_elements": ["civil war"] }
+  ],
+  "why_it_matters": {
+    "register": "somber",
+    "text": "The Civil War (1861-1865) was the war that decided whether the United States would remain one country and whether slavery would survive in it. The North won. The Union held together. Slavery was ended by the 13th Amendment. Without the Civil War, there might not be a United States today, and millions of people would have remained enslaved."
+  },
+  "fun_fact": {
+    "text": "At least 620,000 Americans died in the Civil War, about 2% of the country's population at the time. If the same percentage died in a war today, the death toll would be over 6 million. More Americans died in the Civil War than in World War I, World War II, Korea, and Vietnam combined.",
+    "source_url": "https://www.archives.gov/publications/prologue/2010/spring/newnation.html",
+    "source_verified": true
+  },
+  "concept_ids": ["civil_war", "slavery", "union", "thirteenth_amendment"],
+  "term_ids": ["civil_war", "slavery", "union", "confederacy", "thirteenth_amendment"],
+  "thread_ids": ["1800s", "civil_war", "american_wars"],
+  "media": { "audio": {} }
+}

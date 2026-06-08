@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 123,
+  "section": "Symbols and Holidays",
+  "subsection": "Symbols",
+  "is_starred": false,
+  "question_text": "What is the name of the national anthem?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "The Star-Spangled Banner", "key_elements": ["star-spangled banner", "star spangled banner"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "'The Star-Spangled Banner' is sung before sports games, at military ceremonies, and at official events. The words were written by Francis Scott Key in 1814 during the War of 1812, after watching the American flag survive a British attack on Fort McHenry. The original flag he saw is preserved at the Smithsonian."
+  },
+  "fun_fact": {
+    "text": "The melody of 'The Star-Spangled Banner' came from a popular British song! Francis Scott Key wrote the lyrics in 1814 after watching American forces survive a 25-hour British bombardment of Fort McHenry. The tune was 'To Anacreon in Heaven,' a London club song. It didn't become the official national anthem until 1931 — 117 years later.",
+    "source_url": "https://guides.loc.gov/star-spangled-banner",
+    "source_verified": true
+  },
+  "concept_ids": ["national_anthem", "star_spangled_banner", "war_of_1812"],
+  "term_ids": ["star_spangled_banner", "francis_scott_key", "fort_mchenry", "war_of_1812", "anacreon_in_heaven"],
+  "thread_ids": ["symbols", "1800s"],
+  "media": { "audio": {} }
+}

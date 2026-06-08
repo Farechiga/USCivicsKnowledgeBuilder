@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 53,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "How many seats are on the Supreme Court?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Nine (9)",
+      "key_elements": ["nine", "9"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Nine justices share the work of the highest court — one Chief Justice and eight Associate Justices. Together they hear cases, debate the meaning of the law, and vote. An odd number means there's almost always a clear majority."
+  },
+  "fun_fact": {
+    "text": "The Constitution doesn't set the size of the Supreme Court — Congress does! The Court has had 6, 7, 9, and even 10 justices over its history. It's been 9 since 1869. In 1937, President Franklin D. Roosevelt tried to expand it to 15 to win the rulings he wanted. Congress refused, and the number has stayed at 9 ever since.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artIII-S1-8-3/ALDE_00013559/",
+    "source_verified": true
+  },
+  "concept_ids": ["supreme_court", "judicial_branch", "congressional_control"],
+  "term_ids": ["supreme_court", "judicial_branch"],
+  "thread_ids": ["judicial_branch"],
+  "media": { "audio": {} }
+}

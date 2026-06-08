@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 79,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "question_text": "When was the Declaration of Independence adopted?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "July 4, 1776", "key_elements": ["july 4", "1776"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "July 4, 1776 is the day the Continental Congress officially adopted the Declaration of Independence. It marks the moment 13 colonies stopped being British subjects and declared themselves a new nation. Every July 4 since has been celebrated as the country's birthday."
+  },
+  "fun_fact": {
+    "text": "July 4, 1776 is when the Continental Congress adopted the Declaration's text — but most delegates didn't actually sign it until August 2. So Independence Day celebrates the day we voted, not the day we signed.",
+    "source_url": "https://prologue.blogs.archives.gov/2014/07/02/john-adams-vision-of-july-4-was-july-2/",
+    "source_verified": true
+  },
+  "concept_ids": ["declaration_of_independence", "independence_day"],
+  "term_ids": ["declaration_of_independence", "independence_day", "continental_congress"],
+  "thread_ids": ["founding_era", "declaration_of_independence"],
+  "media": { "audio": {} }
+}

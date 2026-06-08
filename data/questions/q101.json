@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 101,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Why did the United States enter World War I?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Because Germany attacked U.S. (civilian) ships", "key_elements": ["germany", "attacked", "ships"] },
+    { "text": "To support the Allied Powers (England, France, Italy, and Russia)", "key_elements": ["support", "allied powers"] },
+    { "text": "To oppose the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria)", "key_elements": ["oppose", "central powers"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "World War I started in 1914 between European nations. The United States stayed out for 3 years. But Germany began sinking American ships with submarines, and a secret German plot to recruit Mexico against the U.S. tipped public opinion. America declared war on April 6, 1917. U.S. troops helped end the war 19 months later in November 1918."
+  },
+  "fun_fact": {
+    "text": "In January 1917, Germany sent a secret coded message to Mexico: join Germany against the U.S., and Germany would help Mexico get back Texas, Arizona, and New Mexico (lost in 1848). British spies intercepted and decoded it. When Americans learned the contents, public outrage tipped the country into World War I.",
+    "source_url": "https://www.archives.gov/publications/prologue/2017/spring/wwi-america-enters",
+    "source_verified": true
+  },
+  "concept_ids": ["world_war_i", "zimmerman_telegram", "allied_powers", "central_powers"],
+  "term_ids": ["world_war_i", "zimmerman_telegram", "allied_powers", "central_powers", "germany"],
+  "thread_ids": ["1900s", "world_war_i", "american_wars"],
+  "media": { "audio": {} }
+}

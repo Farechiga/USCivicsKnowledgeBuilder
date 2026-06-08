@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "id": 106,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Why did the United States enter World War II?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "(Bombing of) Pearl Harbor", "key_elements": ["pearl harbor"] },
+    { "text": "Japanese attacked Pearl Harbor", "key_elements": ["japanese", "attacked", "pearl harbor"] },
+    { "text": "To support the Allied Powers (England, France, and Russia)", "key_elements": ["support", "allied powers"] },
+    { "text": "To oppose the Axis Powers (Germany, Italy, and Japan)", "key_elements": ["oppose", "axis powers"] }
+  ],
+  "why_it_matters": {
+    "register": "somber",
+    "text": "America stayed out of WWII for over 2 years while Germany conquered Europe and Japan attacked Asia. That changed on December 7, 1941, when Japan attacked the U.S. naval base at Pearl Harbor, Hawaii. The next day, FDR called it 'a date which will live in infamy' and asked Congress for war."
+  },
+  "fun_fact": {
+    "text": "On December 7, 1941, the Japanese attack on Pearl Harbor lasted under 2 hours but killed over 2,300 Americans. The battleship USS Arizona sank with 1,177 sailors aboard. More than 900 are still entombed inside the wreck today — a war grave you can visit at the Arizona Memorial in Pearl Harbor.",
+    "source_url": "https://www.archives.gov/research/still-pictures/highlights/uss-arizona-burning",
+    "source_verified": true
+  },
+  "concept_ids": ["world_war_ii", "pearl_harbor", "allied_powers", "axis_powers"],
+  "term_ids": ["world_war_ii", "pearl_harbor", "allied_powers", "axis_powers", "japan", "germany"],
+  "thread_ids": ["1900s", "world_war_ii", "american_wars"],
+  "media": { "audio": {} }
+}

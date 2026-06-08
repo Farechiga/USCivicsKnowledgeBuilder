@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 114,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "question_text": "Why did the United States enter the Persian Gulf War?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "To force the Iraqi military from Kuwait", "key_elements": ["force", "iraqi", "kuwait"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "On August 2, 1990, Iraq invaded its small oil-rich neighbor Kuwait. President George H.W. Bush assembled a 35-nation coalition under the United Nations to push Iraq out. After 5 weeks of air strikes and a brief ground war, Kuwait was liberated by February 28, 1991. About 148 Americans died in combat — far fewer than expected."
+  },
+  "fun_fact": {
+    "text": "After 5 months of buildup, the Persian Gulf War ground assault began February 24, 1991. Just 100 hours later — about 4 days — President Bush declared victory. A 35-nation coalition had pushed Iraq out of Kuwait. The fastest decisive U.S. military victory of its scale in history. But Saddam Hussein stayed in power for 12 more years.",
+    "source_url": "https://americanhistory.si.edu/explore/exhibitions/price-of-freedom/online/new-american-roles/gulf-war-1991",
+    "source_verified": true
+  },
+  "concept_ids": ["gulf_war", "kuwait", "iraq", "saddam_hussein"],
+  "term_ids": ["gulf_war", "kuwait", "iraq", "saddam_hussein", "operation_desert_storm", "george_hw_bush"],
+  "thread_ids": ["1900s", "american_wars"],
+  "media": { "audio": {} }
+}

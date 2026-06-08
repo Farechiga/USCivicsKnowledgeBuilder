@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "id": 61,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": true,
+  "question_text": "Who is the governor of your state now?",
+  "disambiguation": "District of Columbia residents should answer that D.C. does not have a governor.",
+  "answer_type": "dynamic_lookup",
+  "official_answers": [
+    {
+      "text": "Answers will vary by state. (D.C. does not have a governor.)",
+      "key_elements": []
+    }
+  ],
+  "dynamic": {
+    "lookup": "state_governor",
+    "current_value": "Democrat, Tim Walz",
+    "last_verified": "2026-06-07",
+    "source_url": "https://www.usa.gov/state-governments"
+  },
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Your governor is the head of your state's executive branch — like a state-level president. They sign or veto state laws, command the state National Guard, and shape state policy on schools, roads, and taxes. State government touches your daily life far more often than the federal government does."
+  },
+  "fun_fact": {
+    "text": "After the Revolution, Americans feared a strong governor might become another tyrant like King George. So most early state constitutions made governors very weak — chosen by the legislature, serving just one year, with no veto power. Today's governors, elected directly by voters for four-year terms, are far more powerful than the Founders intended.",
+    "source_url": "https://constitutioncenter.org/education/classroom-resource-library/classroom/4.4-info-brief-compromises-of-the-convention",
+    "source_verified": true
+  },
+  "concept_ids": ["federalism", "executive_branch", "state_government"],
+  "term_ids": ["governor", "executive_branch"],
+  "thread_ids": ["federalism", "state_government"],
+  "media": { "audio": {} }
+}

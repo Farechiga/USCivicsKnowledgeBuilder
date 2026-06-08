@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 66,
+  "section": "American Government",
+  "subsection": "Rights and Responsibilities",
+  "is_starred": true,
+  "lead_in": "Either of these works:",
+  "question_text": "What do we show loyalty to when we say the Pledge of Allegiance?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "The United States", "key_elements": ["united states", "country"] },
+    { "text": "The flag", "key_elements": ["flag"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Pledge is a public promise of loyalty to the United States and to its flag — the symbol that stands for the country. Saying it is a ritual that connects you to every American who has said the same words."
+  },
+  "fun_fact": {
+    "text": "In 1943, during World War II, the Supreme Court ruled that no one in the U.S. can be forced to say the Pledge — even at school. Forcing someone to declare loyalty would violate the First Amendment. So when you say the Pledge, you're choosing to. Real loyalty is freely given, not commanded.",
+    "source_url": "https://www.loc.gov/item/today-in-history/june-14/",
+    "source_verified": true
+  },
+  "concept_ids": ["national_symbols", "first_amendment", "loyalty"],
+  "term_ids": ["pledge_of_allegiance", "flag", "first_amendment"],
+  "thread_ids": ["national_symbols", "first_amendment"],
+  "media": { "audio": {} }
+}

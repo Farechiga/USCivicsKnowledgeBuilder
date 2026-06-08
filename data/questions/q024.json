@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 24,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "How many voting members are in the House of Representatives?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Four hundred thirty-five (435)",
+      "key_elements": ["435", "four hundred thirty-five"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The House has 435 members so representation roughly matches population. California gets 52 representatives; Wyoming only gets 1. More people means more voices in the House — unlike the Senate, where Wyoming and California each get exactly 2 senators."
+  },
+  "fun_fact": {
+    "text": "The number of representatives in the House grew with the country until 1929. The first House had 65 members in 1789, then expanded after each census — 105, 142, 213, all the way to 435 by 1913. Then Congress passed the Permanent Apportionment Act of 1929, capping the House at 435 forever — even as the U.S. population kept growing.",
+    "source_url": "https://history.house.gov/Historical-Highlights/1901-1950/The-Permanent-Apportionment-Act-of-1929/",
+    "source_verified": true
+  },
+  "concept_ids": ["proportional_representation", "house_structure", "apportionment"],
+  "term_ids": ["house_of_representatives", "representative", "congress"],
+  "thread_ids": ["congress_structure", "representation"],
+  "media": { "audio": {} }
+}

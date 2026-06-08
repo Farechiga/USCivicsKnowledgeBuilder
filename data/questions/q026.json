@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 26,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Why do U.S. representatives serve shorter terms than U.S. senators?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "To more closely follow public opinion",
+      "key_elements": ["public opinion", "closely follow"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "House members with 2-year terms feel public opinion fast. They vote on what people care about right now. The Senate, with 6-year terms, can take a longer view — including making unpopular calls when needed. The two chambers were designed to balance each other."
+  },
+  "fun_fact": {
+    "text": "There's a famous old story: When Jefferson returned from France in 1789, he asked Washington why the Convention created a Senate. Washington pointed to Jefferson's saucer of cooling tea: 'We pour legislation into the senatorial saucer to cool it.'",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/765",
+    "source_verified": true
+  },
+  "mnemonic": {
+    "hook": "Hot tea, cooler saucer",
+    "link_sentence": "House = hot tea (passionate, fast, 2-year terms); Senate = saucer that cools it (deliberative, slow, 6-year terms).",
+    "is_memory_device": true
+  },
+  "concept_ids": ["bicameralism", "house_structure", "public_opinion"],
+  "term_ids": ["house_of_representatives", "senate", "term"],
+  "thread_ids": ["congress_structure", "bicameralism_design"],
+  "media": { "audio": {} }
+}

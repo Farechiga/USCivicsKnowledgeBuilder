@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 60,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "What is the purpose of the 10th Amendment?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "(It states that the) powers not given to the federal government belong to the states or to the people.",
+      "key_elements": ["powers", "not given", "states", "people"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The 10th Amendment makes the basic rule of American government clear: the federal government has only the powers the Constitution gives it — nothing more. Everything else stays with the states, or with the people themselves. "
+  },
+  "fun_fact": {
+    "text": "The 10th Amendment is the last original amendment from the Bill of Rights — and it's the 'everything else' rule. Anti-Federalists worried the federal government would grab powers not on its list. The 10th flipped the assumption: if a power isn't given to Washington, it belongs to the states or the people.",
+    "source_url": "https://constitution.congress.gov/browse/essay/amdt10-2/ALDE_00013620/",
+    "source_verified": true
+  },
+  "concept_ids": ["federalism", "reserved_powers", "bill_of_rights"],
+  "term_ids": ["tenth_amendment", "bill_of_rights", "federal_government", "state_government"],
+  "thread_ids": ["federalism", "bill_of_rights", "founding_decisions"],
+  "media": { "audio": {} }
+}

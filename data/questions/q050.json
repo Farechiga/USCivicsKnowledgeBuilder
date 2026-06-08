@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 50,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "What is one part of the judicial branch?",
+  "lead_in": "Either of these works (you only need one):",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Supreme Court",
+      "key_elements": ["supreme court"]
+    },
+    {
+      "text": "Federal Courts",
+      "key_elements": ["federal courts"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "'Judicial' means relating to courts or judges. The judicial branch is the system of courts that interprets the law. At the top is the Supreme Court — the final word on every federal legal question. Below it are the federal district courts and courts of appeals. "
+  },
+  "fun_fact": {
+    "text": "The Constitution requires only one court — the Supreme Court. Article III says 'one supreme Court, and such inferior Courts as the Congress may from time to time ordain and establish.' Every other federal court — district courts, courts of appeals — exists only because Congress chose to create them, starting with the Judiciary Act of 1789.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artIII-1/ALDE_00013707/",
+    "source_verified": true
+  },
+  "concept_ids": ["judicial_branch", "federal_courts", "separation_of_powers"],
+  "term_ids": ["supreme_court", "judicial_branch", "federal_judge"],
+  "thread_ids": ["judicial_branch", "founding_decisions"],
+  "media": { "audio": {} }
+}

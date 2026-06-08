@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 122,
+  "section": "Symbols and Holidays",
+  "subsection": "Symbols",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Why does the flag have 50 stars?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "(Because there is) one star for each state", "key_elements": ["one star", "each state"] },
+    { "text": "(Because) each star represents a state", "key_elements": ["star represents", "state"] },
+    { "text": "(Because there are) 50 states", "key_elements": ["50 states"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The flag's 50 stars represent the 50 states that make up the United States today. Unlike the stripes (fixed at 13 for the original colonies), the stars change every time a new state joins. The current 50-star flag has flown since July 4, 1960 — the year after Hawaii became the 50th state. It is the longest-serving version of the U.S. flag in history."
+  },
+  "fun_fact": {
+    "text": "In 1958, 17-year-old Ohio high schooler Robert Heft designed a 50-star flag as a class project — when there were only 48 states! He predicted Alaska AND Hawaii would join. His teacher gave him a B-. Heft sent it to Washington. President Eisenhower picked his design as the official U.S. flag in 1960. The teacher changed the grade to an A.",
+    "source_url": "https://blogs.loc.gov/loc/2007/06/a-grand-old-flag/",
+    "source_verified": true
+  },
+  "concept_ids": ["american_flag", "fifty_states", "stars_and_stripes"],
+  "term_ids": ["american_flag", "stars_and_stripes", "alaska", "hawaii", "eisenhower"],
+  "thread_ids": ["symbols", "states"],
+  "media": { "audio": {} }
+}

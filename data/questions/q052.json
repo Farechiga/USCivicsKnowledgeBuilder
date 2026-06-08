@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 52,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": true,
+  "question_text": "What is the highest court in the United States?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "The Supreme Court",
+      "key_elements": ["supreme court"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Supreme Court is the final word on every federal legal question. No higher court can overrule it. When the Justices decide what the Constitution means, that meaning becomes the law for the whole country."
+  },
+  "fun_fact": {
+    "text": "The Supreme Court first met on February 1, 1790, in a New York City market building called the Royal Exchange. But only 3 of the 6 justices showed up! When enough judges were present up to make a 'quorum,' meaning a large enough percentage to vote, they didn't have any cases to decide yet.",
+    "source_url": "https://founders.archives.gov/documents/Jay/01-05-02-0124",
+    "source_verified": true
+  },
+  "concept_ids": ["judicial_branch", "supreme_court", "founding_era"],
+  "term_ids": ["supreme_court", "judicial_branch"],
+  "thread_ids": ["judicial_branch", "founding_decisions"],
+  "media": { "audio": {} }
+}

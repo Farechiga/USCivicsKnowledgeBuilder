@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "id": 89,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Alexander Hamilton is famous for many things. Name one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "First Secretary of the Treasury", "key_elements": ["first secretary of the treasury", "secretary of the treasury"] },
+    { "text": "One of the writers of the Federalist Papers", "key_elements": ["federalist papers", "writer"] },
+    { "text": "Helped establish the First Bank of the United States", "key_elements": ["first bank", "bank of the united states"] },
+    { "text": "Aide to General George Washington", "key_elements": ["aide", "washington"] },
+    { "text": "Member of the Continental Congress", "key_elements": ["continental congress", "member"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Alexander Hamilton built the U.S. financial system from scratch — as the first Secretary of the Treasury, he created the national bank, set up the currency, and figured out how to pay off the country's war debts. He was Washington's right-hand officer during the Revolution and wrote most of the Federalist Papers defending the new Constitution."
+  },
+  "fun_fact": {
+    "text": "Alexander Hamilton was born poor on the tiny Caribbean island of Nevis — he was an illegitimate child orphaned at 11. At 17, he wrote so beautifully that townspeople raised money to send him to America for an education. He arrived in New York with nothing and went on to create the U.S. financial system from scratch.",
+    "source_url": "https://www.archives.gov/founding-docs/founding-fathers-new-york",
+    "source_verified": true
+  },
+  "concept_ids": ["founding_fathers", "alexander_hamilton", "treasury", "immigration"],
+  "term_ids": ["alexander_hamilton", "federalist_papers", "george_washington", "treasury", "continental_congress"],
+  "thread_ids": ["founding_era", "founding_fathers"],
+  "media": { "audio": {} }
+}

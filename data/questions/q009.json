@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "id": 9,
+  "section": "American Government",
+  "subsection": "Principles of American Government",
+  "is_starred": false,
+  "question_text": "What founding document said the American colonies were free from Britain?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Declaration of Independence",
+      "key_elements": ["Declaration of Independence"]
+    }
+  ],
+  "disambiguation": "Easy to mix up with the Constitution. Different jobs: the Declaration of Independence (1776) said we're leaving. The Constitution (1787) said here's how the new country works. One is the goodbye letter; the other is the rulebook.",
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "This was the public, official break — written down for everyone to read. Before it, the colonies were complaining. After it, they were a new country — though the war would last seven more years to make that true on the ground."
+  },
+  "fun_fact": {
+    "text": "Did you know the original Declaration went into hiding for 6 years during the war with England moving from location to location in secret?",
+    "source_url": "https://www.hoover.org/research/declaration-war-part-i-revolutionary-war",
+    "source_verified": true
+  },
+  "concept_ids": ["founding_documents"],
+  "term_ids": ["declaration_of_independence", "constitution"],
+  "thread_ids": ["founding_documents"],
+  "media": { "audio": {} }
+}

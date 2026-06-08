@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 27,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "How many senators does each state have?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Two (2)",
+      "key_elements": ["two", "2"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Two senators is the magic number. One could die or be sick, leaving a state unrepresented. Three or more would have made the Senate huge and unwieldy. Two means each state always has someone in the chamber — and an equal voice with every other state."
+  },
+  "fun_fact": {
+    "text": "Two senators per state is one of the only things in the Constitution that can never be changed by amendment. Article V says no state can be 'deprived of its equal Suffrage in the Senate' without its own consent. Translation: Wyoming will have exactly two senators forever, no matter how big or small it grows.",
+    "source_url": "https://constitutioncenter.org/the-constitution/articles/article-v/interpretations/277",
+    "source_verified": true
+  },
+  "concept_ids": ["equal_representation", "senate_structure", "great_compromise"],
+  "term_ids": ["senate", "senator", "amendment"],
+  "thread_ids": ["congress_structure", "senate_design"],
+  "media": { "audio": {} }
+}

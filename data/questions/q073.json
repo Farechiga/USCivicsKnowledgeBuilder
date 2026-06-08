@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "id": 73,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Any one of these reasons works:",
+  "question_text": "The colonists came to America for many reasons. Name one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Freedom", "key_elements": ["freedom"] },
+    { "text": "Political liberty", "key_elements": ["political liberty"] },
+    { "text": "Religious freedom", "key_elements": ["religious freedom"] },
+    { "text": "Economic opportunity", "key_elements": ["economic", "opportunity"] },
+    { "text": "Escape persecution", "key_elements": ["escape", "persecution"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The colonists didn't all come for one reason. Some wanted religious freedom, some wanted political liberty, some wanted economic opportunity, some were escaping persecution. That mix gave America its founding character: a country built by people who left somewhere else looking for something better. Most Americans today are still here for similar reasons."
+  },
+  "fun_fact": {
+    "text": "The first English colonists came for completely different reasons. Jamestown (1607) was a business — investors hoped to find gold. The Pilgrims at Plymouth (1620) came for religious freedom. Pennsylvania was founded for religious tolerance. The 13 colonies had different personalities from day one.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/colonial-settlement-1600-1763/overview/",
+    "source_verified": true
+  },
+  "concept_ids": ["colonization", "religious_freedom", "economic_opportunity", "immigration"],
+  "term_ids": ["colonist", "religious_freedom", "persecution"],
+  "thread_ids": ["colonial_era", "immigration"],
+  "media": { "audio": {} }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 17,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "The President of the United States is in charge of which branch of government?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Executive branch",
+      "key_elements": ["executive"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The president runs the executive branch — the part that carries out laws Congress passes. The president also commands the military, signs treaties, and picks Supreme Court nominees. Powerful job, but limited: the president can't make laws, can't ignore court rulings, and can be removed by Congress."
+  },
+  "fun_fact": {
+    "text": "When George Washington took office in 1789, nobody knew what to call him. Vice President John Adams pushed for 'His Highness, the President of the United States, and Protector of their Liberties.' The Senate agreed. The House refused. After weeks of debate, they settled on plain 'Mr. President.'",
+    "source_url": "https://www.senate.gov/about/traditions-symbols/washington-inauguration.htm",
+    "source_verified": true
+  },
+  "concept_ids": ["executive_branch", "three_branches"],
+  "term_ids": ["executive_branch", "president"],
+  "thread_ids": ["three_branches", "executive_powers"],
+  "media": { "audio": {} }
+}

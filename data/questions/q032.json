@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 32,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Who elects U.S. senators?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Citizens from their state",
+      "key_elements": ["citizens", "their state"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Senators serve six years, so each one represents your state's voice in Washington for a long time. Because voters elect them directly, senators have to answer to ordinary citizens."
+  },
+  "fun_fact": {
+    "text": "For 124 years, you couldn't vote for your senator. State legislatures chose them, as the Constitution originally required. Senate seats sometimes sat empty for months when state legislatures deadlocked over who to pick. The 17th Amendment (1913) finally let voters elect senators directly, a huge shift in American democracy.",
+    "source_url": "https://www.senate.gov/artandhistory/history/common/briefing/100Years_Direct_Election_Senators.htm",
+    "source_verified": true
+  },
+  "concept_ids": ["direct_election", "constitutional_amendments"],
+  "term_ids": ["senator", "senate", "amendment"],
+  "thread_ids": ["congress_structure", "civic_participation", "democracy_expansion"],
+  "media": { "audio": {} }
+}

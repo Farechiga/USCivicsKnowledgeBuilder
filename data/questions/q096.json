@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 96,
+  "section": "American History",
+  "subsection": "1800s",
+  "is_starred": false,
+  "question_text": "What U.S. war ended slavery?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "The Civil War", "key_elements": ["civil war"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The Civil War ended slavery in the United States. The Emancipation Proclamation (1863) began the process; the Union victory in 1865 enforced it; the 13th Amendment (also 1865) made it permanent and applied to everyone, everywhere in the country. It took 246 years of slavery and 4 years of war to reach the simple truth: no human should own another."
+  },
+  "fun_fact": {
+    "text": "By the end of the Civil War, about 180,000 Black soldiers had served in the Union Army — roughly 1 in every 10 Union soldiers. More than half had been enslaved before the war and were fighting for their own freedom. Their service helped earn African American men the right to vote with the 15th Amendment in 1870.",
+    "source_url": "https://www.archives.gov/education/lessons/blacks-civil-war",
+    "source_verified": true
+  },
+  "concept_ids": ["civil_war", "slavery", "thirteenth_amendment", "emancipation", "usct"],
+  "term_ids": ["civil_war", "slavery", "thirteenth_amendment", "fifteenth_amendment", "union_army"],
+  "thread_ids": ["1800s", "civil_war", "slavery"],
+  "media": { "audio": {} }
+}

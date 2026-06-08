@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "id": 46,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "The executive branch has many parts. Name one.",
+  "lead_in": "Any one of these works (you only need one):",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "President (of the United States)",
+      "key_elements": ["president"]
+    },
+    {
+      "text": "The President's Cabinet",
+      "key_elements": ["cabinet"]
+    },
+    {
+      "text": "Federal departments and agencies",
+      "key_elements": ["departments", "agencies"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The executive branch is much bigger than just the President. The President leads it, but it includes the Cabinet, top advisers running the major departments, plus federal agencies like the FBI, NASA, and the Department of Education. Millions of federal workers carry out the laws Congress passes every single day."
+  },
+  "fun_fact": {
+    "text": "In 1789, Washington's first Cabinet had just four advisers: Jefferson at State, Hamilton at Treasury, Knox at War, and Randolph as Attorney General. Today there are 15 Cabinet departments. The newest was added in 2002: Homeland Security, created in response to the September 11th attacks.",
+    "source_url": "https://constitutioncenter.org/blog/the-constitution-and-the-presidents-cabinet",
+    "source_verified": true
+  },
+  "concept_ids": ["executive_branch", "federal_government_structure", "cabinet"],
+  "term_ids": ["president", "executive_branch", "cabinet"],
+  "thread_ids": ["presidency", "federal_government"],
+  "media": { "audio": {} }
+}

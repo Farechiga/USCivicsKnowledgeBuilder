@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "id": 86,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": true,
+  "lead_in": "Any one of these works:",
+  "question_text": "George Washington is famous for many things. Name one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "\"Father of Our Country\"", "key_elements": ["father of our country", "father of the country"] },
+    { "text": "First president of the United States", "key_elements": ["first president"] },
+    { "text": "General of the Continental Army", "key_elements": ["general", "continental army"] },
+    { "text": "President of the Constitutional Convention", "key_elements": ["president", "constitutional convention"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "George Washington led the Continental Army through 8 years of war, presided over the Constitutional Convention, then became the first President. He set the precedents every president has followed since — including stepping down after 2 terms when he could have stayed in power. He's called the Father of Our Country."
+  },
+  "fun_fact": {
+    "text": "In 1782, an army officer wrote George Washington suggesting he become King of the new country. Washington wrote back instantly, saying he viewed the idea 'with abhorrence' — that no event in the entire war had given him 'more painful sensations.' The man who could have been America's king chose to become its citizen instead.",
+    "source_url": "https://founders.archives.gov/documents/Washington/99-01-02-08501",
+    "source_verified": true
+  },
+  "concept_ids": ["founding_fathers", "george_washington", "first_president", "republic"],
+  "term_ids": ["george_washington", "continental_army", "constitutional_convention", "father_of_our_country"],
+  "thread_ids": ["founding_era", "founding_fathers", "presidents"],
+  "media": { "audio": {} }
+}

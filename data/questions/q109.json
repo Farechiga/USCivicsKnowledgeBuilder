@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 109,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "During the Cold War, what was one main concern of the United States?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Communism", "key_elements": ["communism"] },
+    { "text": "Nuclear war", "key_elements": ["nuclear war"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The Cold War (1947-1991) was a 44-year rivalry between the U.S. and Soviet Union. The two sides never fought directly, but they built terrifying nuclear weapons stockpiles. At the peak in the 1980s, the world held over 70,000 nuclear weapons."
+  },
+  "fun_fact": {
+    "text": "For 13 days in October 1962, the world stood on the edge of nuclear war. The Soviets had secretly placed nuclear missiles in Cuba — just 90 miles from Florida. They could hit American cities in under 5 minutes. President Kennedy demanded their removal. Both sides backed down at the last moment. The closest the Cold War ever came to actual nuclear war.",
+    "source_url": "https://www.archives.gov/news/topics/cuban-missile-crisis",
+    "source_verified": true
+  },
+  "concept_ids": ["cold_war", "communism", "nuclear_war", "cuban_missile_crisis"],
+  "term_ids": ["cold_war", "communism", "nuclear_war", "cuban_missile_crisis", "kennedy"],
+  "thread_ids": ["1900s", "cold_war"],
+  "media": { "audio": {} }
+}

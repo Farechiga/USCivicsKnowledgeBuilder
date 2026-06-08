@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 76,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Any of these names works:",
+  "question_text": "What war did the Americans fight to win independence from Britain?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "American Revolution", "key_elements": ["american revolution", "revolution"] },
+    { "text": "The (American) Revolutionary War", "key_elements": ["revolutionary war"] },
+    { "text": "War for (American) Independence", "key_elements": ["war", "independence"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The American Revolution made the United States a country. Thirteen colonies — small and divided — defeated the most powerful empire on Earth and created a new kind of government, based on the idea that ordinary people could govern themselves. Every freedom Americans have today traces back to this war."
+  },
+  "fun_fact": {
+    "text": "The Revolutionary War lasted 8 years (1775-1783). It wasn't just America vs. Britain — it was also a civil war. About 20-30% of colonists stayed loyal to the king and fought against the patriots. After the war, around 60,000 Loyalists fled the U.S. for Canada and other places. Independence split families and neighbors.",
+    "source_url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/american-revolution-1763-1783/revolutionary-war-home-front/",
+    "source_verified": true
+  },
+  "concept_ids": ["american_revolution", "independence", "self_government"],
+  "term_ids": ["american_revolution", "loyalists", "patriots", "british_empire"],
+  "thread_ids": ["american_revolution", "founding_era"],
+  "media": { "audio": {} }
+}

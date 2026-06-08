@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 104,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "When did the Great Depression start?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "The Great Crash (1929)", "key_elements": ["great crash", "1929"] },
+    { "text": "Stock market crash of 1929", "key_elements": ["stock market crash", "1929"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The Great Depression started with the Stock Market Crash of October 1929. Stock prices had been rising for years, fueled by people borrowing money to buy more stocks. When prices started falling, panic spread. Banks that had also invested in stocks failed. People lost their savings. Within 3 years, the entire economy had collapsed."
+  },
+  "fun_fact": {
+    "text": "The Stock Market Crash of 1929 wiped out nearly 90% of the Dow Jones index by 1932. People who'd invested $100 in stocks had about $10 left. The Dow didn't recover its 1929 peak until 1954 — twenty five years later.",
+    "source_url": "https://hoover.blogs.archives.gov/2022/06/15/the-great-stock-market-crash-of-1929-why-history-textbooks-and-the-conventional-wisdom-get-it-wrong/",
+    "source_verified": true
+  },
+  "concept_ids": ["great_depression", "stock_market_crash", "1929_crash"],
+  "term_ids": ["great_depression", "stock_market_crash", "great_crash", "dow_jones"],
+  "thread_ids": ["1900s", "great_depression", "economy"],
+  "media": { "audio": {} }
+}

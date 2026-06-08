@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 42,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Who is Commander in Chief of the U.S. military?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "The President (of the United States)",
+      "key_elements": ["president"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Putting the President — a civilian — in charge of the military is one of the most important rules in American government. It means the people elect the person who commands the army, not a general. The military follows orders from the elected leader. That's how America avoids the danger of military rule."
+  },
+  "fun_fact": {
+    "text": "In 1783, after winning the Revolutionary War, General Washington could have ruled as king. Instead, he resigned his military commission to Congress, handing power back to civilians. King George III reportedly called him 'the greatest man in the world.' That set the rule we still follow: civilians, not generals, command the U.S. military.",
+    "source_url": "https://www.loc.gov/exhibitions/two-georges/access-text/washington-resigns-and-george-iii-ponders-abdication/",
+    "source_verified": true
+  },
+  "concept_ids": ["civilian_control_of_military", "executive_branch", "separation_of_powers"],
+  "term_ids": ["president", "commander_in_chief", "executive_branch"],
+  "thread_ids": ["presidency", "founding_principles"],
+  "media": { "audio": {} }
+}

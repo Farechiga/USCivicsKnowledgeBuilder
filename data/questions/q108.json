@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 108,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Who was the United States' main rival during the Cold War?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Soviet Union", "key_elements": ["soviet union"] },
+    { "text": "USSR", "key_elements": ["ussr"] },
+    { "text": "Russia", "key_elements": ["russia"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The Soviet Union (USSR) was the world's other superpower after WWII. From 1947 to 1991, the U.S. and USSR competed for global influence without ever fighting each other directly. Both built thousands of nuclear weapons, fought 'proxy wars' in Korea, Vietnam, and Afghanistan, as well as the space race. The USSR collapsed in 1991, splitting into 15 countries."
+  },
+  "fun_fact": {
+    "text": "On October 4, 1957, the Soviet Union launched Sputnik — the first artificial satellite, no bigger than a beach ball. Americans PANICKED: if the Soviets could put a satellite in orbit, they could put a nuclear missile anywhere on Earth. Within 9 months, the U.S. founded NASA. The space race was on. We won it by landing on the Moon in 1969.",
+    "source_url": "https://unwritten-record.blogs.archives.gov/2017/10/04/spotlight-the-launch-of-sputnik-1/",
+    "source_verified": true
+  },
+  "concept_ids": ["cold_war", "soviet_union", "space_race", "nuclear_weapons"],
+  "term_ids": ["soviet_union", "cold_war", "sputnik", "nasa", "space_race"],
+  "thread_ids": ["1900s", "cold_war"],
+  "media": { "audio": {} }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "id": 63,
+  "section": "American Government",
+  "subsection": "Rights and Responsibilities",
+  "is_starred": false,
+  "lead_in": "Pick any one of the four voting amendments and describe what it did:",
+  "question_text": "There are four amendments to the U.S. Constitution about who can vote. Describe one of them.",
+  "disambiguation": "The four voting amendments are the 15th (no race discrimination, 1870), the 19th (women, 1920), the 24th (no poll tax, 1964), and the 26th (age 18, 1971). You only need to describe one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Citizens eighteen (18) and older (can vote).", "key_elements": ["18", "eighteen", "older"] },
+    { "text": "You don't have to pay (a poll tax) to vote.", "key_elements": ["no poll tax", "don't have to pay"] },
+    { "text": "Any citizen can vote. (Women and men can vote.)", "key_elements": ["women", "any citizen"] },
+    { "text": "A male citizen of any race (can vote).", "key_elements": ["any race", "male citizen"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "When the Constitution was written, only white men who owned property could vote in most places. The right to vote has been expanded four times by amendment — for race, for women, against poll taxes, and for 18-year-olds. Each one made America a little more democratic. The work of including everyone took almost 200 years."
+  },
+  "fun_fact": {
+    "text": "The 26th Amendment was ratified in just 100 days — faster than any other amendment in U.S. history. The push came from the Vietnam War: 18-year-olds were being drafted to fight but couldn't vote for the leaders who sent them. The slogan was 'old enough to fight, old enough to vote.' States agreed in record time.",
+    "source_url": "https://prologue.blogs.archives.gov/2013/11/13/records-of-rights-vote-old-enough-to-fight-old-enough-to-vote/",
+    "source_verified": true
+  },
+  "concept_ids": ["voting_rights", "amendments", "expanding_democracy"],
+  "term_ids": ["fifteenth_amendment", "nineteenth_amendment", "twenty_fourth_amendment", "twenty_sixth_amendment", "poll_tax", "suffrage"],
+  "thread_ids": ["voting_rights", "civil_rights", "amendments"],
+  "media": { "audio": {} }
+}

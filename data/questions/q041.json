@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "id": 41,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Name one power of the president.",
+  "lead_in": "Any one of these works (you only need one):",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Signs bills into law",
+      "key_elements": ["signs", "law"]
+    },
+    {
+      "text": "Vetoes bills",
+      "key_elements": ["veto"]
+    },
+    {
+      "text": "Enforces laws",
+      "key_elements": ["enforces"]
+    },
+    {
+      "text": "Commander in Chief (of the military)",
+      "key_elements": ["commander in chief"]
+    },
+    {
+      "text": "Chief diplomat",
+      "key_elements": ["diplomat"]
+    },
+    {
+      "text": "Appoints federal judges",
+      "key_elements": ["appoints", "judges"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The president wears many hats: signing laws, vetoing bills, leading the military, negotiating treaties, appointing judges. Each role gives the president huge influence — but each one is also balanced by Congress or the courts. That's the system the Founders built so no single person could rule alone."
+  },
+  "fun_fact": {
+    "text": "Of all the President's powers, only one has almost no check: to pardon guilty people. Congress can override a veto. The Senate must approve treaties and judges. Courts can rule actions unconstitutional. But the Supreme Court has called the pardon power 'unlimited except in cases of impeachment.'",
+    "source_url": "https://constitution.congress.gov/browse/essay/artII-S2-C1-3-1/ALDE_00013316/",
+    "source_verified": true
+  },
+  "concept_ids": ["executive_branch", "checks_and_balances", "separation_of_powers"],
+  "term_ids": ["president", "executive_branch", "veto", "commander_in_chief"],
+  "thread_ids": ["presidency", "checks_and_balances"],
+  "media": { "audio": {} }
+}

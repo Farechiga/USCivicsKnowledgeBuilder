@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "id": 14,
+  "section": "American Government",
+  "subsection": "Principles of American Government",
+  "is_starred": false,
+  "question_text": "Many documents influenced the U.S. Constitution. Name one.",
+  "lead_in": "You only need to name one. Any of these works:",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Declaration of Independence",
+      "key_elements": ["Declaration of Independence"]
+    },
+    {
+      "text": "Articles of Confederation",
+      "key_elements": ["Articles of Confederation"]
+    },
+    {
+      "text": "Federalist Papers",
+      "key_elements": ["Federalist Papers"]
+    },
+    {
+      "text": "Iroquois Great Law of Peace",
+      "key_elements": ["Iroquois Great Law of Peace", "Great Law of Peace"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Constitution didn't appear from nowhere. The founders read history, philosophy, and other documents — argued for years — then borrowed the best ideas. Knowing what shaped it shows that the Constitution is a careful mix of older ideas, not one person's invention."
+  },
+  "fun_fact": {
+    "text": "In 1988, the U.S. Congress passed Resolution 331 officially acknowledging that the Iroquois Confederacy's system of government influenced America's founders. The Iroquois had already united six native nations under shared rules long before the U.S. Constitution was written. Benjamin Franklin studied their system closely.",
+    "source_url": "https://www.congress.gov/bill/100th-congress/house-concurrent-resolution/331",
+    "source_verified": true
+  },
+  "concept_ids": ["founding_documents", "constitutional_influences"],
+  "term_ids": ["declaration_of_independence", "federalist_papers", "constitution"],
+  "thread_ids": ["founding_documents", "constitutional_influences"],
+  "media": { "audio": {} }
+}

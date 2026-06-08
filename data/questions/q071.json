@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 71,
+  "section": "American Government",
+  "subsection": "Rights and Responsibilities",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Why is it important to pay federal taxes?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Required by law", "key_elements": ["required", "law"] },
+    { "text": "Required by the (U.S.) Constitution (16th Amendment)", "key_elements": ["constitution", "16th amendment"] },
+    { "text": "Civic duty", "key_elements": ["civic duty"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Federal taxes pay for nearly everything the U.S. government does: the military, highways, Social Security, food safety, scientific research, federal courts. Without taxes, none of that works. Paying taxes is both a legal requirement (under the 16th Amendment) AND a basic way everyone helps fund the country."
+  },
+  "fun_fact": {
+    "text": "For most of U.S. history, there was no federal income tax. The government paid for itself mostly with tariffs — taxes on imported goods. Then in 1895, the Supreme Court struck down a new income tax law. To get around that ruling, Congress and the states passed the 16th Amendment in 1913. That amendment is the reason your taxes get withheld today.",
+    "source_url": "https://constitution.congress.gov/browse/essay/amdt16-1/ALDE_00000260/",
+    "source_verified": true
+  },
+  "concept_ids": ["taxation", "sixteenth_amendment", "civic_duty"],
+  "term_ids": ["sixteenth_amendment", "federal_tax", "tariff", "civic_duty"],
+  "thread_ids": ["civic_duty", "amendments", "federal_government"],
+  "media": { "audio": {} }
+}

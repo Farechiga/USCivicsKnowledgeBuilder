@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "id": 98,
+  "section": "American History",
+  "subsection": "1800s",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "When did all men get the right to vote?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "After the Civil War", "key_elements": ["after the civil war"] },
+    { "text": "During Reconstruction", "key_elements": ["during reconstruction", "reconstruction"] },
+    { "text": "(With the) 15th Amendment", "key_elements": ["15th amendment", "fifteenth amendment"] },
+    { "text": "1870", "key_elements": ["1870"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The 15th Amendment, ratified in 1870, said states could not deny anyone the right to vote based on race or 'previous condition of servitude.' For the first time, Black men could legally vote. But Southern states blocked them in practice — using poll taxes, literacy tests, and violence for nearly 100 years, until the Voting Rights Act of 1965."
+  },
+  "fun_fact": {
+    "text": "The 15th Amendment was ratified February 3, 1870, giving Black men the legal right to vote. Just 22 days later, Hiram Revels of Mississippi was sworn in as the first Black U.S. Senator. One activist called him 'the Fifteenth Amendment in flesh and blood.'",
+    "source_url": "https://www.senate.gov/artandhistory/senate-stories/First-African-American-Senator.htm",
+    "source_verified": true
+  },
+  "concept_ids": ["fifteenth_amendment", "voting_rights", "reconstruction", "civil_rights"],
+  "term_ids": ["fifteenth_amendment", "hiram_revels", "reconstruction", "voting_rights"],
+  "thread_ids": ["1800s", "voting_rights", "civil_rights"],
+  "media": { "audio": {} }
+}

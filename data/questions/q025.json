@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 25,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "How long is a term for a member of the House of Representatives?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Two (2) years",
+      "key_elements": ["two", "2"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Every two years, the entire House faces reelection. That's the shortest term in federal government. If you don't like what your representative is doing, you don't have to wait long to vote them out. It's designed to keep representatives close to the people."
+  },
+  "fun_fact": {
+    "text": "In 1788, James Madison argued for two-year House terms in Federalist 52. He wrote that the House 'should have an immediate dependence on, and an intimate sympathy with the people.' Two-year terms force representatives to listen to voters constantly.",
+    "source_url": "https://founders.archives.gov/documents/Madison/01-10-02-0283",
+    "source_verified": true
+  },
+  "concept_ids": ["house_structure", "frequent_elections", "accountability"],
+  "term_ids": ["house_of_representatives", "term", "representative"],
+  "thread_ids": ["congress_structure", "house_terms"],
+  "media": { "audio": {} }
+}

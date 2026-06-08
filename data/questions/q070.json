@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "id": 70,
+  "section": "American Government",
+  "subsection": "Rights and Responsibilities",
+  "is_starred": false,
+  "lead_in": "Any one of these counts:",
+  "question_text": "What is one way Americans can serve their country?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Vote", "key_elements": ["vote", "voting"] },
+    { "text": "Pay taxes", "key_elements": ["pay taxes", "taxes"] },
+    { "text": "Serve in the military", "key_elements": ["military"] },
+    { "text": "Run for office", "key_elements": ["run for office"] },
+    { "text": "Work for local, state, or federal government", "key_elements": ["work", "government"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Serving your country doesn't only mean wearing a uniform. The Founders thought a republic couldn't survive unless ordinary citizens did their part: voting, paying taxes, obeying laws, helping their community. Service is what makes the whole system work. In a self-governing country, the citizens ARE the government — so they have to show up."
+  },
+  "fun_fact": {
+    "text": "The Founders thought a republic couldn't survive unless citizens did their part. They called this 'civic virtue.' Service doesn't only mean joining the military — voting, paying taxes, even just obeying the law are all forms of service. They're what makes self-government actually work. A republic needs citizens who care enough to keep it running.",
+    "source_url": "https://billofrightsinstitute.org/essays/civic-virtue-and-our-constitutional-republic/",
+    "source_verified": true
+  },
+  "concept_ids": ["civic_virtue", "civic_duty", "self_government"],
+  "term_ids": ["civic_duty", "civic_virtue", "voting"],
+  "thread_ids": ["citizenship", "self_government", "civic_duty"],
+  "media": { "audio": {} }
+}

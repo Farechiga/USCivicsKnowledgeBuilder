@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 124,
+  "section": "Symbols and Holidays",
+  "subsection": "Symbols",
+  "is_starred": false,
+  "lead_in": "Either of these works:",
+  "question_text": "The Nation's first motto was 'E Pluribus Unum.' What does that mean?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Out of many, one", "key_elements": ["out of many", "one"] },
+    { "text": "We all become one", "key_elements": ["all become one"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "'E Pluribus Unum' is Latin for 'Out of many, one.' Originally it meant 13 separate colonies becoming one nation. Today it means something even bigger: people from many countries, languages, religions, and backgrounds becoming one American people. It still appears on most U.S. coins and the Great Seal of the United States — the official symbol of our country."
+  },
+  "fun_fact": {
+    "text": "On July 4, 1776 — the same day Congress adopted the Declaration of Independence — they chose Benjamin Franklin, John Adams, and Thomas Jefferson to design a national seal. The trio proposed 'E Pluribus Unum.' Look closely: the phrase has exactly 13 letters — one for each original colony.",
+    "source_url": "https://www.archives.gov/milestone-documents/original-design-of-the-great-seal-of-the-united-states",
+    "source_verified": true
+  },
+  "concept_ids": ["e_pluribus_unum", "great_seal", "national_motto"],
+  "term_ids": ["e_pluribus_unum", "great_seal", "franklin", "adams", "jefferson"],
+  "thread_ids": ["symbols", "founding"],
+  "media": { "audio": {} }
+}

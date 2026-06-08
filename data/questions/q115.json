@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "id": 115,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": true,
+  "lead_in": "Any one of these works:",
+  "question_text": "What major event happened on September 11, 2001 in the United States?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Terrorists attacked the United States", "key_elements": ["terrorists", "attacked"] },
+    { "text": "Terrorists took over two planes and crashed them into the World Trade Center in New York City", "key_elements": ["planes", "world trade center"] },
+    { "text": "Terrorists took over a plane and crashed into the Pentagon in Arlington, Virginia", "key_elements": ["plane", "pentagon"] },
+    { "text": "Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania", "key_elements": ["plane", "pennsylvania", "field"] }
+  ],
+  "why_it_matters": {
+    "register": "somber",
+    "text": "On September 11, 2001, 19 al-Qaeda terrorists hijacked four planes. Two struck the World Trade Center towers in New York City. One hit the Pentagon. Nearly 3,000 Americans were killed — the deadliest attack on American soil since the Civil War. The country went to war in Afghanistan within weeks. America was changed forever."
+  },
+  "fun_fact": {
+    "text": "On September 11, 2001, four planes were hijacked. The fourth — United Flight 93 — never reached its target. Passengers learned via cell phones what had happened to the other planes, voted to fight back, and stormed the cockpit. The plane crashed in a Shanksville, PA field, 20 minutes from the U.S. Capitol. 40 passengers gave their lives.",
+    "source_url": "https://blogs.loc.gov/law/2019/09/were-going-to-do-something-flight-93-national-memorial/",
+    "source_verified": true
+  },
+  "concept_ids": ["september_11", "war_on_terror", "terrorism"],
+  "term_ids": ["september_11", "world_trade_center", "pentagon", "flight_93", "al_qaeda"],
+  "thread_ids": ["2000s", "war_on_terror"],
+  "media": { "audio": {} }
+}

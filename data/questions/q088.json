@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "id": 88,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "James Madison is famous for many things. Name one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "\"Father of the Constitution\"", "key_elements": ["father of the constitution"] },
+    { "text": "Fourth president of the United States", "key_elements": ["fourth president", "4th president"] },
+    { "text": "President during the War of 1812", "key_elements": ["president", "war of 1812"] },
+    { "text": "One of the writers of the Federalist Papers", "key_elements": ["federalist papers", "writer"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "James Madison was the architect of the Constitution — he arrived at the 1787 Convention with a plan ready, helped write the document, then drafted the Bill of Rights to add 10 protections for individual freedoms. He went on to be the fourth President and led the country through the War of 1812. He's called the Father of the Constitution."
+  },
+  "fun_fact": {
+    "text": "James Madison kept secret notes every single day of the Constitutional Convention. He never published them in his lifetime — they came out in 1840, four years after he died. Without those notes, we wouldn't know what happened in that closed-windows summer of 1787.",
+    "source_url": "https://www.loc.gov/collections/james-madison-papers/articles-and-essays/james-madison-and-the-federal-constitutional-convention-of-1787/",
+    "source_verified": true
+  },
+  "concept_ids": ["founding_fathers", "james_madison", "constitution", "bill_of_rights"],
+  "term_ids": ["james_madison", "constitution", "bill_of_rights", "constitutional_convention", "father_of_the_constitution"],
+  "thread_ids": ["founding_era", "founding_fathers", "presidents", "constitution"],
+  "media": { "audio": {} }
+}

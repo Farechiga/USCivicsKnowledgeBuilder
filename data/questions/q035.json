@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "id": 35,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Some states have more representatives than other states. Why?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "(Because of) the state's population",
+      "key_elements": ["state's", "population"]
+    },
+    {
+      "text": "(Because) they have more people",
+      "key_elements": ["more people"]
+    },
+    {
+      "text": "(Because) some states have more people",
+      "key_elements": ["more people"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Larger states get more Congressional representatives because more people live there. This is the 'proportional' part of representation, it is balanced by the Senate, where every state has 2 senators regardless of size."
+  },
+  "fun_fact": {
+    "text": "The Constitution promises every state at least 1 representative — no matter how small. So Wyoming, with 580,000 people, gets 1. California, with 39 million, gets 52.",
+    "source_url": "https://history.house.gov/Historical-Highlights/1901-1950/The-Permanent-Apportionment-Act-of-1929/",
+    "source_verified": true
+  },
+  "concept_ids": ["proportional_representation", "apportionment", "census"],
+  "term_ids": ["representative", "house_of_representatives"],
+  "thread_ids": ["congress_structure", "representation"],
+  "media": { "audio": {} }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "id": 33,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Who does a member of the House of Representatives represent?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Citizens in their (congressional) district",
+      "key_elements": ["citizens", "district"]
+    },
+    {
+      "text": "People in their (congressional) district",
+      "key_elements": ["people", "district"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Your representative speaks only for your specific district — usually a smaller area than what your senators cover. That's why they're often called the closest federal officials to ordinary people. They handle constituent concerns, hold town halls in your area, and write laws shaped by your community's needs."
+  },
+  "fun_fact": {
+    "text": "The word 'gerrymander', is a negative term for redrawing voting maps in a way to get more votes. In 1812, A Boston cartoonist drew an oddly-shaped Massachusetts voting district as a winged salamander. Governor Elbridge Gerry had signed it into law — so 'Gerry' + 'salamander' = 'gerrymander.'",
+    "source_url": "https://blogs.loc.gov/loc/2024/07/gerrymandering-the-origin-story/",
+    "source_verified": true
+  },
+  "concept_ids": ["representation", "congressional_districts", "redistricting"],
+  "term_ids": ["representative", "house_of_representatives", "congressional_district"],
+  "thread_ids": ["congress_structure", "representation"],
+  "media": { "audio": {} }
+}

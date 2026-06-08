@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "id": 20,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": true,
+  "question_text": "Name one power of the U.S. Congress.",
+  "lead_in": "You only need to name one. Any of these works:",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Writes laws",
+      "key_elements": ["writes laws", "makes laws"]
+    },
+    {
+      "text": "Declares war",
+      "key_elements": ["declares war"]
+    },
+    {
+      "text": "Makes the federal budget",
+      "key_elements": ["federal budget", "budget"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Congress holds the most powerful tools in government: the power to write laws, declare war, and decide how every federal dollar gets spent. No president can declare war, spend money, or pass a law without Congress. That's why the founders made Congress first — and biggest — in the Constitution."
+  },
+  "fun_fact": {
+    "text": "Congress hasn't formally declared war since 1942. Every U.S. conflict since — Korea, Vietnam, the Gulf War, Iraq, Afghanistan — used a different tool: 'authorization for use of military force.' Same effect, different name.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artI-S8-C11-2-1/ALDE_00000110/",
+    "source_verified": true
+  },
+  "concept_ids": ["congressional_powers", "war_powers", "checks_and_balances"],
+  "term_ids": ["congress", "declaration_of_war"],
+  "thread_ids": ["congress_structure", "war_powers"],
+  "media": { "audio": {} }
+}

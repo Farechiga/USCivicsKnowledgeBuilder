@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 43,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Who signs bills to become laws?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "The President (of the United States)",
+      "key_elements": ["president"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "After Congress passes a bill, it isn't law yet — the President has to sign it. That signature is the final step that turns the idea Congress agreed on into a rule everyone in America has to follow."
+  },
+  "fun_fact": {
+    "text": "Signing a major bill is often a ceremony. President Lyndon Johnson used more than 75 pens to sign the Civil Rights Act of 1964 — and gave every pen away as a gift. One of the first went to Dr. Martin Luther King Jr.",
+    "source_url": "https://unwritten-record.blogs.archives.gov/2024/07/02/spotlight-passage-of-the-civil-rights-act-of-1964/",
+    "source_verified": true
+  },
+  "concept_ids": ["executive_branch", "lawmaking_process", "civil_rights"],
+  "term_ids": ["president", "executive_branch"],
+  "thread_ids": ["presidency", "lawmaking"],
+  "media": { "audio": {} }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "id": 90,
+  "section": "American History",
+  "subsection": "1800s",
+  "is_starred": false,
+  "question_text": "What territory did the United States buy from France in 1803?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Louisiana Territory", "key_elements": ["louisiana", "territory"] },
+    { "text": "Louisiana", "key_elements": ["louisiana"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "In 1803, the United States bought the Louisiana Territory from France — 828,000 square miles of land stretching from the Mississippi River to the Rocky Mountains. The deal DOUBLED the size of the country in one stroke and eventually became all or part of 15 states. It was the largest land deal in American history."
+  },
+  "fun_fact": {
+    "text": "American negotiators went to Paris in 1803 just to buy the city of New Orleans. Napoleon, was desperate for money to fight Britain, and surprised Thomas Jefferson by offering the entire Louisiana Territory: 828,000 square miles for $15 million, about 4 cents an acre. Jefferson said yes on the spot, exceeding his instructions. The deal doubled the size of the country overnight.",
+    "source_url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+    "source_verified": true
+  },
+  "concept_ids": ["louisiana_purchase", "westward_expansion", "thomas_jefferson"],
+  "term_ids": ["louisiana_purchase", "louisiana_territory", "thomas_jefferson", "napoleon"],
+  "thread_ids": ["1800s", "westward_expansion"],
+  "media": { "audio": {} }
+}

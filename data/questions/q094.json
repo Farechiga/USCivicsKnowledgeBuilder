@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "id": 94,
+  "section": "American History",
+  "subsection": "1800s",
+  "is_starred": true,
+  "lead_in": "Any one of these works:",
+  "question_text": "Abraham Lincoln is famous for many things. Name one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Freed the slaves (Emancipation Proclamation)", "key_elements": ["freed the slaves", "emancipation proclamation"] },
+    { "text": "Saved (or preserved) the Union", "key_elements": ["saved the union", "preserved the union"] },
+    { "text": "Led the United States during the Civil War", "key_elements": ["led", "civil war"] },
+    { "text": "16th president of the United States", "key_elements": ["16th president"] },
+    { "text": "Delivered the Gettysburg Address", "key_elements": ["gettysburg address", "delivered"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "Abraham Lincoln held the country together during its worst crisis. He led the Union through the Civil War, issued the Emancipation Proclamation to end slavery, and gave the Gettysburg Address. He was assassinated 5 days after the war ended — the first U.S. president killed in office."
+  },
+  "fun_fact": {
+    "text": "The main speaker at Gettysburg, Edward Everett, spoke for two hours. Then President Lincoln rose and spoke for two minutes — just 272 words. Everett wrote Lincoln the next day, admitting he wished he'd captured the meaning of the day in 2 hours as well as Lincoln did in 2. The speech became one of the greatest in American history.",
+    "source_url": "https://www.loc.gov/item/today-in-history/november-19/",
+    "source_verified": true
+  },
+  "concept_ids": ["abraham_lincoln", "civil_war", "gettysburg_address", "emancipation"],
+  "term_ids": ["abraham_lincoln", "civil_war", "gettysburg_address", "emancipation_proclamation", "union"],
+  "thread_ids": ["1800s", "civil_war", "presidents"],
+  "media": { "audio": {} }
+}

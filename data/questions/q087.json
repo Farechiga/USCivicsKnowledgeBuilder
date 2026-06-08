@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "id": 87,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Thomas Jefferson is famous for many things. Name one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Writer of the Declaration of Independence", "key_elements": ["writer", "declaration of independence"] },
+    { "text": "Third president of the United States", "key_elements": ["third president"] },
+    { "text": "Doubled the size of the United States (Louisiana Purchase)", "key_elements": ["louisiana purchase", "doubled", "size"] },
+    { "text": "First Secretary of State", "key_elements": ["first secretary of state"] },
+    { "text": "Founded the University of Virginia", "key_elements": ["founded", "university of virginia"] },
+    { "text": "Writer of the Virginia Statute on Religious Freedom", "key_elements": ["virginia statute", "religious freedom"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Thomas Jefferson wrote the Declaration of Independence, served as the first Secretary of State, became the third President, and doubled the size of the country through the Louisiana Purchase, which expanded land from 15 new states. He wrote Virginia's law guaranteeing religious freedom — which later became the model for the First Amendment."
+  },
+  "fun_fact": {
+    "text": "Thomas Jefferson designed his own gravestone and listed exactly 3 things he wanted to be remembered for: writer of the Declaration of Independence, writer of the Virginia Statute on Religious Freedom, and founder of the University of Virginia. He said 'not a word more.' He didn't even mention being President.",
+    "source_url": "https://www.loc.gov/exhibits/jefferson/jeffleg.html",
+    "source_verified": true
+  },
+  "concept_ids": ["founding_fathers", "thomas_jefferson", "louisiana_purchase", "religious_freedom"],
+  "term_ids": ["thomas_jefferson", "declaration_of_independence", "louisiana_purchase", "university_of_virginia"],
+  "thread_ids": ["founding_era", "founding_fathers", "presidents"],
+  "media": { "audio": {} }
+}

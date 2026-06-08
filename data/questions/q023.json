@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "id": 23,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Who is one of your state's U.S. senators now?",
+  "disambiguation": "District of Columbia residents and U.S. territory residents should answer that D.C. (or the territory) has no U.S. senators.",
+  "answer_type": "dynamic_lookup",
+  "official_answers": [
+    {
+      "text": "Answers will vary by state. (D.C. and U.S. territories have no senators.)",
+      "key_elements": []
+    }
+  ],
+  "dynamic": {
+    "lookup": "state_senator",
+    "current_value": "Democrat, Amy Klobuchar or Democrat, Tina Smith",
+    "last_verified": "2026-06-07",
+    "source_url": "https://www.senate.gov/senators/"
+  },
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Your two senators represent your entire state in Washington. They write laws, vote on Supreme Court nominees, approve treaties, and decide federal spending. Knowing their names — and being able to contact them — is how regular citizens influence federal decisions."
+  },
+  "fun_fact": {
+    "text": "Whoever your senators are right now, they sit at one of 100 desks in the Senate chamber that have been used for over 200 years. For more than 120 years, senators have inscribed their names inside the desk drawer when they leave. Daniel Webster's old desk is still used today by senators from New Hampshire.",
+    "source_url": "https://www.senate.gov/art-artifacts/decorative-art/furniture/senate-chamber-desks/traditions.htm",
+    "source_verified": true
+  },
+  "concept_ids": ["representation", "senate_structure"],
+  "term_ids": ["senator", "senate"],
+  "thread_ids": ["congress_structure", "civic_participation"],
+  "media": { "audio": {} }
+}

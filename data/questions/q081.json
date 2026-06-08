@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "id": 81,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Name any FIVE of the 13 original states:",
+  "question_text": "There were 13 original states. Name five.",
+  "answer_type": "choose_n",
+  "n_required": 5,
+  "official_answers": [
+    { "text": "New York", "key_elements": ["new york"] },
+    { "text": "New Jersey", "key_elements": ["new jersey"] },
+    { "text": "Massachusetts", "key_elements": ["massachusetts"] },
+    { "text": "Pennsylvania", "key_elements": ["pennsylvania"] },
+    { "text": "Maryland", "key_elements": ["maryland"] },
+    { "text": "Virginia", "key_elements": ["virginia"] },
+    { "text": "Georgia", "key_elements": ["georgia"] },
+    { "text": "Delaware", "key_elements": ["delaware"] },
+    { "text": "North Carolina", "key_elements": ["north carolina"] },
+    { "text": "South Carolina", "key_elements": ["south carolina"] },
+    { "text": "New Hampshire", "key_elements": ["new hampshire"] },
+    { "text": "Rhode Island", "key_elements": ["rhode island"] },
+    { "text": "Connecticut", "key_elements": ["connecticut"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The 13 original states were the first members of the United States. Each was a separate colony that fought together in the Revolution and then agreed to form one country. The 13 stripes on the U.S. flag still honor them today."
+  },
+  "fun_fact": {
+    "text": "Delaware was the first state to ratify the Constitution — December 7, 1787, by a unanimous 30-0 vote. That's why its nickname is 'The First State.' Rhode Island was DEAD LAST — May 29, 1790, almost 3 years later. Rhode Island only agreed after Congress threatened to treat it as a foreign country.",
+    "source_url": "https://www.archives.gov/education/lessons/constitution-day/ratification.html",
+    "source_verified": true
+  },
+  "concept_ids": ["original_states", "ratification", "thirteen_colonies"],
+  "term_ids": ["original_states", "ratification", "delaware", "rhode_island"],
+  "thread_ids": ["founding_era", "constitution"],
+  "media": { "audio": {} }
+}

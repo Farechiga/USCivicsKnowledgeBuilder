@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 31,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Who does a U.S. senator represent?",
+  "lead_in": "Either answer works:",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Citizens of their state",
+      "key_elements": ["citizens", "state"]
+    },
+    {
+      "text": "People of their state",
+      "key_elements": ["people", "state"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Each senator represents every person in their state — the people who voted for them and the people who didn't. They're not assigned a small district like House members. Senators have to listen to ranchers, teachers, immigrants, business owners, and millions of others — all in their one state."
+  },
+  "fun_fact": {
+    "text": "The Constitution requires senators to actually live in the state they represent — they can't represent California while living in Texas. The framers picked the word 'inhabitant' on purpose, to make sure senators were rooted in their states and knew their state's needs first-hand.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artI-S3-C3-1/ALDE_00013345/",
+    "source_verified": true
+  },
+  "concept_ids": ["representation", "senate_structure", "constitutional_qualifications"],
+  "term_ids": ["senator", "senate", "constitution"],
+  "thread_ids": ["congress_structure", "representation"],
+  "media": { "audio": {} }
+}

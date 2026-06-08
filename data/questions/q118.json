@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "id": 118,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Name one example of an American innovation.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Light bulb", "key_elements": ["light bulb"] },
+    { "text": "Automobile (cars, internal combustion engine)", "key_elements": ["automobile", "car"] },
+    { "text": "Skyscrapers", "key_elements": ["skyscraper"] },
+    { "text": "Airplane", "key_elements": ["airplane", "plane"] },
+    { "text": "Assembly line", "key_elements": ["assembly line"] },
+    { "text": "Landing on the moon", "key_elements": ["moon", "landing"] },
+    { "text": "Integrated circuit (IC)", "key_elements": ["integrated circuit", "ic"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "American innovation transformed daily life worldwide. Edison's light bulb (1879) lit the world. Ford's assembly line (1913) made cars affordable. The Wright Brothers' airplane (1903) shrank the planet. The integrated circuit (1958) powers every phone, computer, and satellite. Landing on the Moon (1969) showed what humans could do."
+  },
+  "fun_fact": {
+    "text": "On December 17, 1903, Orville Wright lay on the lower wing of a homemade airplane at Kitty Hawk, NC, and flew for 12 SECONDS. Distance: 120 feet — shorter than a Boeing 747's wingspan. He and his brother Wilbur were bicycle mechanics from Ohio with no college degrees. Within 66 YEARS of their first flight, a human walked on the Moon.",
+    "source_url": "https://www.loc.gov/collections/wilbur-and-orville-wright-papers/articles-and-essays/collection-highlights/first-flight/",
+    "source_verified": true
+  },
+  "concept_ids": ["american_innovation", "wright_brothers", "first_flight", "industrial_revolution"],
+  "term_ids": ["wright_brothers", "kitty_hawk", "airplane", "edison", "ford", "moon_landing", "integrated_circuit"],
+  "thread_ids": ["1900s", "american_innovation"],
+  "media": { "audio": {} }
+}

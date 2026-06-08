@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "id": 83,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "(James) Madison", "key_elements": ["madison", "james madison"] },
+    { "text": "(Alexander) Hamilton", "key_elements": ["hamilton", "alexander hamilton"] },
+    { "text": "(John) Jay", "key_elements": ["jay", "john jay"] },
+    { "text": "Publius", "key_elements": ["publius"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Federalist Papers were 85 newspaper essays written in 1787-88 by three of America's sharpest political minds to convince New Yorkers to ratify the Constitution. They worked. New York approved. Today these essays are still the most important explanation of what the Constitution means — the Supreme Court cites them more than any other historical source."
+  },
+  "fun_fact": {
+    "text": "All 85 essays were published under one pen name: Publius. The real authors did very different shares of the work — Alexander Hamilton wrote 51 essays, James Madison wrote 29, and John Jay wrote only 5. Hamilton did more than half by himself.",
+    "source_url": "https://www.loc.gov/loc/lcib/9606/federalist.html",
+    "source_verified": true
+  },
+  "concept_ids": ["federalist_papers", "ratification", "constitution"],
+  "term_ids": ["federalist_papers", "alexander_hamilton", "james_madison", "john_jay", "publius"],
+  "thread_ids": ["founding_era", "constitution"],
+  "media": { "audio": {} }
+}

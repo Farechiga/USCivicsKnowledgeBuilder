@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "id": 91,
+  "section": "American History",
+  "subsection": "1800s",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Name one war fought by the United States in the 1800s.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "War of 1812", "key_elements": ["war of 1812", "1812"] },
+    { "text": "Mexican-American War", "key_elements": ["mexican-american war", "mexican american war"] },
+    { "text": "Civil War", "key_elements": ["civil war"] },
+    { "text": "Spanish-American War", "key_elements": ["spanish-american war", "spanish american war"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The 1800s were the wars of America's adolescence. The War of 1812 with Britain proved the new country could defend itself. The Mexican-American War in the 1840s expanded the country to the Pacific. The Civil War nearly tore it apart. The Spanish-American War in 1898 made the U.S. a world power. Each one reshaped what America was."
+  },
+  "fun_fact": {
+    "text": "In August 1814, during the War of 1812, British soldiers marched into Washington and burned the White House and the Capitol. First Lady Dolley Madison stayed in the burning city long enough to save the famous Stuart portrait of George Washington from the wall — then fled. The next day a tornado swept through and put out the fires.",
+    "source_url": "https://www.loc.gov/pictures/item/96522240/",
+    "source_verified": true
+  },
+  "concept_ids": ["1800s_wars", "war_of_1812", "westward_expansion"],
+  "term_ids": ["war_of_1812", "mexican_american_war", "civil_war", "spanish_american_war", "dolley_madison"],
+  "thread_ids": ["1800s", "american_wars"],
+  "media": { "audio": {} }
+}

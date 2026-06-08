@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 44,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": true,
+  "question_text": "Who vetoes bills?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "The President (of the United States)",
+      "key_elements": ["president"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The veto is the President's biggest tool to push back on Congress. When the President disagrees with a bill, a veto can stop it from becoming law. But the system has a check on the check: Congress can override a veto with a two-thirds vote in both chambers."
+  },
+  "fun_fact": {
+    "text": "Presidents use the veto very differently. Franklin D. Roosevelt vetoed 635 bills — the all-time record. George Washington vetoed just 2 in his entire 8 years. Congress can override a veto with a two-thirds vote in both chambers, but it's so hard that only about 4% of all vetoes have ever been overturned.",
+    "source_url": "https://www.senate.gov/legislative/vetoes/vetoCounts.htm",
+    "source_verified": true
+  },
+  "concept_ids": ["executive_branch", "checks_and_balances", "veto_power"],
+  "term_ids": ["president", "veto", "executive_branch"],
+  "thread_ids": ["presidency", "checks_and_balances"],
+  "media": { "audio": {} }
+}

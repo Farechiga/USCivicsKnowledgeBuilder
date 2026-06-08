@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 18,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "What part of the federal government writes laws?",
+  "lead_in": "Any of these answers works:",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "(U.S.) Congress",
+      "key_elements": ["Congress"]
+    },
+    {
+      "text": "The legislative branch",
+      "key_elements": ["legislative"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Only Congress can write new federal laws — not the president, not the courts . That's a deliberate choice. The people who make laws should be the ones the public elects and can vote out. If you don't like a law, you can fire the people who wrote it next election."
+  },
+  "fun_fact": {
+    "text": "The Constitution describes Congress in Article I — the longest article by far. The founders put Congress first and gave it the most space because they expected Congress to be the most powerful (and most dangerous) branch. Notice the order: Article I is the lawmakers; the president comes second.",
+    "source_url": "https://constitutioncenter.org/education/classroom-resource-library/classroom/6.4-info-brief-article-i-congress",
+    "source_verified": true
+  },
+  "concept_ids": ["legislative_branch", "lawmaking", "three_branches"],
+  "term_ids": ["congress", "legislative_branch"],
+  "thread_ids": ["three_branches", "lawmaking"],
+  "media": { "audio": {} }
+}

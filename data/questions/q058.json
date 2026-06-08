@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "id": 58,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "lead_in": "Any one of these works (you only need one):",
+  "question_text": "Name one power that is only for the federal government.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Print paper money", "key_elements": ["print", "money"] },
+    { "text": "Mint coins", "key_elements": ["mint", "coins"] },
+    { "text": "Declare war", "key_elements": ["declare war"] },
+    { "text": "Create an army", "key_elements": ["army"] },
+    { "text": "Make treaties", "key_elements": ["treaties"] },
+    { "text": "Set foreign policy", "key_elements": ["foreign policy"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Some jobs only the federal government can do. One country needs one military, one currency, one set of foreign policies. Imagine if every state had its own army or printed its own money — the United States wouldn't really be united."
+  },
+  "fun_fact": {
+    "text": "Before the Constitution, both Congress and each state printed their own paper money. The result was a mess — money from one state was often worthless in another. People joked that something useless was 'not worth a Continental,' which was the first paper money congress printed. The Constitution fixed this by giving only the federal government the power to print money.",
+    "source_url": "https://www.loc.gov/exhibits/creating-the-united-states/road-to-the-constitution.html",
+    "source_verified": true
+  },
+  "concept_ids": ["federalism", "enumerated_powers", "national_government"],
+  "term_ids": ["federal_government", "treaty", "currency"],
+  "thread_ids": ["federalism", "founding_decisions"],
+  "media": { "audio": {} }
+}

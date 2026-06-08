@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 21,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "How many U.S. senators are there?",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "One hundred (100)",
+      "key_elements": ["100", "one hundred"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Two senators per state, times 50 states, equals 100. Equal representation means Wyoming (584,000 people) and California (39 million people) each get exactly two votes in the Senate. That's intentional — it forces leaders to listen to small states too, not just the big ones."
+  },
+  "fun_fact": {
+    "text": "The Vice President of the United States acts as the President of the Senate, but is only permitted to vote to break a legislative tie",
+    "source_url": "https://www.senate.gov/legislative/TieVotes.htm",
+    "source_verified": true
+  },
+  "concept_ids": ["senate_structure", "equal_representation", "great_compromise"],
+  "term_ids": ["senate", "congress"],
+  "thread_ids": ["congress_structure"],
+  "media": { "audio": {} }
+}

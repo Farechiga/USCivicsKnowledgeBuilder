@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "id": 51,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "What does the judicial branch do?",
+  "lead_in": "Any one of these works (you only need one):",
+  "answer_type": "one_of",
+  "official_answers": [
+    {
+      "text": "Reviews laws",
+      "key_elements": ["reviews", "laws"]
+    },
+    {
+      "text": "Explains laws",
+      "key_elements": ["explains", "laws"]
+    },
+    {
+      "text": "Resolves disputes (disagreements) about the law",
+      "key_elements": ["resolves disputes"]
+    },
+    {
+      "text": "Decides if a law goes against the (U.S.) Constitution",
+      "key_elements": ["against", "constitution"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Courts settle arguments — between people, between businesses, between citizens and the government. They also do something deeper: they check whether laws follow the Constitution. If a law violates the Constitution, courts can strike it down. "
+  },
+  "fun_fact": {
+    "text": "The judicial branch's greatest power isn't actually stated in the Constitution! Chief Justice John Marshall claimed it for the Supreme Court in the 1803 case Marbury v. Madison. He wrote that it is 'the province and duty of the judicial department to say what the law is.' That power — declaring a law unconstitutional — has shaped American law ever since.",
+    "source_url": "https://constitution.congress.gov/browse/essay/artIII-S1-3/ALDE_00013514/",
+    "source_verified": true
+  },
+  "concept_ids": ["judicial_branch", "judicial_review", "checks_and_balances"],
+  "term_ids": ["judicial_branch", "supreme_court", "judicial_review"],
+  "thread_ids": ["judicial_branch", "checks_and_balances"],
+  "media": { "audio": {} }
+}

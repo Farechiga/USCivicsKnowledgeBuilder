@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "id": 39,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": true,
+  "question_text": "What is the name of the Vice President of the United States now?",
+  "answer_type": "dynamic_lookup",
+  "official_answers": [
+    {
+      "text": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States.",
+      "key_elements": []
+    }
+  ],
+  "dynamic": {
+    "lookup": "uscis_testupdates",
+    "current_value": "JD Vance",
+    "last_verified": "2026-06-07",
+    "source_url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/check-for-test-updates"
+  },
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Vice President is first in line to become President if the President can no longer serve. The VP also presides over the Senate and breaks tied votes — a job that has decided huge laws over the years. It's a unique role: half executive branch, half legislative branch."
+  },
+  "fun_fact": {
+    "text": "The Vice President's only constitutional jobs are to preside over the Senate and break tied votes. John Adams, the first VP, called it 'the most insignificant office that ever the invention of man contrived.' But the VP is first in line if the President can't serve — so the 'insignificant' job is just a heartbeat from the most powerful one.",
+    "source_url": "https://www.senate.gov/about/officers-staff/vice-president/overview.htm",
+    "source_verified": true
+  },
+  "concept_ids": ["executive_branch", "presidential_succession", "separation_of_powers"],
+  "term_ids": ["vice_president", "executive_branch", "senate"],
+  "thread_ids": ["presidency", "presidential_succession"],
+  "media": { "audio": {} }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "id": 113,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": true,
+  "lead_in": "Any one of these works:",
+  "question_text": "Martin Luther King, Jr. is famous for many things. Name one.",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Fighting for civil rights", "key_elements": ["fought", "civil rights"] },
+    { "text": "Working for equality for all Americans", "key_elements": ["equality", "all americans"] },
+    { "text": "Working to ensure that people would 'not be judged by the color of their skin, but by the content of their character'", "key_elements": ["color of their skin", "content of their character"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "Martin Luther King Jr. led the civil rights movement using nonviolent protest, inspired by Mahatma Gandhi. He delivered the 'I Have a Dream' speech (1963), won the Nobel Peace Prize at age 35 (1964), and was assassinated in 1968 at age 39. He is the only individual American with his own federal holiday besides George Washington."
+  },
+  "fun_fact": {
+    "text": "On August 28, 1963, Martin Luther King stood before 250,000 people at the Lincoln Memorial. He was reading from a prepared text when gospel singer Mahalia Jackson shouted: 'Tell them about the dream, Martin!' He set aside his notes and improvised the most famous passage in American oratory: 'I have a dream...'",
+    "source_url": "https://womenshistory.si.edu/blog/women-musicians-shined-1963-march-washington-jobs-and-freedom",
+    "source_verified": true
+  },
+  "concept_ids": ["martin_luther_king", "civil_rights_movement", "march_on_washington", "i_have_a_dream"],
+  "term_ids": ["martin_luther_king", "i_have_a_dream", "march_on_washington", "mahalia_jackson", "civil_rights_movement"],
+  "thread_ids": ["1900s", "civil_rights"],
+  "media": { "audio": {} }
+}

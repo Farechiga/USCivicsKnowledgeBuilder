@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 74,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": true,
+  "lead_in": "Either name works:",
+  "question_text": "Who lived in America before the Europeans arrived?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "American Indians", "key_elements": ["american indians", "indians"] },
+    { "text": "Native Americans", "key_elements": ["native americans", "natives"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "Native Americans had been living across North America for thousands of years before any European arrived. They had hundreds of distinct nations, languages, cultures, and governments. Acknowledging this is part of telling American history honestly."
+  },
+  "fun_fact": {
+    "text": "Native Americans had been here for thousands of years before Europeans arrived. They had complex governments — the Iroquois Confederacy had its own constitution, the Great Law of Peace, that worked for centuries. Benjamin Franklin studied it. In 1988, Congress officially recognized that the Iroquois helped shape the U.S. Constitution.",
+    "source_url": "https://www.congress.gov/bill/100th-congress/house-concurrent-resolution/331",
+    "source_verified": true
+  },
+  "concept_ids": ["native_americans", "pre_columbian", "iroquois_confederacy"],
+  "term_ids": ["native_americans", "iroquois_confederacy", "great_law_of_peace"],
+  "thread_ids": ["native_americans", "founding_documents", "colonial_era"],
+  "media": { "audio": {} }
+}

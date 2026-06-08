@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "id": 16,
+  "section": "American Government",
+  "subsection": "System of Government",
+  "is_starred": false,
+  "question_text": "Name the three branches of government.",
+  "lead_in": "Name all three:",
+  "answer_type": "choose_n",
+  "n_required": 3,
+  "official_answers": [
+    {
+      "text": "Legislative (Congress)",
+      "key_elements": ["legislative", "Congress"]
+    },
+    {
+      "text": "Executive (president)",
+      "key_elements": ["executive", "president"]
+    },
+    {
+      "text": "Judicial (the courts)",
+      "key_elements": ["judicial", "courts"]
+    }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "Knowing the three branches helps you understand who does what in your government. Congress writes the laws. The president carries them out. The courts decide what the laws mean and whether they're constitutional. Three different jobs, three different sets of people in charge."
+  },
+  "fun_fact": {
+    "text": "Article III of the Constitution — which creates the entire judicial branch — is famously brief. It barely says anything about how the Supreme Court should actually work day-to-day. Nearly every detail about how the Court operates was figured out over the next 230 years, often by the Court itself.",
+    "source_url": "https://constitutioncenter.org/education/classroom-resource-library/classroom/6.4-info-brief-article-iii-the-judiciary",
+    "source_verified": true
+  },
+  "concept_ids": ["three_branches", "separation_of_powers"],
+  "term_ids": ["legislative_branch", "executive_branch", "judicial_branch", "constitution"],
+  "thread_ids": ["three_branches"],
+  "media": { "audio": {} }
+}

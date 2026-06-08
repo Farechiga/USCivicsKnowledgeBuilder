@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 84,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Any one of these works:",
+  "question_text": "Why were the Federalist Papers important?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "They helped people understand the (U.S.) Constitution.", "key_elements": ["helped", "understand", "constitution"] },
+    { "text": "They supported passing the (U.S.) Constitution.", "key_elements": ["supported", "passing", "constitution"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "The Federalist Papers turned a brand-new, untested document into something Americans could trust. They explained, defended, and argued for the Constitution — clause by clause — when the country was deciding whether to adopt it."
+  },
+  "fun_fact": {
+    "text": "James Madison wrote one of the most famous lines in American political thought in Federalist 51: 'If men were angels, no government would be necessary.' In just 9 words, he explained the whole point of the Constitution — because people aren't perfect, the government needs checks and balances to control itself too.",
+    "source_url": "https://www.archives.gov/publications/prologue/2005/fall/weinstein.html",
+    "source_verified": true
+  },
+  "concept_ids": ["federalist_papers", "ratification", "checks_and_balances"],
+  "term_ids": ["federalist_papers", "james_madison", "constitution", "checks_and_balances"],
+  "thread_ids": ["founding_era", "constitution"],
+  "media": { "audio": {} }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "id": 69,
+  "section": "American Government",
+  "subsection": "Rights and Responsibilities",
+  "is_starred": false,
+  "lead_in": "Name any two of these forms of civic participation:",
+  "question_text": "What are two examples of civic participation in the United States?",
+  "answer_type": "choose_n",
+  "n_required": 2,
+  "official_answers": [
+    { "text": "Vote", "key_elements": ["vote", "voting"] },
+    { "text": "Run for office", "key_elements": ["run for office"] },
+    { "text": "Join a political party", "key_elements": ["political party"] },
+    { "text": "Join a civic group", "key_elements": ["civic group"] },
+    { "text": "Join a community group", "key_elements": ["community group"] },
+    { "text": "Give an elected official your opinion (on an issue)", "key_elements": ["opinion", "elected official"] },
+    { "text": "Write to a newspaper", "key_elements": ["write", "newspaper"] }
+  ],
+  "why_it_matters": {
+    "register": "celebratory",
+    "text": "American democracy doesn't just happen on election day. It happens when citizens join groups, contact their representatives, support causes, and speak up on issues. Voting is the most famous form, but it's only one of many. The Founders thought democracy needed citizens who actually participate — not just bystanders waiting for someone else to act."
+  },
+  "fun_fact": {
+    "text": "In 1831, a French aristocrat named Alexis de Tocqueville toured America for 9 months. He was AMAZED at how Americans constantly formed groups for every cause — schools, churches, charities, political clubs. He called it 'the art of association' and said it was the secret of American democracy.",
+    "source_url": "https://www.loc.gov/item/09021576/",
+    "source_verified": true
+  },
+  "concept_ids": ["civic_participation", "democracy", "self_government"],
+  "term_ids": ["civic_participation", "voting", "political_party"],
+  "thread_ids": ["citizenship", "self_government"],
+  "media": { "audio": {} }
+}

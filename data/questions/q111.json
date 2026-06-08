@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 111,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "question_text": "Why did the United States enter the Vietnam War?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "To stop the spread of communism", "key_elements": ["stop", "spread", "communism"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "After WWII, Vietnam was a French colony fighting for independence. When France lost in 1954, Vietnam split. The North became communist North and The United States backed the democratic South. The U.S. sent troops in 1965 to stop communism spreading. The war became deeply unpopular at home. Over 58,000 Americans died. The U.S. withdrew in 1973 and the communist North captured the South in 1975."
+  },
+  "fun_fact": {
+    "text": "The Vietnam War was America's longest war up to that point — about 20 years of involvement. Over 58,000 Americans died. When the U.S. pulled out and North Vietnamese tanks rolled into Saigon on April 30, 1975, the communist North won. The country is still ruled by communists today.",
+    "source_url": "https://ford.blogs.archives.gov/2025/04/30/casting-light/",
+    "source_verified": true
+  },
+  "concept_ids": ["vietnam_war", "cold_war", "communism"],
+  "term_ids": ["vietnam_war", "communism", "north_vietnam", "south_vietnam", "fall_of_saigon"],
+  "thread_ids": ["1900s", "cold_war", "american_wars"],
+  "media": { "audio": {} }
+}

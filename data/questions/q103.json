@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": 103,
+  "section": "American History",
+  "subsection": "Recent American History and Other Important Historical Information",
+  "is_starred": false,
+  "question_text": "What was the Great Depression?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Longest economic recession in modern history", "key_elements": ["longest", "economic", "recession"] }
+  ],
+  "why_it_matters": {
+    "register": "reflective",
+    "text": "The Great Depression lasted ten years, from 1929 to 1939. It was the worst economic collapse in modern history. Businesses closed by the hundreds of thousands. Banks failed. Millions of Americans lost their jobs, savings, and homes. The country never forgot it."
+  },
+  "fun_fact": {
+    "text": "At its worst in 1933, one in four American workers had no job. Nearly 10,000 banks failed — wiping out the life savings of 9 million Americans. The Great Depression was so devastating that it permanently changed what Americans expected from their government — leading to Social Security, bank deposit insurance, and minimum wage laws.",
+    "source_url": "https://hoover.archives.gov/exhibits/great-depression",
+    "source_verified": true
+  },
+  "concept_ids": ["great_depression", "new_deal", "social_security"],
+  "term_ids": ["great_depression", "new_deal", "social_security", "fdic"],
+  "thread_ids": ["1900s", "great_depression", "economy"],
+  "media": { "audio": {} }
+}

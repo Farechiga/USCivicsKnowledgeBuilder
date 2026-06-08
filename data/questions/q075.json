@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "id": 75,
+  "section": "American History",
+  "subsection": "Colonial Period and Independence",
+  "is_starred": false,
+  "lead_in": "Either answer works:",
+  "question_text": "What group of people was taken and sold as slaves?",
+  "answer_type": "one_of",
+  "official_answers": [
+    { "text": "Africans", "key_elements": ["africans"] },
+    { "text": "People from Africa", "key_elements": ["people", "africa"] }
+  ],
+  "why_it_matters": {
+    "register": "somber",
+    "text": "Millions of people were taken from Africa and forced into slavery in the Americas. In the United States, slavery lasted from 1619 until 1865 — over 240 years. American freedom and prosperity were built, in part, on the unfree labor of enslaved people. Facing this honestly is part of being an American."
+  },
+  "fun_fact": {
+    "text": "The first Africans were brought to Jamestown, Virginia in 1619.  Ending it required a civil war that killed more Americans than any other war in our history.",
+    "source_url": "https://www.loc.gov/exhibits/african-american-odyssey/slavery-the-peculiar-institution.html",
+    "source_verified": true
+  },
+  "concept_ids": ["slavery", "transatlantic_slave_trade", "thirteenth_amendment"],
+  "term_ids": ["slavery", "africans", "thirteenth_amendment", "civil_war"],
+  "thread_ids": ["slavery", "civil_war"],
+  "media": { "audio": {} }
+}
