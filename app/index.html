@@ -248,6 +248,10 @@ function refreshPips(){ document.querySelector('.progress').outerHTML=pips(); }
 
 function next(){ if(idx<Q.length-1){idx++} else {idx=0} revealed=false;openTerm=null;stopAudio();render(); }
 function prev(){ if(idx>0){idx--} revealed=false;openTerm=null;stopAudio();render(); }
+/* Drive-mode skip: jump to the new question and immediately start reading it.
+   Called from a user tap, so iOS keeps the audio element unlocked. */
+function driveNext(){ next(); playSeq(); }
+function drivePrev(){ prev(); playSeq(); }
 
 /* sections shared by quiz/study reveal */
 function answerPanel(d){
@@ -378,9 +382,9 @@ function renderDrive(d){
   paintDrive();
   controls.innerHTML = `
     <div class="drivebar">
-      <button class="mini" onclick="prev()" aria-label="Previous"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h2v14H6z M20 5v14L9 12z"/></svg></button>
+      <button class="mini" onclick="drivePrev()" aria-label="Previous"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5h2v14H6z M20 5v14L9 12z"/></svg></button>
       <button class="circle" id="play" onclick="togglePlay()">▶</button>
-      <button class="mini" onclick="next()" aria-label="Next"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 5h2v14h-2z M4 5v14L15 12z"/></svg></button>
+      <button class="mini" onclick="driveNext()" aria-label="Next"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 5h2v14h-2z M4 5v14L15 12z"/></svg></button>
     </div>
     <div class="srs">Hands-free: tap once to play. It reads the question, waits, then reveals.</div>`;
 }
