@@ -55,10 +55,10 @@
   .modes button.on{background:var(--paper);color:var(--ink)}
   .modes button .ico{display:block;font-size:17px;margin-bottom:3px}
 
-  .progress{display:flex;gap:5px;align-items:center}
-  .progress .pip{height:4px;flex:1;border-radius:3px;background:var(--ink-3)}
-  .progress .pip.done{background:var(--paper)}
-  .progress .pip.cur{background:var(--red)}
+  .progress{display:flex;gap:10px;align-items:center}
+  .progress .track{flex:1;height:5px;border-radius:3px;background:var(--ink-3);overflow:hidden}
+  .progress .track .fill{height:100%;background:var(--paper);border-radius:3px;transition:width .25s}
+  .progress .count{font-size:11px;font-weight:700;color:var(--slate);letter-spacing:.04em;white-space:nowrap}
 
   /* ---------- card area ---------- */
   .stage{flex:1 1 auto;overflow-y:auto;padding:6px 22px 22px;-webkit-overflow-scrolling:touch}
@@ -185,67 +185,21 @@
   <div class="controls" id="controls"></div>
 </div>
 
+<!-- All 125 questions + terms, generated from data/ by scripts/build-app-data.js -->
+<script src="data.js"></script>
 <script>
 /* ============================================================
-   DATA — mirrors the real schema (data/questions + terms.json)
-   so this mockup stress-tests the actual model.
+   DATA — TERMS and Q come from data.js (the full 125-question set).
+   Shuffle the deck once at load so questions appear in random order.
 ============================================================ */
-const TERMS = {
-  republic:{term:"Republic",pron:"ree-PUB-lik",hard:false,kid:"A country where people pick leaders to make decisions for them — instead of a king deciding everything.",origin:"From the Latin “res publica” — “the public affair.” A republic is a government that belongs to the public, not to a king."},
-  representative_democracy:{term:"Representative democracy",pron:"rep-rih-ZEN-tuh-tiv dih-MOK-ruh-see",hard:true,kid:"A government where we vote for people to represent us and make the laws on our behalf."},
-  popular_sovereignty:{term:"Popular sovereignty",pron:"POP-yuh-ler SOV-rin-tee",hard:true,kid:"Sovereignty means the power to rule. Popular sovereignty means that power belongs to the people.",origin:"A “sovereign” is a supreme ruler, like a king. Sovereignty is the power to rule — so “popular sovereignty” hands that power to the people."},
-  consent_of_the_governed:{term:"Consent of the governed",pron:"kun-SENT of the GUV-ernd",hard:true,kid:"The government only has power because the people agree to give it. “Consent” means to say yes."},
-  social_contract:{term:"Social contract",pron:"SOH-shul KON-trakt",hard:false,kid:"An unwritten deal: people agree to follow a government's laws, and in return the government protects them.",origin:"Think of a contract — an agreement. The “social contract” is the unwritten agreement between people and their government."},
-  self_government:{term:"Self-government",pron:"self GUV-ern-ment",hard:false,kid:"When people rule themselves, instead of being ruled by a king or anyone else."},
-  amendment:{term:"Amendment",pron:"uh-MEND-ment",hard:true,kid:"An amendment is an official change or addition to the Constitution.",origin:"Amend means to change — like mending a hole in a dress. (“Mend” even comes from “amend.”)"},
-  bill_of_rights:{term:"Bill of Rights",pron:"bil uhv RYTES",hard:false,kid:"The first ten amendments to the Constitution. It lists freedoms the government can't take away."},
-  constitution:{term:"Constitution",pron:"kon-stih-TOO-shun",hard:true,kid:"The rulebook for the whole country. It sets up the government and protects people's rights."}
-};
-const Q = [
- {id:1,q:"What is the form of government of the United States?",
-  lead:"You could describe it any of these ways (you only need one):",
-  dis:"We most often hear it called a “representative democracy” — the same idea as a “republic”: we elect people to make the laws for us. That's different from a “direct democracy,” where people vote on every law themselves.",
-  ans:["Republic","Constitution-based federal republic","Representative democracy"],
-  why:"In a republic, the power belongs to the people — not a king. We lend it to leaders we elect, and take it back at the next election. In 1787, when kings ruled almost everywhere, trusting regular people to run things was a bold bet.",
-  fun:"After the Convention, someone asked Benjamin Franklin: did we make a republic or a monarchy? “A republic,” he said, “if you can keep it.” His point: this government was brand-new, and keeping it would take work from every generation.",
-  src:"loc.gov", terms:["republic","representative_democracy"], mnem:null},
- {id:2,q:"What is the supreme law of the land?",
-  lead:null,
-  dis:"Don't mix these up: the “supreme law of the land” is the Constitution itself — not the “Supreme Court.” One is the rulebook; the other is the referee.",
-  ans:["(U.S.) Constitution"],
-  why:"Even the President has to obey the Constitution. That's the big idea: no one in America is above the law — not even the most powerful person. The law itself is the boss.",
-  fun:"Long ago, Maryland tried to tax a national bank to death. The Supreme Court said no — one state can't destroy what the whole country builds. That's how we learned: when state and national law collide, national law wins.",
-  src:"constitutioncenter.org", terms:["constitution"], mnem:null},
- {id:3,q:"Name one thing the U.S. Constitution does.",
-  lead:"You only need to name one — the Constitution does all of these:",
-  dis:null,
-  ans:["Forms the government","Defines powers of government","Defines the parts of government","Protects the rights of the people"],
-  why:"In 1787, most countries ran on a king's word or unwritten custom. The Constitution did something new — it wrote the rules down. It builds the government (a Congress to make laws, a President to enforce them, courts to judge) and limits it too, by protecting people's rights.",
-  fun:"Of every written national constitution on Earth, the U.S. Constitution is both the oldest still in use and one of the shortest — only about 4,500 words. The whole rulebook for the government is shorter than many a school essay.",
-  src:"constitutioncenter.org", terms:["constitution"], mnem:null},
- {id:4,q:"The U.S. Constitution starts with the words “We the People.” What does “We the People” mean?",
-  lead:"You only need one — these all point at the same big idea:",
-  dis:"All of these mean the same thing in different words: the people are in charge of the government, not the other way around.",
-  ans:["Self-government","Popular sovereignty","Consent of the governed","People should govern themselves","(Example of) social contract"],
-  why:"These words flipped history. For ages, kings held the power and the people obeyed. “We the People” says the opposite: the government's power comes from regular people — and belongs to them.",
-  fun:"An early draft of the Constitution started by naming all thirteen states, one by one. A delegate changed it to just three words: “We the People.” That small change meant the country belonged to its people — not to thirteen separate states.",
-  src:"constitutioncenter.org", terms:["popular_sovereignty","consent_of_the_governed","social_contract","self_government"], mnem:null},
- {id:5,q:"How are changes made to the U.S. Constitution?",
-  lead:"Either answer works:",
-  dis:null,
-  ans:["Amendments","The amendment process"],
-  why:"The Founders knew they wouldn't get everything right. So they built in a way to fix the Constitution — by adding amendments — but made it hard, so it changes only when almost the whole country agrees.",
-  fun:"People have tried to change the Constitution more than 11,000 times. Only 27 of those changes ever made it in. It's that hard on purpose — so the rules change only when nearly everyone agrees.",
-  src:"archives.gov", terms:["amendment"], mnem:null},
- {id:6,q:"What does the Bill of Rights protect?",
-  lead:"Either answer works:",
-  dis:"Notice: it protects the rights of everyone living in the United States — not only citizens.",
-  ans:["(The basic) rights of Americans","(The basic) rights of people living in the United States"],
-  why:"The Bill of Rights flips the usual question. Instead of listing what people may do, it lists what the government may NOT do to them — like silence your speech or your religion. These are freedoms no leader can take away.",
-  fun:"Our famous First Amendment — free speech and religion — was almost the Third! Twelve changes were proposed; the first two didn't pass back then, so number three jumped to the top. Even our rights were chosen one by one.",
-  src:"archives.gov", terms:["bill_of_rights","amendment"],
-  mnem:{hook:"The Bill of Rights is the first TEN amendments — and you have ten fingers.",link:"Count the Bill of Rights on your hands: ten amendments, ten fingers."}}
-];
+function shuffle(a){
+  for(let i=a.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [a[i],a[j]]=[a[j],a[i]];
+  }
+  return a;
+}
+shuffle(Q);
 
 /* ---------------- state ---------------- */
 let mode='drive', idx=0, revealed=false, openTerm=null, currentClip=null;
@@ -286,7 +240,8 @@ function setMode(m){ stopAudio(); mode=m; revealed=false; openTerm=null;
   render();
 }
 function pips(){
-  return '<div class="progress">'+Q.map((_,i)=>`<span class="pip ${i<idx?'done':''} ${i===idx?'cur':''}"></span>`).join('')+'</div>';
+  const pct = Q.length ? Math.round(((idx+1)/Q.length)*100) : 0;
+  return `<div class="progress"><div class="track"><div class="fill" style="width:${pct}%"></div></div><span class="count">${idx+1} / ${Q.length}</span></div>`;
 }
 document.getElementById('pips').outerHTML=pips();
 function refreshPips(){ document.querySelector('.progress').outerHTML=pips(); }
