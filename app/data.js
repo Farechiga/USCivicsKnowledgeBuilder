@@ -450,7 +450,7 @@ const Q = [
     "lead": null,
     "dis": "District of Columbia residents and U.S. territory residents should answer that D.C. (or the territory) has no U.S. senators.",
     "ans": [
-      "Answers will vary by state. (D.C. and U.S. territories have no senators.)"
+      "Democrat, Amy Klobuchar or Democrat, Tina Smith"
     ],
     "why": "Your two senators represent your entire state in Washington. They write laws, vote on Supreme Court nominees, approve treaties, and decide federal spending. Knowing their names — and being able to contact them — is how regular citizens influence federal decisions.",
     "fun": "Whoever your senators are right now, they sit at one of 100 desks in the Senate chamber that have been used for over 200 years. For more than 120 years, senators have inscribed their names inside the desk drawer when they leave. Daniel Webster's old desk is still used today by senators from New Hampshire.",
@@ -540,7 +540,7 @@ const Q = [
     "lead": null,
     "dis": "Residents of U.S. territories with nonvoting Delegates or Resident Commissioners may name that Delegate or Commissioner. It's also acceptable to state that the territory has no voting representatives in Congress.",
     "ans": [
-      "Answers will vary by congressional district."
+      "Democrat, Kelly Morrison"
     ],
     "why": "Your representative is your closest voice in the federal government. They represent your specific district — usually a smaller area than your senators cover. You're more likely to meet them at a town hall or get their staff's help with a federal problem. Knowing who they are matters.",
     "fun": "In 1790, each House member represented about 30,000 people. Today, the average representative speaks for over 700,000 people — about 25 times more. The House is the same size (435), but the country has grown enormously. So your representative carries 25 times the weight of one in 1789.",
@@ -554,7 +554,7 @@ const Q = [
     "lead": null,
     "dis": null,
     "ans": [
-      "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives."
+      "Mike Johnson"
     ],
     "why": "The Speaker is the leader of the House of Representatives — chosen by the House itself. The Speaker decides which bills come up for a vote, runs floor debate, and is second in line to the presidency after the Vice President. It's one of the most powerful jobs in American government.",
     "fun": "The Constitution doesn't actually require the Speaker to be a member of the House. In theory, any U.S. citizen could be elected Speaker — though every one of the 56 Speakers since 1789 has been a sitting Representative. The Speaker is also second in line to the presidency, right after the Vice President.",
@@ -677,7 +677,7 @@ const Q = [
     "lead": null,
     "dis": null,
     "ans": [
-      "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States."
+      "Donald Trump"
     ],
     "why": "The President is the head of the executive branch and Commander in Chief of the military. They sign or veto bills, appoint federal judges, and lead American foreign policy.",
     "fun": "The presidential oath is only 35 words: starting with 'I do solemnly swear that I will faithfully execute the Office of President...'",
@@ -691,7 +691,7 @@ const Q = [
     "lead": null,
     "dis": null,
     "ans": [
-      "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States."
+      "JD Vance"
     ],
     "why": "The Vice President is first in line to become President if the President can no longer serve. The VP also presides over the Senate and breaks tied votes — a job that has decided huge laws over the years. It's a unique role: half executive branch, half legislative branch.",
     "fun": "The Vice President's only constitutional jobs are to preside over the Senate and break tied votes. John Adams, the first VP, called it 'the most insignificant office that ever the invention of man contrived.' But the VP is first in line if the President can't serve — so the 'insignificant' job is just a heartbeat from the most powerful one.",
@@ -965,7 +965,7 @@ const Q = [
     "lead": null,
     "dis": null,
     "ans": [
-      "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States."
+      "John Roberts"
     ],
     "why": "The Chief Justice leads the Supreme Court — the highest court in America. They preside when the Court hears cases, swear in the President at every inauguration, and lead the federal court system. It's a lifetime appointment, so a Chief Justice can shape American law for decades.",
     "fun": "In the entire U.S. Constitution, the Chief Justice is mentioned by name just one time. Article I says: 'When the President of the United States is tried, the Chief Justice shall preside.' That's it. The most important judge in America is barely described in the founding document — almost everything about the role developed over time.",
@@ -1032,7 +1032,7 @@ const Q = [
     "lead": null,
     "dis": "District of Columbia residents should answer that D.C. does not have a governor.",
     "ans": [
-      "Answers will vary by state. (D.C. does not have a governor.)"
+      "Democrat, Tim Walz"
     ],
     "why": "Your governor is the head of your state's executive branch — like a state-level president. They sign or veto state laws, command the state National Guard, and shape state policy on schools, roads, and taxes. State government touches your daily life far more often than the federal government does.",
     "fun": "After the Revolution, Americans feared a strong governor might become another tyrant like King George. So most early state constitutions made governors very weak — chosen by the legislature, serving just one year, with no veto power. Today's governors, elected directly by voters for four-year terms, are far more powerful than the Founders intended.",

@@ -11,8 +11,9 @@
    first appearance:
      origin?, def, word
 
-   Dynamic questions: the static official_answers text is included, but the
-   time-sensitive dynamic.current_value is NOT (it would go stale).
+   Dynamic questions: the answer fragment uses the live dynamic.current_value
+   (e.g. the current President's name), NOT the "look it up on uscis.gov"
+   placeholder. Re-run build-manifest + gen-tts when a current_value changes.
 
    Usage (from repo root):
      node scripts/build-manifest.js              # write the manifest
@@ -49,8 +50,14 @@ for (const f of qFiles) {
 
   fragments.push(frag(`${q}_question`, q, 'question', d.question_text));
   if (d.lead_in) fragments.push(frag(`${q}_lead_in`, q, 'lead_in', d.lead_in));
-  (d.official_answers || []).forEach((a, i) =>
-    fragments.push(frag(`${q}_answer_${i + 1}`, q, `answer_${i + 1}`, a.text)));
+  // Dynamic questions: the official_answers text is a "look it up" placeholder;
+  // record the live d.dynamic.current_value instead so the audio says the real
+  // name. (Re-run build-manifest + gen-tts when a current_value changes.)
+  const answerTexts = (d.answer_type === 'dynamic_lookup' && d.dynamic && d.dynamic.current_value)
+    ? [d.dynamic.current_value]
+    : (d.official_answers || []).map(a => a.text);
+  answerTexts.forEach((text, i) =>
+    fragments.push(frag(`${q}_answer_${i + 1}`, q, `answer_${i + 1}`, text)));
   if (d.disambiguation)
     fragments.push(frag(`${q}_disambiguation`, q, 'disambiguation', d.disambiguation));
   if (d.why_it_matters && d.why_it_matters.text)

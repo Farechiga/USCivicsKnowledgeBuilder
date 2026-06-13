@@ -45,6 +45,16 @@ const qFiles = fs.readdirSync(QDIR)
   .filter(f => /^q\d+\.json$/.test(f))
   .sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1)));
 
+/* For dynamic questions (current officeholders, etc.) the official_answers
+   text is a "look it up on uscis.gov" placeholder; the live value lives in
+   d.dynamic.current_value. Prefer the current value so the app shows the real
+   answer. Re-run this script whenever a current_value changes. */
+const answersFor = d => {
+  if (d.answer_type === 'dynamic_lookup' && d.dynamic && d.dynamic.current_value)
+    return [d.dynamic.current_value];
+  return (d.official_answers || []).map(a => a.text);
+};
+
 const Q_OUT = qFiles.map(f => {
   const d = JSON.parse(fs.readFileSync(path.join(QDIR, f), 'utf8'));
   return {
@@ -52,7 +62,7 @@ const Q_OUT = qFiles.map(f => {
     q:     d.question_text,
     lead:  d.lead_in || null,
     dis:   d.disambiguation || null,
-    ans:   (d.official_answers || []).map(a => a.text),
+    ans:   answersFor(d),
     why:   d.why_it_matters ? d.why_it_matters.text : '',
     fun:   d.fun_fact ? d.fun_fact.text : '',
     src:   srcOf(d.fun_fact && d.fun_fact.source_url),

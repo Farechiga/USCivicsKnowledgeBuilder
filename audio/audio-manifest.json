@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T01:12:58.880Z",
+  "generated": "2026-06-13T01:02:27.105Z",
   "extension": "mp3",
   "counts": {
     "questions": 805,
@@ -1018,7 +1018,7 @@
     {
       "file": "q023_answer_1.mp3",
       "label": "q023_answer_1",
-      "text": "Answers will vary by state. (D.C. and U.S. territories have no senators.)",
+      "text": "Democrat, Amy Klobuchar or Democrat, Tina Smith",
       "group": "q023",
       "field": "answer_1"
     },
@@ -1214,7 +1214,7 @@
     {
       "file": "q029_answer_1.mp3",
       "label": "q029_answer_1",
-      "text": "Answers will vary by congressional district.",
+      "text": "Democrat, Kelly Morrison",
       "group": "q029",
       "field": "answer_1"
     },
@@ -1249,7 +1249,7 @@
     {
       "file": "q030_answer_1.mp3",
       "label": "q030_answer_1",
-      "text": "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives.",
+      "text": "Mike Johnson",
       "group": "q030",
       "field": "answer_1"
     },
@@ -1522,7 +1522,7 @@
     {
       "file": "q038_answer_1.mp3",
       "label": "q038_answer_1",
-      "text": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States.",
+      "text": "Donald Trump",
       "group": "q038",
       "field": "answer_1"
     },
@@ -1550,7 +1550,7 @@
     {
       "file": "q039_answer_1.mp3",
       "label": "q039_answer_1",
-      "text": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States.",
+      "text": "JD Vance",
       "group": "q039",
       "field": "answer_1"
     },
@@ -2250,7 +2250,7 @@
     {
       "file": "q057_answer_1.mp3",
       "label": "q057_answer_1",
-      "text": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.",
+      "text": "John Roberts",
       "group": "q057",
       "field": "answer_1"
     },
@@ -2439,7 +2439,7 @@
     {
       "file": "q061_answer_1.mp3",
       "label": "q061_answer_1",
-      "text": "Answers will vary by state. (D.C. does not have a governor.)",
+      "text": "Democrat, Tim Walz",
       "group": "q061",
       "field": "answer_1"
     },
